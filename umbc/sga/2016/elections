@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>UMBC SGA Elections 2016</title>
+		<meta content="Compilation of Presidential Platforms 2016" name="description"/>
+		<style>
+body {
+	margin:40px auto;
+	line-height:1.6;
+	font-size:18px;color:#444;background:#e4e5e5;padding:0 10px;
+}
+li.names {
+	font-weight: bold;
+}
+main {max-width:650px;margin:0px auto;}article {display: block;border: 3px double #ADD8E6;padding: 10px;}h1,h2,h3 {line-height:1.2;}article.photo > img {width: 100%;height: auto;}footer {display: flex;}footer > div {flex: 1;}nav.tags {border: 3px double #ADD8E6;padding: 5px;margin: 0px auto;margin-bottom: 3px;}nav.tags > li {display: inline-block;padding: 5px;list-style: none;text-align: center;}nav.tags > li > a {color: #bbb;}
+		</style>
+	</head>
+	<body>
+		<main>
+		<h1>SGA Elections 2016</h1>
+		<h2>Election Board Meeting Minutes</h2>
+		<article>
+			<a href="election-notes-05-08-2016">Sunday, May 8th, 2016</a>
+		</article>
+		<h2>About</h2>
+		<article>
+			<p>The <a href="//my.umbc.edu/groups/sgaelection2016/posts/59654">2016 SGA Elections</a> are live! Check out the presidential candidates' interviews in <a href="http://retrieverweekly.umbc.edu/?s=candidates+sga">The Retriever</a> and other resources I've compiled below. I am not affiliated with any of the SGA campaigns, and I have attempted to be as unbiased as possible.</p>
+			<p>Also remember to vote on Proposition One - <a href="//my.umbc.edu/groups/sgaelection2016/posts/59645">Instant Runoff Voting</a>. Here is an official <a href="//my.umbc.edu/groups/sga/posts/58778">explanation of the instant runoff system</a>.</p>
+			<p>As a reminder, these folks will get stipends on your dime AND help to set tuition and fees, so your vote directly affects your pocketbook.</p>
+			<p>If you're curious about what each position does, here's a post by Co-Create UMBC about <a href="http://my.umbc.edu/groups/co-create/posts/58739">the job of each executive position</a>.</p>
+			<p>If you notice a violation of the <a href="//my.umbc.edu/groups/electionboard/posts/59696">election rules</a>, report it by emailing Robert Caverly (<a href="mailto:caverly1@umbc.edu">caverly1@umbc.edu</a>). Strikes have been issued to several campaigns, the rulings are available online through the <a href="//my.umbc.edu/groups/electionboard/">Election Board myUMBC Group</a>.</p>
+		</article>
+		<h2>SGA Presidential Tickets 2016</h2>
+		<article>
+			<ul>
+				<li class="names">Emily Melluso (<a href="mailto:melluso1@umbc.edu">melluso1@umbc.edu</a>) and Isabel Geisler (<a href="mailto:geisler3@umbc.edu">geisler3@umbc.edu</a>)</li>
+				<li>Signed the <a href="green-pledge">Green Pledge!</a></li>
+				<li>The Retriever Interview: <a href="//retrieverweekly.umbc.edu/emily-isabel-presidential-interview-allofus/">Emily and Isabel: mental health and sexual assault</a></li>
+				<li><a href="//my.umbc.edu/groups/collegedems/posts/59472">College Democrats AMA</a></li>
+				<li>Facebook Page: <a href="//www.facebook.com/allofusUMBC/">Vote Em &amp; Isa for SGA President and Vice President</a></li>
+				<li><a href="//melluso1.wix.com/emandisa">Official Website</a></li>
+			</ul>
+		</article>
+		<article>
+			<ul>
+				<li class="names">Bentley Ja'cor Corbett-Wilson (<a href="mailto:bcorbet1@umbc.edu">bcorbet1@umbc.edu</a>) and Mona Patel (<a href="monpat1@umbc.edu">monpat1@umbc.edu</a>)</li>
+				<li>Signed the <a href="green-pledge">Green Pledge!</a></li>
+				<li>The Retriever Interview: <a href="//retrieverweekly.umbc.edu/bentley-mona-interview/">Bentley and Mona: org outreach and study spaces</a></li>
+				<li>Facebook Page: <a href="//www.facebook.com/BentleyMona2016/">Bentley and Mona for SGA President &amp; VP 2016</a></li>
+			</ul>
+		</article>
+		<article>
+			<ul>
+				<li class="names">Calvin Tran (<a href="mailto:caltran1@umbc.edu">caltran1@umbc.edu</a>) and Rachel Katzenberger (<a href="mailto:rk5@umbc.edu">rk5@umbc.edu</a>)</li>
+				<li>The Retriever Interview: <a href="//retrieverweekly.umbc.edu/calvin-arkie-interview/">Calvin and Arkie: school stressors</a></li>
+				<li><a href="//my.umbc.edu/groups/collegedems/posts/59477">College Democrats AMA</a></li>
+				<li>Facebook Page: <a href="//www.facebook.com/TK4SGA/">Calvin &amp; Arkie for SGA President &amp; VP</a></li>
+				<li><a href="//votetkso.tumblr.com">Official Website</a></li>
+			</ul>
+		</article>
+		<article>
+			<ul>
+				<li class="names">Tristan Oetker (<a href="mailto:to4@umbc.edu">to4@umbc.edu</a>) and Pandora Wilson (<a href="mailto:pando1@umbc.edu">pando1@umbc.edu</a>)</li>
+				<li>Signed the <a href="green-pledge">Green Pledge!</a></li>
+				<li>The Retriever Interview: <a href="//retrieverweekly.umbc.edu/oetkerwilson-were-here-for/">Tristan and Pandora: cost-cutting and safe sex</a></li>
+				<li>Facebook Page: <a href="//www.facebook.com/tristanandpandora2016/">Tristan and Pandora for SGA President &amp; VP</a></li>
+				<li><a href="//wmbc.umbc.edu/download/lunchbox-spec/1461610557.9892.mp3">Radio Interview on The Lunchbox Special (Download MP3 from WMBC)</a></li>
+			</ul>
+		</article>
+		<article>
+			<ul>
+				<li class="names">Steven Tappa (<a href="mailto:stappa1@umbc.edu">stappa1@umbc.edu</a>) and Robert Keim (<a href="mailto:rekeim1@umbc.edu">rkeim1@umbc.edu</a>)</li>
+				<li>The Retriever Interview: <a href="//retrieverweekly.umbc.edu/tappakeim-ticket-believe/">Tappa and Keim: hygeine, inside and out</a></li>
+				<li><a href="//my.umbc.edu/groups/collegedems/posts/59486">College Democrats AMA</a></li>
+				<li>Facebook Page: <a href="//www.facebook.com/tappa2016/">Tappa/Keim/Ghazali/Drew for SGA 2016</a></li>
+				<li><a href="//robert1keim.wix.com/tappa2016">Official Website</a></li>
+			</ul>
+		</article>
+		</main>
+		<footer>
+			Note: I've done my best to compile all of the links to information about candidates that I can, but I will update this post as new information becomes available. <a href="mailto:lindas@umbc.edu">Email me</a> if you want to see an update.
+			<footer>
+</html>

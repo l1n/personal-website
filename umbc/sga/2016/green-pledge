@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Green Pledge</title>
+		<meta content="A pledge by candidates to environmental affairs at UMBC." name="description"/>
+		<style>
+body {
+	margin:40px auto;
+	line-height:1.6;
+	font-size:18px;color:#444;background:#e4e5e5;padding:0 10px;
+}
+li.names {
+	font-weight: bold;
+}
+main {max-width:650px;margin:0px auto;}article {display: block;border: 3px double #ADD8E6;padding: 10px;}h1,h2,h3 {line-height:1.2;}article.photo > img {width: 100%;height: auto;}footer {display: flex;}footer > div {flex: 1;}nav.tags {border: 3px double #ADD8E6;padding: 5px;margin: 0px auto;margin-bottom: 3px;}nav.tags > li {display: inline-block;padding: 5px;list-style: none;text-align: center;}nav.tags > li > a {color: #bbb;}
+		</style>
+	</head>
+	<body>
+		<main>
+		<h1>The Green Pledge</h1>
+		<article class="photo">
+			<p>The Green Pledge is a committment cowritten by the ELFs, ETF, The Garden, FRN, Just Food, SEA, and Amnesty International for SGA candidates who care about environmental affairs at UMBC.</p>
+			<ul>
+				<li><em>President</em>: Emily Melluso, Tristan Oetker, Bentley Corbett</li>
+				<li><em>Executive Vice President</em>: Mona Patel, Pandora Wilson, Robert Keim</li>
+				<li><em>Treasurer</em>: Surovi Bain, Trent Bae</li>
+				<li><em>Vice President for Student Organizations</em>: Joshua Massey</li>
+				<li><em>Finance Board Representative</em>: Mai-Han Trinh, Chien Zhou, Gregory Vass, Shiona Wijesehara, Meghna Bhatt</li>
+				<li><em>Senator</em>: Collin Sullivan, Jeremy Drew, Sarah Lilly, Gerardo Herrera-Cortes, Evan Leiter-Mason, Feyisanmi Ojo</li>
+			</ul>
+			<img src="http://download.lin.anticlack.com/green-pledge.png" alt="The Green Pledge: I, during my 2016-17 term pledge to care about the environment in and around UMBC and take actions that will help its natural and dynamic spaces thrive; advocate for sustainable initiatives to be carried out on the UMBC campus; initiate programs that work in collaboration with the Eco organizations on campus to reach their constituents; act as a spokesperson for sustainable change on the UMBC campus and continue to support sustainability and environmental groups financially." />
+		</article>
+</html>
