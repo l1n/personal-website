@@ -1,0 +1,217 @@
+BAG16392 Discussion Draft S.L.C.
+
+114TH CONGRESS
+2D SESSION S.
+
+To require the provision of data in an intelligible fornmt to a govermnemt pursuant to a court order, and for other purposes.
+
+IN THE SENATE OF THE UNITED STATES
+
+______ introduced the following bill; which was read twice and referred to the Coimmittee on ______
+
+A BILL
+
+To require the provision of data in an intelligible format to a government pursuant to a court order, and for other purposes.
+
+ 1 Be it enacted by yhe Senate and House of Representata-
+ 2 tives of the United States of America in Congress assembled,
+ 3 SECTION 1. SHORT TITLE.
+ 4 This Act may be Cited as the “Compliance with Court
+ 5 Orders Act of 2016".
+ 6 SEC. 2. SENSE OF CONGRESS.
+ 7 It is the sense of Congress that-
+ 8 (1) no person or entity is above the law;
+---page 2---
+ 1 (2) economic growth, prosperity, security, sta—
+ 2 bility, and liberty require adherence to the rule of
+ 3 law;
+ 4 (3) the Constitution and laws of the United
+ 5 States provide for the safety, security, and civil lib—
+ 6 erties of all United States persons and the protec-
+ 7 tions and obligations of these laws apply to all per—
+ 8 sons within United States jurisdiction;
+ 9 (4) all providers of communications services and
+10 products (including software) should protect the pri—
+11 vacy of United States persons through implenta—
+12 tion of appropriate data security and still respect the
+13 rule of law and comply with all legal requirements
+14 and court orders;
+15 (5) to uphold both the rule of law and protect
+16 the interests and security of the United States, all
+17 persons receiving an authorized judicial order for in—
+18 formation or data must provide, in a timely manner,
+19 responsive, intelligible information or data, or appro—
+20 priate technical assistance to obtain such informa—
+21 tion or data; and
+22 (6) covered entities must- provide responsive, in—
+23 telligible information or data, or appropriate tech—
+24 nical assistance to a government pursuant to a court
+25 order.
+---page 3---
+ 1 3. REQUIREMENT FOR PROVIDING DATA IN AN INTEL-
+ 2 LIGIBLE FORMAT UPON RECEIPT OF A
+ 3 COURT ORDER.
+ 4 (a) REQUIREMENT.—
+ 5 (1) IN GENERAL. Notwithstanding any other
+ 6 provision of law and except as provided in paragraph
+ 7 (2), a covered entity that receives a court order from
+ 8 a government for information or data shall——
+ 9 (A) provide such information or data to
+10 such government in an intelligible format; or
+11 (B) provide such technical assistance as is
+12 necessary to obtain such information or data in
+13 an intelligible format or to achieve the purpose
+14 of the court order.
+15 (2) Scope or REQUIREMENT.—A covered enti—
+16 ty that receives a court order referred to in para—
+17 graph (1.)(A) shall be responsible only for modeling
+18 data in an intelligible format if such data has been
+19 made unintelligible by a feature, product, or service
+20 owned, controlled, created, or provided, by the cov—
+21 ered entity or by a third party on behalf of the cov-
+22 ered entity.
+23 (3) COMPENSATION FOR TECHNICAL ASSIST—
+24 ANCE—A covered entity that receives a court order
+25 from a government as described in paragraph (1)
+26 and furnishes technical assistance under subpara—
+---page 4---
+ 1 graph (B) of such paragraph pursuant to such order
+ 2 shall be compensated for such costs as are reason-
+ 3 ably neccessary and which have been directly incurred
+ 4 in providing such technical assistance or such data
+ 5 in an intelligible format.
+ 6 (b) Design LIMITATIONS.——Nothing in this Act may
+ 7 be construed to authorize any goverinnent officer to re—
+ 8 quire or prohibit any specific design or operating system
+ 9 to be adopted by any covered entity.
+10 (c) LICENSE DISTRIBUTORS.—A provider of remote
+11 computing service or electronic communication service to
+12 the public that distributes licenses for products, services,
+13 applications, or software of or by a covered entity shall
+14 ensure that any such products, services, amilications, or
+15 software distributed by such person be capable of com—
+16 plying with subsection (a).
+17 SEC. 4. DEFINITIONS.
+18 In this Act:
+19 (1) COMMUNICATION IDENTIFYING INFORMA-
+20 TION.——The term "communication identifying infor—
+21 mation” means dialing, routing, addressing, sig-
+22 naling, switching, processing, transmitting, or other
+23 information that—
+24 (A) does not coinstitute the contents of a
+25 communication;
+---page 5---
+ 1 (B) identifies or assists in the identifica-
+ 2 tion of the origin, direction, destination, date,
+ 3 time, duration, termination, or status of each
+ 4 communication generated, received, or con—
+ 5 trolled by a user; and
+ 6 (C) includes the following information or
+ 7 the equivalent function thereof:
+ 8 (i) Public and local source and des—
+ 9 tination addressing, including—
+10 (I) the local network and public
+11 Internet Protocol addresses or any
+12 similar or successor protocol; and
+13 (II) addressing information that
+14 may be dynamically or privately as—
+15 signed, including port numbers or any
+16 successor addressing method.
+17 (ii) Addresses or other information
+18 that uniquely identifies the equipment, fa—
+19 cility, or service used to access a provider
+20 or network by each party to the commu-
+21 nication.
+22 (iii) Service addresses and identifiers
+23 generated or received by each party to the
+24 communication.
+---page 6---
+ 1 (iv) Information identifying quantity
+ 2 or quality of the communication, including
+ 3 packet size, quality of seryice information,
+ 4 or other information from which the size or
+ 5 priority of the communication can be
+ 6 ascertained.
+ 7 (v) Specification of the time zone as
+ 8 an offset from Coordinated Universal Time
+ 9 (UTC).
+10 (2) COMMUNICATIONS, The term “communica—
+11 tions” has the same meaning as the terms “wire
+12 communication", “oral communications", and “elec—
+13 tronic communication" in section 2510 of title 18,
+14 United States Code.
+15 (3) COURT ORDER—The term “court order”
+16 means any order or warrant issued by a court of
+17 competent jurisdiction.
+18 (4) COVERED ENTITY—The term “covered en—
+19 tity” means a device manufacturer, a software man—
+20 ufacturer, an electronic communication service, a re-
+21 mote computing service, a provider of wire or elec—
+22 tronic communication service, a provider of a remote
+23 computing service, or any person who provides a
+24 product or method to facilitate a communication or
+25 the processing or storage of data.
+---page 7---
+ 1 (5) DATA—The term “data includes
+ 2 (A) communications and any information
+ 3 concerning the identity of the parties to such
+ 4 communications or the existence, substance,
+ 5 purport, or meaning of such communications;
+ 6 (B) information stored remotely or on a
+ 7 device provided, designed, licensed, or manufac—
+ 8 tured by a covered entity;
+ 9 (7) communication identifying information;
+10 and
+11 (D) information identifying a specific de—
+12 vice.
+13 (6) ELECTRONIC COMMUNICATION SERVICE.
+14 The term “electronic communication service” has
+16 the meaning given such term in section 2510 of title
+17 18, United States Code.
+18 (7) FEATURE—The term “feature” means a
+19 property or function of a device or software applica—
+20 tion.
+21 (8) GOVERNMENT.—The term "government”
+22 means the Government of the United States and the
+23 government of the District of Columbia, or any com—
+24 monwealth, territory, or possession of the United
+25 States, of an Indian tribe, or of any State or polit—
+26 ical subdivision thereof.
+---page 8---
+ 1 (9) INDIAN TRIBE.——The term “Indian tribe”
+ 2 has the meaning" given such term in section 4 of the
+ 3 Indian Self—Determination and Education Assistance
+ 4 Act (25 USC. 4501)).
+ 5 (10) INTELLIGIBLE. The term “intelligible”,
+ 6 with respect to information or data, means—
+ 7 (A) the information or data has never been
+ 8 encrypted, enciphered, encoded, modulated, or
+ 9 obfuscated; or
+10 (B) the information or data has been
+11 encrypted, enciphered, encoded, modulated, or
+12 obfuscated and then decrypted, deciphered, de—
+13 coded, demodulated, or deobfuscated to its
+14 original form.
+15 (11) REMOTE COMPUTING SERVICE. The term
+16 “remote computing service” has the meaning given
+17 such term in section 2711 of title 18, United States
+19 Code.
+20 (12) TECHNICAL ASSISTANCE—The term
+21 “technical assistance”, with respect to a covered en—
+22 tity that receives a court order pursuant to a provi—
+23 sion of law for information or data described in sec—
+24 tion 3(a)(1), includes
+25 (A) isolating such information or data;
+---page 9---
+ 1 (B) rendering such information or data in
+ 2 an intelligible format if the information or data
+ 3 has been made unintelligible by a feature, prod-
+ 4 uct, or seryice omied, controlled, created, or
+ 5 produced by the covered entity or by a third
+ 6 party on behalf of the covered entity; and
+ 7 (C) delivering such information or data—
+ 8 (i) concurrently with its transmission;
+ 9 or
+10 (ii) expeditiously, if stored by a cov-
+11 ered entity or on a dexice.
+
