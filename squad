@@ -1,0 +1,19 @@
+<!DOCTYPe html>
+<html>
+	<head>
+		<title>The Squad</title>
+	</head>
+	<body>
+		<header>
+			<h1>The Squad</h1>
+			<h2>ENGL393</h2>
+		</header>
+		<article>
+			<h3>Downloads</h3>
+			<ul>
+				<li><a href="/go/powerpoint">Tech Presentation</a></li>
+				<li><a href="/go/excel">Example Excel Workbook</li>
+			</ul>
+		</article>
+	</body>
+</html>
