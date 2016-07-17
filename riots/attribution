@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>The Police and the People: Parallels in Minnesota Law Enforcement Response Between the Plymouth Avenue Riots and Philando Castille</title>
-<link rel="stylesheet" href="styling.css" type="text/css">
+    <title>The Police and the People: Parallels in Minnesota Law Enforcement Response Between the Plymouth Avenue Riots and Philando Castille</title>
+    <link rel="stylesheet" href="styling.css" type="text/css">
 </head>
 <body>
 <header>
@@ -20,8 +20,9 @@
 </article>
 </main>
 <footer>
-<p>Created for the <a target="_tab" href="http://acpcmasummer16.org/future/">2016 ACP/CMA Summer Workshop</a></p>
-<p>Reuse and modification are permitted with <a href="attribution">attribution</a> under the <a href="//creativecommons.org/licenses/by/4.0/">CC BY 4.0 License</a>.</p>
+    <p>Created for the <a target="_tab" href="http://acpcmasummer16.org/future/">2016 ACP/CMA Summer Workshop</a></p>
+    <p>Reuse and modification are permitted with <a href="attribution">attribution</a> under the <a href="//creativecommons.org/licenses/by/4.0/">CC BY 4.0 License</a>.</p>
+    <p><a href="//github.com/l1n/personal-website/tree/master/riots">Source on GitHub</a></p>
 </footer>
 </body>
 </html>
