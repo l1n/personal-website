@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>The Police and the People: Parallels in Minnesota Law Enforcement Response Between the Plymouth Avenue Riots and Philando Castille</title>
+<link rel="stylesheet" href="styling.css" type="text/css">
+</head>
+<body>
+<header>
+    <h1 class="title">The Police and the People</h1>
+    <h2 class="subtitle">Parallels in Minnesota Law Enforcement Response between the Plymouth Avenue Riots and Philando Castille</h2>
+</header>
+<main>
+<article>
+    <h2>About</h2>
+    <ul>
+        <li>Written by <a href="mailto:hweikel@mndaily.com">Hannah Weikel</a> and <a href="bjo7@rjit.edu">Babatunde Ojo</a>.</li>
+        <li>Code by <a href="mailto:lin@noblejury.com">Lin DasSarma</a></li>
+        <li>APA Citation: The Police and the People. (July 2016). Retrieved from https://lin.noblejury.com/riots/</li>
+    </ul>
+</article>
+</main>
+<footer>
+<p>Created for the <a target="_tab" href="http://acpcmasummer16.org/future/">2016 ACP/CMA Summer Workshop</a></p>
+<p>Reuse and modification are permitted with <a href="attribution">attribution</a> under the <a href="//creativecommons.org/licenses/by/4.0/">CC BY 4.0 License</a>.</p>
+</footer>
+</body>
+</html>
