@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <title>Contact</title>
+        <style type="text/css">
+            body {
+            max-width: 800px;
+            margin: auto;
+            font: Georgia, serif;
+            }
+        </style>
+
+    </head>
+    <body>
+        <h1>Contact Me</h1>
+        <form method="get" action="thankyou">
+            <fieldset>
+                <legend>Feedback</legend>
+                <label>Last Name
+                    <input type="text" name="lastName" />
+                </label>
+                <label>First Name
+                    <input type="text" name="firstName" />
+                </label>
+                <label>Email
+                    <input type="text" name="email" />
+                </label>
+                <input type="hidden" name="token" value="" />
+                <label>On a scale of 1 to 5, what do you think about this form?
+                    <select name="rating">
+                        <option value="1" selected="selected">1 (best)</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5 (worst)</option>
+                    </select>
+                </label>
+                <button type="submit" value="Submit">Submit</button>
+            </fieldset>
+        </form>
+        <p>
+                <a href="//validator.w3.org/check?uri=referer"><img
+                        alt="XHTML Validation Check" src="//lin.noblejury.com/umbc/is448/validator.php" /></a>
+        </p>
+
+    </body>
+</html>
+
