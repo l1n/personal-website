@@ -2,18 +2,15 @@
 <html>
 	<head>
 		<title>Lin's Homepage</title>
-		<style>
-body {
-	margin:40px auto;
-	line-height:1.6;
-	font-size:18px;color:#444;background:#e4e5e5;padding:0 10px;
-}
-main {max-width:650px;margin:0px auto;}article {display: block;border: 3px double #ADD8E6;padding: 10px;}h1,h2,h3 {line-height:1.2;}article.photo > img {width: 100%;height: auto;}footer {display: flex;}footer > div {flex: 1;}nav.tags {border: 3px double #ADD8E6;padding: 5px;margin: 0px auto;margin-bottom: 3px;}nav.tags > li {display: inline-block;padding: 5px;list-style: none;text-align: center;}nav.tags > li > a {color: #bbb;}
-		</style>
+		<link rel="stylesheet" href="https://umbc.in/css/elegant.css">
+        <meta name=viewport content="width=device-width, initial-scale=1">
+        <link href='https://fonts.googleapis.com/css?family=Lato&subset=latin' rel='stylesheet' type='text/css'>
 	</head>
 	<body>
-		<main>
-		<h1>Lin - Full Stack Developer</h1>
+        <header>
+            <div><a class="logo">Lin - Full Stack Developer</a></div>
+        </header>
+		<main class="container">
         <h2>On The Web</h2>
         <article>
             <ul>
@@ -21,14 +18,15 @@ main {max-width:650px;margin:0px auto;}article {display: block;border: 3px doubl
                 <li><a href="/go/github">GitHub</a></li>
                 <li><a href="/go/keybase">Keybase</a></li>
                 <li><a href="//wmbc.umbc.edu/">WMBC Radio</a></li>
-                <li><a href="http://halo.umbc.edu/">HaloWeb (unmaintained)</a></li>
-                <li><a href="/go/pokemon">Pokemon Go Server Status (GroupMe)</a></li>
+                <li><a href="http://halo.umbc.edu/">HaloWeb</a></li>
+                <li><a href="/blog/">Blog</a></li>
             </ul>
         </article>
 		<h2>UMBC Resources</h2>
 		<article>
 			<ul>
                 <li><a href="//umbc.in/">Unofficial SGA Tools</a></li>
+				<li><a href="/umbc/sga/2017/elections">SGA Elections 2017</a></li>
 				<li><a href="/umbc/sga/2016/elections">SGA Elections 2016</a></li>
 				<li><a href="//umbc.in/finance/">Finance Board Decision Tool</a></li>
 			</ul>
@@ -46,6 +44,12 @@ main {max-width:650px;margin:0px auto;}article {display: block;border: 3px doubl
                 <li><a href="/burr.txt">Burr Encryption Bill Draft</a></li>
             </ul>
         </article>
+        <h2>Old Stuff</h2>
+        <article>
+            <ul>
+                <li><a href="/go/pokemon">Pokemon Go Server Status (GroupMe)</a></li>
+            </ul>
+        </article>
         <h2>Contact</h2>
         <article>
             <ul>
@@ -55,8 +59,12 @@ main {max-width:650px;margin:0px auto;}article {display: block;border: 3px doubl
         </article>
 		<h2>Donate</h2>
 		<article>
-			<a href="//paypal.me/l1n">Please I am a poor college student</a>
+			<a href="//paypal.me/l1n">If you find this site useful, please donate to help support it.</a>
 		</article>
 		</main>
+        <footer>
+            <div>&nbsp;</div>
+            <div>Maintained, compiled, and programmed with love by <a href="mailto:sga-president@umbc.edu">Lin</a>.</div>
+        </footer>
 	</body>
 </html>
