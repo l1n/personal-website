@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html xmlns:fb="http://ogp.me/ns/fb#">
+    <head>
+        <title>VPSO Platform</title>
+        <meta content="Commitments by Lin to make real and positive change at UMBC." name="description"/>
+        <meta property="og:image" content="http://download.lin.anticlack.com/vpso-image.png" />
+        <link rel="stylesheet" href="/minimal.css" />
+        <style>
+main {
+    padding: 1em;
+}
+li {
+    padding-bottom: 1em;
+}
+div.fab {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    max-height: 60px;
+}
+div.fab img {
+    height: 60px;
+    width: 60px;
+    max-height: 60px;
+    max-width: 60px;
+}
+p.dropCaps:first-letter {
+    color: #ed1c24; 
+    float: left;
+    font-family: Georgia;
+    font-size: 75px;
+    line-height: 60px;
+    padding-top: 4px;
+    padding-right: 8px;
+    padding-left: 3px;
+    initial-letter: 2;
+}
+.shadow {
+    -moz-box-shadow:    3px 3px 5px 6px #ccc;
+    -webkit-box-shadow: 3px 3px 5px 6px #ccc;
+    box-shadow:         1px 1px 5px 6px #ccc;
+}
+nav {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    padding-bottom: 10px;
+}
+nav > ul:first-child {
+    padding-left: 10px;
+}
+/* nav li {
+     border-left: solid 1px;
+     border-right: solid 1px;
+} */
+        </style>
+        <body>
+        <link href='http://fonts.googleapis.com/css?family=Lato&subset=latin' rel='stylesheet' type='text/css'>
+            <header class="shadow">
+                <div class="container"><a class="logo" href="#">Lin for VPSO - Platform 2017</a></div>
+            </header>
+            <nav class="container"><ul><li><a href="#introduction">Introduction</a></li><li><a href="#transparency">Transparency</a></li><li><a href="#vpsoGoals">VPSO Goals</a></li><li><a href="#sgaGoals">SGA Goals</a></li><li><a href="#contact">Contact</a></li></ul></nav>
+            <main class="container shadow">
+            <article id="introduction">
+                <h2>Introduction</h2>
+                <p>Hey! I'm Lin DasSarma, a junior Information Systems major, and I'm running for SGA Vice President for Student Organizations.</p>
+                <h3>Why do you want to run?</h3>
+                <p>When the application for SGA candidate first came out, I asked myself whether I was satisfied, and I realized that I wasn't. Every one of us notices opportunities to make this campus a better place for students to learn and grow as we go about our daily lives, and hoped that I could do something to make these ideas a reality. If elected, we will empower student organizations to make lasting changes to the campus, and everyone will be included. We will make the process of funding student orgs by students, for students, and reform the SGA to truly include underrepresented groups.</p>
+                <p>I'm running for this position because I care deeply for the students of UMBC. Everyone deserves to have the support they need to do their best, and I want to make that possible.</p>
+                <h3>What makes you qualified to serve?</h3>
+                <p>In my time at UMBC, I have attended more Finance Board meetings than anyone else who is or was a member of the body. I have a unique perspective, since I've sat in on many decisions, and submitted quite a few as well. I think that having been on both sides of that table will help me identify areas for reform.</p>
+                <h3>What are you most excited to change?</h3>
+                <p>The office of the Vice President for Student Organizations has never had a well-defined role. This has to change, and my <a href="#goals">goals for the position</a> are outlined below.</li>
+                <h3>Do you have any conflicts of interest?</h3>
+                <p>I will be resigning from all other positions I hold on campus if elected.</p>
+            </article>
+            <article id="transparency">
+                <h2>Transparency</h2>
+                <ol>
+                    <li><strong>Accountability And Access</strong>: The Student Organizations Support team and I will hold office hours every Wednesday at <a href="#freeHour">Free Hour</a> in the Student Organization Space to listen to students and to help students make their own change. Additionally, we will ensure that agendas and schedules for all meetings will be set in advance and publicized as much as is possible.</li>
+                    <li><strong>Be Kind In All You Do</strong>: We need to work together in these divisive times. I commit to making SGA about priorities and policy, not character (see the <a href="positive-pledge">Positive Campaigning Pledge</a>), and I commit to keeping the <a href="http://www.strecorsoc.org/storygarden/58199_tts.html">Three Sieves</a> (truth, kindness, and necessity) in mind when making decisions.</li>
+                    <li><strong>Fiscal Responsibility</strong>: Financial decisions including grants and allocations made by the Finance Board and Executive officers will be published with annotation on the SGA website for review by the students.</li>
+                    <li><strong>Full Disclosure</strong>: All intra-SGA communications will be archived on the SGA website and in the University Archives.</li>
+                </ol>
+            </article>
+            <h2 id="goals">Goals</h2>
+            <article id="vpsoGoals"><h3>VPSO</h3>
+                <ol>
+                    <li><strong>Financial Reform</strong>: The current process for granting money to student organizations has trouble encouraging innovation since it most often granting funds to organizations with traditional events. We will reform this process to provide <a href="//edtrust.org/the-equity-line/equity-and-equality-are-not-equal/">equity, not just equality</a>. The Student Organization Support team will work with organizations to develop proposals in line with our principles and allocate budgets so the Finance Board can set priorities for organizations rather than fight over small dollar line items.</li>
+                    <li id="freeHour"><strong>Free Hour</strong>: Student Organizations need more resources. Let's expand Free Hour to Tuesdays and Thursdays as well. This will provide more times for organizations to meet and increase student involvement and lessening the parking problem - according to the campus police, space congestion occurs primarily on those days.</li>
+                    <li><strong>Performance Spaces</strong>: After meeting with staff members familiar with the issues involved, it is clear that UMBC needs to provide more official means for performance groups to meet, practice, and perform. We will work to provide spaces for groups to practice, whether renovating existing spaces or ensuring that new buildings contain sufficient space for student activities. We will also work to form partnerships with the fine arts departments to support student use of the PAHB theatres, dance studio and other department-controlled performance spaces.</li>
+                    <li><strong>Sports And Recreation</strong>: The new Events Center is going up, so let's move to a campus where the RAC is the best it can be for Club Sports and recreation. I will advocate for equipment upgrades, and work with the RAC as well as the SGA Executive Branch to secure funding.</li>
+                </ol>
+            </article>
+            <article id="sgaGoals"><h3>SGA</h3>
+                <ol>
+                    <li><strong>Environmental Justice</strong>: Climate change is real, so we as a campus community must advocate for priority changes to be stewards of our environment. I commit to advocating sustainable practices (see the <a href="green-pledge">Green Pledge</a>). To act on this, I will to make grants available to students to start making our campus more sustainable. I will work with university administration to change priorities so we as a campus can work on <a href="http://sustainability.umbc.edu/get-involved/">projects that save energy</a>. Furthermore, we will create a plan to be carbon neutral (including transportation emissions) by or before 2025. Since the Green Paw fund has been removed from the 2017-18 budget, we will require environmental impact statements from all organizations seeking SGA funding to increase environmental awareness in all organizations.</li>
+                    <li><strong>Ethical Consumption</strong>: We must be exemplary citizens of our community. Given our political and social climate, rejecting the contract with "Maryland Correctional Enterprises", which does not pay its workers anything close to <a href="//www.themarshallproject.org/2016/09/27/a-primer-on-the-nationwide-prisoners-strike">civil minimum wage (let alone a living wage)</a>, is of greatest importance. From there, we will review the <a href="http://procurement.umbc.edu/files/2013/10/List-of-Current-Contracts.pdf">list of vendors and contractors that UMBC works with</a> to make sure that we uphold fair labor Standards in all we do, including all procurement processes.</li>
+                    <li><strong>Everyone Eats</strong>: All students should be able to attend school without food insecurity. We will use the dining contract renewal process and lobby Chartwells to let students with extra meals donate them to students with fewer meals.</li>
+                    <li><strong>Public Health</strong>: It is vital that all students have an equal opportunity to have a safe and healthy college experience. Towards this end, we will work with <a href="http://fm.umbc.edu/">Facilities Management</a> to make sure that accessibility routes are maintained and expanded, and form a working group to provide policy recommendations to update our <a href="http://about.umbc.edu/inclement-weather-emergency-closing-policy/">campus closing policy</a> for greater transparency. We also need to provide menstrual products (pads, tampons etc) freely throughout campus - it just makes sense.</li>
+                </ol>
+            </article>
+            <article id="contact">
+                <p>Questions? Comments? Email me at <a href="mailto:lindas@umbc.edu">lindas@umbc.edu</a>, or shoot me a text at <a href="tel:619-357-6633">(619) 357-6633</a>.</p>
+            </article>
+            </main>
+            <!--h1>Inspired By</h1>
+                <article>
+                <blockquote cite="http://www.usmh.usmd.edu/regents/bylaws/SectionI/I600.html"><h1>USM I - 6.00 POLICY ON SHARED GOVERNANCE IN THE UNIVERSITY SYSTEM OF MARYLAND</h1>
+                <p>III.C.4 [S]tudents are the institution's main academic educational focus [...] [T]hey have a legitimate interest in matters affecting their ability to complete their education, including but not limited to costs, grading, and housing [...]</p>
+                </blockquote-->
+                <div class="fab"><a href="//twibbon.com/Support/lin-for-vp-for-student-orgs" title="Support This Campaign with Twibbon"><img src="https://twibbon.blob.core.windows.net/twibbon/2017/93/da94b96e-636d-4d3b-b43f-ffe5196c6da8.png" alt="Support This Campaign with Twibbon" /></a></div>
+        </body>
+</html>

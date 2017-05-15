@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <title>Updates for SGA Elections 2017</title>
+        <style>
+body {
+    margin:40px auto;
+    line-height:1.6;
+    font-size:18px;color:#444;background:#e4e5e5;padding:0 10px;
+}
+li.names {
+    font-weight: bold;
+}
+main {max-width:650px;margin:0px auto;}article {display: block;border: 3px double #ADD8E6;padding: 10px;}h1,h2,h3 {line-height:1.2;}article.photo > img {width: 100%;height: auto;}footer {display: flex;}footer > div {flex: 1;}nav.tags {border: 3px double #ADD8E6;padding: 5px;margin: 0px auto;margin-bottom: 3px;}nav.tags > li {display: inline-block;padding: 5px;list-style: none;text-align: center;}nav.tags > li > a {color: #bbb;}
+
+        </style>
+    </head>
+    <body>
+        <main>
+        <h1>Updates on SGA 2017 Elections</h1>
+
+        <article>
+        <form method="POST" action="updates.php">
+            <label for="email"><input type="email" id="email" placeholder="Enter your email here." />
+            <input type="submit" value="Submit">
+        </form>
+        </article>
+        </main>
+    </body>
+</html>

@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>UMBC SGA Elections 2017</title>
+        <meta content="Compilation of UMBC SGA Platforms 2017" name="description"/>
+        <link rel="stylesheet" href="/minimal.css" />
+        <style>
+main, article {
+    padding: 1em;
+}
+li {
+    padding-bottom: 1em;
+}
+.shadow {
+        -moz-box-shadow:    3px 3px 5px 6px #ccc;
+                -webkit-box-shadow: 3px 3px 5px 6px #ccc;
+                        box-shadow:         1px 1px 5px 6px #ccc;
+}
+nav {
+        position: absolute;
+                left: 0px;
+                        top: 0px;
+                                padding-bottom: 10px;
+}
+nav > ul:first-child {
+        padding-left: 10px;
+}
+
+        </style>
+    </head>
+    <body>
+        <link href='http://fonts.googleapis.com/css?family=Lato&subset=latin' rel='stylesheet' type='text/css'>
+        <main class="container">
+        <h1>SGA Elections 2017</h1>
+        <h2>About</h2>
+        <article>
+            <p>The UMBC SGA election will take place through myUMBC on Monday April 17th, Tuesday April 18th, and Wednesday April 19th at <a title="Link disabled until election starts" onclick="return false;" href="http:umbc.edu/studentvote" class="disabled">umbc.edu/studentvote</a>. Check out some resources I've compiled below. <em>Caveat empor: I am running for Vice President for Student Organizations, but I have attempted to be as unbiased as possible.</em></p>
+            <p>As a reminder, these folks will get stipends on your dime AND help to set <a title="While SGA has no direct authority over tuition, we can have conversations with administrators that could lead to changes in tuition!">tuition†</a> and fees, so your vote directly affects your pocketbook.</p>
+            <p>If you're curious about what each position does, here's a post by Co-Create UMBC about <a href="http://my.umbc.edu/groups/co-create/posts/66499">the job of each executive position</a>.</p>
+            <p>If you notice a violation of the <a href="#rules">election rules</a>, report it by <a href="https://rtforms.umbc.edu/rt_authenticated/dosa/SGA_Election_Complaint.php">submitting a ticket to the Election Board</a>.</p>
+            <p>To endorse a candidate, see the <a href="#endorsemens">endorsement rules (#14 and #15)</a>. Linked is a PDF version of the <a href="endorse.pdf">endorsement form</a> to print, sign and deliver to the Election Board.</p>
+        </article>
+        <h2>Executive Candidates</h2>
+        <h3 id="president">Presidential Tickets</h3>
+        <article>
+            <ul>
+                <li class="names">Joshua Massey (<a href="mailto:masseyj1@umbc.edu">masseyj1@umbc.edu</a>) and Markya Reed (<a href="mailto:markya1@umbc.edu">markya1@umbc.edu</a>)</li>
+            </ul>
+        </article>
+        <article>
+            <ul>
+                <li class="names">Collin Sullivan (<a href="mailto:csulli1@umbc.edu">csulli1@umbc.edu</a>) and Chiamaka Ugboh (<a href="mailto:ugchia1@umbc.edu">ugchia1@umbc.edu</a>)</li>
+                <li><a href="//www.facebook.com/TogetherWeWillUMBC/">Facebook</a>
+            </ul>
+        </article>
+        <article>
+            <ul>
+                <li class="names">Richard DeShay Elliott (<a href="mailto:elliott8@umbc.edu">elliott8@umbc.edu</a>) and Maheen Haq (<a href="mailto:ham14@umbc.edu">ham14@umbc.edu</a>)</li>
+            </ul>
+        </article>
+        <h3>Email Updates</h3>
+        <article>
+            <form method="POST" action="updates.php">
+                <label for="email"><input type="email" name="email" id="email" placeholder="Enter your email here." />
+                    <input type="submit" value="Submit">
+            </form>
+        </article>
+        <h3 id="vpso">Vice President for Student Organizations Candidates</h3>
+        <article>
+            <ul>
+                <li id="jamieBrekosky" class="names">Jamie Brekosky (<a href="mailto:breko1@umbc.edu">breko1@umbc.edu</a>)</li>
+                <li id="linDasSarma" class="names">Lin DasSarma (<a href="mailto:lindas@umbc.edu">lindas@umbc.edu</a>)</li>
+                <li id="meghanLynch" class="names">Meghan Lynch (<a href="mailto:mlyn1@umbc.edu">mlyn1@umbc.edu</a>)</li>
+            </ul>
+        </article>
+        <h3>Email Updates</h3>
+        <article>
+            <form method="POST" action="updates.php">
+                <label for="email"><input type="email" name="email" id="email" placeholder="Enter your email here." />
+                    <input type="submit" value="Submit">
+            </form>
+        </article>
+        <h3 id="treasurer">Treasurer Candidates</h3>
+        <article>
+            <ul>
+                <li class="names">Hannah Sadollah (<a href="mailto:paras1@umbc.edu">paras1@umbc.edu</a>)</li>
+            </ul>
+        </article>
+        <h3>Email Updates</h3>
+        <article>
+            <form method="POST" action="updates.php">
+                <label for="email"><input type="email" name="email" id="email" placeholder="Enter your email here." />
+                    <input type="submit" value="Submit">
+            </form>
+        </article>
+        <h2>Legislative Candidates</h2>
+        <h3 id="financeBoard">Finance Board Candidates</h3>
+        <article>
+            <ul>
+                <li class="names">Asiyeh Daremipouran (<a href="mailto:darem1@umbc.edu">darem1@umbc.edu</a>)</li>
+                <li class="names">Nikki Donboli (<a href="mailto:nikkidonboli96@umbc.edu">nikkidonboli96@umbc.edu</a>)</li>
+                <li class="names">Jabari McLain (<a href="mailto:hx74298@umbc.edu">hx74298@umbc.edu</a>)</li>
+                <li class="names">Fayokemi Ojo (<a href="mailto:fayo_ojo@umbc.edu">fayo_ojo@umbc.edu</a>)</li>
+                <li class="names">Feyisanmi Ojo (<a href="mailto:feyiojo1@umbc.edu">feyiojo1@umbc.edu</a>)</li>
+                <li class="names">Theresa Sheets (<a href="mailto:sheetst1@umbc.edu">sheetst1@umbc.edu</a>)</li>
+                <li class="names">Yasser Siddiqui (<a href="mailto:syasser1@umbc.edu">syasser1@umbc.edu</a>)</li>
+                <li class="names">Carly Socha (<a href="mailto:carl8@umbc.edu">carl8@umbc.edu</a>)</li>
+                <li class="names">Crhistian Vasquez (<a href="mailto:vasquez1@umbc.edu">vasquez1@umbc.edu</a>)</li>
+                <li class="names">Daniel Wang (<a href="mailto:danwang1@umbc.edu">danwang1@umbc.edu</a>)</li>
+            </ul>
+        </article>
+        <h3 id="senate">Senate Candidates</h3>
+        <article>
+            <ul>
+                <li class="names">Irene Azurmendi</li>
+                <li class="names">Julia Byrne</li>
+                <li class="names">Vincent Cheon</li>
+                <li class="names">Felix Facchine</li>
+                <li class="names">Donovan Garrett</li>
+                <li class="names">Les Gray</li>
+                <li class="names">Malcolm Heflin</li>
+                <li class="names">Gerardo Herrera-Cortes</li>
+                <li class="names">Malakhi Hopkins</li>
+                <li class="names">William Hoxie</li>
+                <li class="names">Lillianne Keplinger</li>
+                <li class="names">Nitya Kumaran</li>
+                <li class="names">Jonathan Lessels</li>
+                <li class="names">Brendan Martin</li>
+                <li class="names">Pat Michael</li>
+                <li class="names">Tristan Mountcastle</li>
+                <li class="names">Shiv Patel</li>
+                <li class="names">Jaimee Pineda</li>
+                <li class="names">Natalie Puig</li>
+                <li class="names">Amritansh Rastogi</li>
+                <li class="names">Nirav Shah</li>
+                <li class="names">Nate Stewart</li>
+                <li class="names">Wouhib Tamrat</li>
+                <li class="names">Emily Thomas</li>
+                <li class="names">Lucas Tiderman</li>
+                <li class="names">Maria Tono</li>
+                <li class="names">Manisha Vepa</li>
+            </ul>
+        </article>
+        <h3>Email Updates</h3>
+        <article>
+            <form method="POST" action="updates.php">
+                <label for="email"><input type="email" name="email" id="email" placeholder="Enter your email here." />
+                    <input type="submit" value="Submit">
+            </form>
+        </article>
+        <h3 id="rules">Rules (3 April 2017 at 23:10)</h3>
+        <article>
+            <h4>The Basics</h4>
+            <ol>
+                <li>Candidates may run for no more than one position in the election.</li>
+                <li>In this document, "campaigning" means advertising one's campaign through verbal, written, printed or electronic promotion.</li>
+            </ol>
+            <h4>The Students' Rights</h4>
+            <ol start="3">
+                <li>Students must be free to vote as they wish without being harassed, badgered, or intimidated by candidates or their supporters. Campaigns may not provide prospective voters with equipment (eg., laptops, tablets, cell phones) on which to cast votes. Campaigns may not assist or interfere with voters in the act of voting. If a candidate or supporter is aware that a student is in the act of voting, the candidate or supporter may not approach within 10 feet of the voter to provide information, solicit votes, or attempt to view the voter's selections. The Election Board will disseminate information to assist students in reporting violations of this rule.</li>
+                <li>Any student may file a complaint with the Election Board about an alleged violation of these rules. Complaints must be filed by 48 hours after an alleged violation is discovered OR by 11:59 p.m. on Thursday, April 20th; whichever is earliest, by submitting an <a href="//rtforms.umbc.edu/rt_authenticated/dosa/SGA_Election_Complaint.php">RT Ticket</a>. Any supplementary materials to the submitted complaint can be emailed to the Election Board Chair, <a href="mailto:soph3@umbc.edu?subject=SGA Election Complaint">Sophia Lopresti</a>. Complaints must be accompanied by evidence of the alleged violation.</li>
+            </ol>
+            <h4>Campaigns/Campaigning</h4>
+            <ol start="5">
+                <li>Candidates are responsible for any actions taken on their behalf by people who could reasonably believe that they are acting with the candidate's approval. If the candidate is aware that somebody intends to violate an election rule to promote the candidate's campaign, the candidate is required to intervene to try to prevent the violation.</li>
+                <li>Permissible campaign methods include:
+                    <ul>
+                        <li>Handing out literature;</li>
+                        <li>making phone calls;</li>
+                        <li>using Facebook;</li>
+                        <li>putting posters, flyers, banners, etc. in any location that does not violate UMBC rules;</li>
+                        <li>using campaign buttons;</li>
+                        <li>wearing a sandwich sign;</li>
+                        <li>sending e-mails (but see <a href="#rule-13">Rule #13</a>, below)</li>
+                        <li>and handing out food, pencils, etc.</li>
+                    </ul>
+                    <li>Any campaign method is allowed provided it does not violate any of these rules, any law, or any UMBC policy. Even if UMBC policies are not usually enforced by campus authorities, their violation will be considered a violation of these Election Rules. For example, the <a href="http://www.umbc.edu/saf/policies/Campus_Posting_Policy.html">UMBC Campus Posting Policy</a> must be followed.
+                        <li id="rule-8">Making false statements of fact to promote or discredit a candidate, orally or in writing, or misleading people about the voting process, either intentionally or because the person making the statements did not take reasonable steps to verify their accuracy, is prohibited. True statements and statements of opinion or intention are welcome except when they violate UMBC rules. Infractions involving false statements about an opposing candidate or intentionally misleading people about the voting process will be considered especially serious violations.
+            </ol>
+            <h4>Spaces Where Campaigning is NOT Allowed</h4>
+            <ol start="9">
+                <li>During the election (the entire time voting is possible), no campaigning (other than wearing a button or t-shirt) is allowed on Main Street, defined as the rectangle between PNC Bank and the bookstore on one side and the Commons terrace window on the other, extending from the top of the staircase leading up from the lowest level of the Commons to the bottom of the staircase leading up to the Commons Information Desk lobby.
+                    <li>No candidate or campaign representative may physically or verbally approach any individual in The Commons to advocate for a specific candidate and/or ballot issue(s). In addition, campaigns are prohibited from sitting at non-reserved tables with the intent to distribute information in support/opposition of candidates and/or ballot issues. Candidates or campaign representatives may approach students to encourage them to walk over to the Main Street polling station to cast a vote in the election.
+                        <li>Campaigning in the residence community is restricted by Residential Life policies, which are designed to ensure a comfortable living environment for resident students. Door to door solicitation, including knocking on residents' doors, is prohibited. No posted advertising (except on a resident's door by the residents him/herself) or residential mailbox ads by individual candidates are permitted in the residential community.  Postings and mailbox ads are permitted if they are sponsored by the SGA Election Board and include all candidates' information. Other permitted activities include having conversations, and using one's own computer to send e-mails, etc.
+            </ol>
+            <h4>Prohibitions on Use of UMBC Resources</h4>
+            <ol start="12">
+                <li>The use of resources owned by SGA or any other UMBC office for campaign purposes is prohibited, except when the resources are available for public use. Campaigning or preparing campaign materials in the SGA Office is prohibited. Examples of prohibited conduct within the SGA office: Using SGA telephones to solicit votes, wearing paraphernalia supporting candidate(s), or using supplies from a UMBC office to create advertising.</li>
+                <li id="rule-13">The use of any UMBC listproc, including the Student Organization listproc (stuorgs@lists.umbc.edu), by a candidate, a candidate's designee, or a student organization, for campaign purposes is prohibited, with the following two exceptions: Any student organization may use its own, organization-specific UMBC listproc to communicate with its members regarding the organization's candidate endorsements, and the Election Board may utilize listprocs to distribute information about the election.</li>
+            </ol>
+            <h4 id="endorsements">Endorsements</h4>
+            <ol start="14">
+                <li id="rule-14">Any student organization may endorse any candidate at any time. Organizations may decide whether/who to endorse in any way they want, and may publicize their endorsements AFTER:
+                    <ol type="a">
+                        <li>submitting a statement, signed by the president of the organization, identifying the candidate(s) endorsed AND the method used to determine who would be endorsed, and</li>
+                        <li> receiving written acknowledgement from the Election Board Chair. This written acknowledgement will include a statement indicating how the organization and candidate's campaign may permissibly characterize the endorsement without violating the rule against false statements of fact. For example, if the organization's endorsement was determined by a vote of all members, the Election Board Chair's statement would say "Candidate X has been endorsed by the ABC Club." If, on the other hand, the President and Vice President of an organization decided whom to endorse without the participation of any other ABC Club members, the Election Board Chair's statement might say "Candidate X has been endorsed by the President and Vice President of The ABC Club."</li>
+                    </ol>
+                </li>
+                <li id="rule-15">A candidate may publicize the fact that an individual student has endorsed the candidate only AFTER submitting a statement signed by the endorsing student identifying the candidate(s) endorsed.</li>
+            </ol>
+            <h4>Commonvision as a Resource for Campaigns</h4>
+            <ol start="16">
+                <li>If candidates make use of funds provided by the Election Board to print promotional materials at Commonvision, those promotional materials must meet the following standards:
+                    <ol type="a">
+                        <li>Any and all content on the printed pages must directly pertain to your own campaign in this year's SGA election.
+                            <li>The page must include the candidate's name and position they are seeking. This must be included on all printed campaign material.
+                                <li>Candidates are not allowed to use SGA funds to print material for personal matters.
+                    </ol>
+                    Candidates are welcome to send material to the Election Board Chair via email to verify that the material complies with the above standards if they are unsure. Candidates are not required to submit material for approval prior to printing if they are confident the material meets the standards. If a candidate prints a piece of material that does not meet above standards, the candidate will be subject to consequences decided by the Election Board.
+                    <li>Each candidate is allocated a limited amount of funds to be used at Commonvision by the Election Board, but there is no spending limit on a candidate's personal funds.
+                        <li>When there is limited access to a public forum (such as VideoNet, LEDs and space to hang banners), the Election Board will decide how to apportion the resource among candidates interested in using it.
+            </ol>
+            <h4>Elecction Board Rights and Responsibilities</h4>
+            <ol start="19">
+                <li>The Election Board will either determine that the evidence is insufficient to support the allegation or invite the accused student(s) to present contrary evidence. The Election Board will rule that a violation has occurred if the weight of the evidence supports this conclusion.</li>
+                <li>Violations of any of the listed rules will result in penalties, potentially including candidate disqualification. Disqualification is especially likely when a candidate has committed a violation with a high probability of affecting the outcome of the election during the period of voting. In addition, any action which appears to violate the Student Code of Conduct will be reported to the proper UMBC authorities.</li>
+                <li>The Election Board may choose to issue statements clarifying one or more of these rules. Candidates may request clarification of a rule at any time by submitting a written request to the Election Board Chair, <a href="mailto:soph3@umbc.edu">Sophia Lopresti</a>. The Election Board's clarifying statements will be made available in writing to all candidates only by the Election Board Chair, and will be clearly identified by the heading "Official Election Board Statement Clarifying Election Rules." Any clarifying statement not published by the Election Board Chair, or not set forth in writing with the heading described in this rule, is invalid.</li>
+                <li>All official communications to and from the Election Board will be done by email. Oral communications or social networking communications are not official.</li>
+                <li>The Election Board will not give advance approval to any specific action by any campaign. If you think an action might violate a rule but are not sure . . . do not do it!</li>
+                <li>The Election Board may amend these rules at any time. If it does, an email will be sent with the official title "Official Election Board Statement Amending Rules." If an amendment is made, the rules will be effective at the time of the email sent.</li>
+        </article>
+        </main>
+        <footer>
+            Note: I've done my best to compile all of the links to information about candidates that I can, but I will update this post as new information becomes available. <a href="mailto:lindas@umbc.edu">Email me</a> if you have updates for this page!
+        </footer>
+    </body>
+</html>

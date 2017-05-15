@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Postive Campaigning Pledge</title>
+        <meta content="A pledge by candidates to campaign positively at UMBC." name="description"/>
+        <style>
+body {
+    margin:40px auto;
+    line-height:1.6;
+    font-size:18px;color:#444;background:#e4e5e5;padding:0 10px;
+}
+li.names {
+    font-weight: bold;
+}
+main {max-width:650px;margin:0px auto;}article {display: block;border: 3px double #ADD8E6;padding: 10px;}h1,h2,h3
+ {line-height:1.2;}article.photo > img {width: 100%;height: auto;}footer {font-size:8px; display: flex;}footer > div {flex: 1;}n
+av.tags {border: 3px double #ADD8E6;padding: 5px;margin: 0px auto;margin-bottom: 3px;}nav.tags > li {display: inl
+ine-block;padding: 5px;list-style: none;text-align: center;}nav.tags > li > a {color: #bbb;}
+        </style>
+    </head>
+    <body>
+        <main>
+        <h1>The Positive Campaigning Pledge</h1>
+        <article>
+            <p>I hereby openly and voluntarily declare and pledge:
+            <ol>
+                <li>to all the voters in the upcoming election for the office I seek,
+                <li>to all of my potential future constituents, and
+                <li>to all UMBC undergraduate students
+            </ol>that I will to the best of my ability, honor and keep all the following commitments during this political campaign:</p>
+            <ol>
+                <li>I pledge to run a positive political campaign;
+                <li>I pledge to direct all my volunteer campaign managers, consultants, ad developers, and supporters to run and to participate in a positive political campaign;
+                <li>I pledge to not attack or condemn my opponents' personal character or reputation, during any media appearance or campaign interview, or in any broadcast, print, digital, or Internet formats;
+                <li>I pledge to not distort my opponents' record or positions, or take their voting records or positions out of context;
+                <li>If third parties, who support my candidacy for office, freely and independently, choose to do negative campaigning, I pledge to publicly ask citizens and voters to turn off the radio ads, or toss the campaign literature, or click away from any Internet messages that are clearly negative and that clearly violate my intention to run a positive political campaign.
+            </ol>
+            <p>I hereby openly and voluntarily declare and pledge:<ol>
+                <li>to all the voters in the upcoming election for the office I seek,
+                <li>to all of my potential future constituents, and
+                <li>to all UMBC undergraduate students,
+            </ol>if I fail to honor and keep all the above commitments, I expect voters to elect someone else to the above office.</p>
+            <p>I plan to publicly announce that I have signed The Positive Campaigning Pledge. Furthermore, I plan to prominently display The Positive Campaigning Pledge on my political campaign’s website and mention it in my political campaign literature.</p>
+        </article>
+        <footer><p>Based on <a href="http://greatnewsforamerica.com/pledge-of-positive-campaigning/">The Pledge of Positive Campaigning</a>.</p></footer>
+        </main>
+    </body>
+</html>
