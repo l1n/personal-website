@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/css" href="https://lin.noblejury.com/umbc/is448/hw4/book_store.css" ?>
+<?xml-stylesheet type="text/xsl" href="https://lin.noblejury.com/umbc/is448/hw4/book_store.xsl" ?>
+<!DOCTYPE book_store [
+<!ELEMENT book_store (book*)>
+<!ELEMENT author EMPTY>
+<!ATTLIST author
+    first   CDATA   #IMPLIED
+    last    CDATA   #REQUIRED
+>
+<!ELEMENT file EMPTY>
+<!ATTLIST file
+    src     CDATA   #REQUIRED
+    size    CDATA   #IMPLIED
+>
+<!ELEMENT book (author+, file)>
+<!ATTLIST book
+    id           CDATA                     #REQUIRED
+    title        CDATA                     #REQUIRED
+    isbn         CDATA                     #REQUIRED
+    publisher    CDATA                     #REQUIRED
+    edition_date CDATA                     #REQUIRED
+    genre        ( biography | fantasy )     'fantasy'
+    category     ( fiction | nonfiction )    'fiction'
+    pages        CDATA                     #REQUIRED
+    price        CDATA                     #REQUIRED
+    payment      ( cash | credit | none )    'none'
+>
+    ]>
+<book_store>
+    <book id="war" title="War and Peace" isbn="0345472403" publisher="Modern Library" edition_date="2004" pages="1424" price="10.75">
+        <author first="Leo" last="Tolstoy"/>
+        <file src="https://smile.amazon.com/War-Peace-Modern-Library-Classics/dp/0345472403" size="128"/>
+    </book>
+    <book id="war" title="War and Peace" isbn="0345472403" publisher="Modern Library" edition_date="2004" pages="1424" price="10.75">
+        <author first="Leo" last="Tolstoy"/>
+        <file src="https://smile.amazon.com/War-Peace-Modern-Library-Classics/dp/0345472403" size="128"/>
+    </book>
+    <book id="war" title="War and Peace" isbn="0345472403" publisher="Modern Library" edition_date="2004" pages="1424" price="10.75">
+        <author first="Leo" last="Tolstoy"/>
+        <file src="https://smile.amazon.com/War-Peace-Modern-Library-Classics/dp/0345472403" size="128"/>
+    </book>
+    <book id="war" title="War and Peace" isbn="0345472403" publisher="Modern Library" edition_date="2004" pages="1424" price="10.75">
+        <author first="Leo" last="Tolstoy"/>
+        <file src="https://smile.amazon.com/War-Peace-Modern-Library-Classics/dp/0345472403" size="128"/>
+    </book>
+    <book id="war" title="War and Peace" isbn="0345472403" publisher="Modern Library" edition_date="2004" pages="1424" price="10.75">
+        <author first="Leo" last="Tolstoy"/>
+        <file src="https://smile.amazon.com/War-Peace-Modern-Library-Classics/dp/0345472403" size="128"/>
+    </book>
+</book_store>

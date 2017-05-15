@@ -1,0 +1,67 @@
+/**************
+     IS 448
+          
+      Initial CSS File for HW2
+**************/ 
+	/*Code that implements appearance detail 1 in homework handout */
+	body{
+		background-image: url(background.png);
+		font-size: 8pt;
+		font-family:Verdana, Tahoma, sans-serif;
+	}
+	/*Code that implements appearance detail 4 in homework handout */	
+	.main{
+		width: 800px;
+		margin: auto;
+	}
+	
+	/*Code that implements appearance detail 5 in homework handout */	
+	.rating{
+		width: 540px;
+		padding:0in;
+		float: left;
+		background-color: rgb(225,214,151);
+        border:2px solid gray;
+	}
+	
+	/*Code that implements appearance detail 6 in homework handout */	
+	.overview{
+		float: right;
+		width: 224px;
+		padding: 10px;
+		background-color: #FFCC00;
+		font-size: 8pt;
+		font-family: Arial, sans-serif;
+	}
+	/*Code that implements appearance detail 2 in homework handout */
+	.top{
+		background-image: url(bannerbackground.png);
+		height: 65px;
+	}
+	
+	/*Code that implements appearance detail 3 in homework handout */
+	.movietitle{
+		font-size: 24pt;
+		font-weight: bold;
+		font-family: Tahoma, Verdana, sans-serif;
+		text-align: center;
+	}
+	/* General purpose useful style tag */
+	.imgleft_nopadding{
+		float: left;
+	}	
+	
+	/**********************INSERT YOUR CODE HERE ONWARDS**********************************************/
+	/**************
+     IS 448
+     
+	**************/ 
+	
+	
+	
+	/* Appearance detail: 7; Create the style to hold the table */
+	/* Appearance detail: 8; Create  the style to float the image (critic.gif) to the left */
+	/* Appearance detail: 8; Create the style that formats how the class name is printed */		
+	/* Appearance detail: 9; Create the style that allows the separation between the class information */	
+	/* Appearance detail: 10; Specify the style of the <dt> element */
+	

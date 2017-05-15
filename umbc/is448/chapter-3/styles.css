@@ -1,0 +1,23 @@
+body {
+    background: #dd0;
+    max-width: 800px;
+    margin: auto;
+    font: Georgia, serif;
+}
+
+h1 {
+    font-family: sans;
+}
+
+a, a:visited {
+    color: #f00;
+    font-weight: bold;
+}
+
+ul {
+    list-style: square;
+}
+
+ul, ol {
+    font-family: "Lucida Console", fixed;
+}

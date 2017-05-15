@@ -1,0 +1,7 @@
+body {
+    margin:40px auto;
+    line-height:1.6;
+    font-size:18px;color:#444;background:#e4e5e5;padding:0 10px;
+}
+div.main{max-width:650px;margin:0px auto;}
+td {border: black 1px solid;padding: 15px;}
