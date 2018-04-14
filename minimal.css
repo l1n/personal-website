@@ -18,7 +18,7 @@ nav ul li a { color: #333; }
 
 .container { position: relative; text-align: left; width: 960px; max-width: 90%; margin: 0 auto; }
 
-footer { border-top:1px solid #ccc; font-size:11px; line-height:26px; color:#999; }
+footer { padding-left: 1em; border-top:1px solid #ccc; font-size:11px; line-height:26px; color:#999; }
 footer a { color:#999999; }
 footer a:hover { color:#105CB6; }
 footer ul li { display:inline; list-style:none; padding-left:20px; }
@@ -110,3 +110,15 @@ tfoot { font-style: italic; }
 		box-shadow: none !important;
 		color: #000 !important;
 	}
+}
+
+/* Citation */
+a.cite {
+    background: transparent url(/images/url-external.png) center right no-repeat;
+    padding-right: 1em;
+}
+
+/* Checkbox Padding */
+label > input[type="checkbox"] {
+    margin-right: 1em;
+}
