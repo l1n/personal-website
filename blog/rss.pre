@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?> <rss version="2.0"
+xmlns:dc="http://purl.org/dc/elements/1.1/"
+xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+xmlns:admin="http://webns.net/mvcb/"
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:content="http://purl.org/rss/1.0/modules/content/">
+
+<channel>
+
+<title>Littera Nova</title>
+
+<link>https://lin.noblejury.com/blog/feed.xml</link>
+<description>I write things sometimes.</description>
+<dc:language>en-us</dc:language>
+<dc:creator>Nova &lt;nova@noblejury.com&gt;</dc:creator>
+
+<dc:rights>CC NC-BY-SA</dc:rights>
