@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>NIH Charger Access</title>
+        <link rel="stylesheet" href="https://umbc.in/css/elegant.css">
+        <meta name=viewport content="width=device-width, initial-scale=1">
+        <link href='https://fonts.googleapis.com/css?family=Lato&subset=latin' rel='stylesheet' type='text/css'>
+        <style type="text/css">
+h2, h3, h4 {
+    margin-top: 1em;
+}
+article {
+    padding: 10px;
+    background: #f8ffff;
+    -moz-box-shadow:    4px 4px 5px 3px #ccc;
+    -webkit-box-shadow: 4px 4px 5px 3px #ccc;
+    box-shadow:         4px 4px 5px 3px #ccc;
+}
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1 class="logo">NIH Charger Access</h1>
+            <header>
+                <main>
+                    <article>
+                        <p>Thank you! Your vote has been counted.</p>
+                        <p>Last updated: <span id="last-updated">
+                            <!--INCLUDE cron/current-timestamp.sh-->Tue Dec  4 10:55:31 EST 2018
+<!--ENDINCLUDE--></span></p>
+                        <p>Missed charges since December 4th, 2018: <span class="charges-count">
+                            <!--INCLUDE cron/charge-access-count.sh-->1
+<!--ENDINCLUDE--></span></p>
+                    </article>
+                </main>
+                <footer>
+                    <p>Website maintained by <a href="mailto:charge@noblejury.com">Nova</a>.</p>
+                </footer>
+    </body>
+</html>
+
