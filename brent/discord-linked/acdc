@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>ACDC Update and Apology | Center for Applied Rationality</title>
+    <meta name="description" content="We were horrified to learn of the serious allegations of repeated consent-violation and lasting harm detailed in three Medium posts. [Persephone, T, and Jona...">
+    <!--Open Graph Tags for Facebook, etc.-->
+    <meta property="og:url"           content="http://www.rationality.org/resources/updates/2018/acdc" />
+    <meta property="og:type"          content='article' />
+    <meta property="og:title"         content="ACDC Update and Apology" />
+    <meta property="og:description"   content="We were horrified to learn of the serious allegations of repeated consent-violation and lasting harm detailed in three Medium posts. [Persephone, T, and Jona..." />
+    <meta property="og:image"         content="http://www.rationality.org/assets/img/cfar-brain.jpg" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.2.0/css/mdb.css" integrity="sha256-lLxrClaZc43n4mwuh71bMO5Qfqw9ju64QkKUjQ4bpvQ=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="/assets/css/styles.1537590433.css">
+    <link rel="canonical" href="http://www.rationality.org/resources/updates/2018/acdc">
+    <link rel="alternate" type="application/rss+xml" title="CFAR | Center For Applied Rationality" href="http://www.rationality.org/feed.xml">
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <!-- Fonts -->
+    <script src="https://use.typekit.net/xeu6uxi.js"></script>
+    <script>try{Typekit.load({ async: true });}catch(e){}</script>
+    <!--Google Analytics-->
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+        ga('create', 'UA-38505448-1', 'auto');
+        ga('send', 'pageview');
+    </script>
+</head>
+  <body class="has-drawer">
+<header class="header-section">
+  <nav class="navbar navbar-light hidden-lg-up mobile-header">
+  <div class="container">
+    <a class="navbar-brand" href="/"><img src="/assets/img/cfar-logo.png" alt="Center for Applied Rationality"></a>
+  </div>
+</nav>
+<div id="mobile-nav" class="drawer dw-xs-10 dw-sm-6 dw-md-4 fold hidden-lg-up" aria-labelledby="mobile-nav">
+  <div class="drawer-controls">
+    <a href="#mobile-nav" data-toggle="drawer" href="#mobile-nav" aria-foldedopen="false" aria-controls="mobile-nav" class="btn btn-primary btn-sm"><img src="/assets/img/mobile-menu-icon.svg" /></a>
+  </div>
+  <div class="drawer-contents">
+    <div class="drawer-heading">
+      <a href="/"><img src="/assets/img/cfar-logo.png" alt="Center for Applied Rationality"></a>
+    </div>
+    <ul class="drawer-nav">
+      <li role="presentation">
+        <a href="/">Home</a>
+      </li>
+      <li role="presentation">
+        <a href="/about/mission/">About <img src="/assets/img/arrow-down.svg" class="pull-right drop-control" /></a>
+        <ul>
+          <li>
+            <a class="dropdown-item" href="/about/mission/">Mission</a>
+          </li>
+          <li>
+            <a class="dropdown-item" href="/about/team/">Team</a>
+          </li>
+          <li>
+            <a class="dropdown-item" href="/about/media-and-mentions/">Press</a>
+          </li>
+          <li>
+            <a class="dropdown-item" href="/about/official-records/">Official Records</a>
+          </li>
+        </ul>
+      </li>
+      <li role="presentation">
+        <a href="/workshops/upcoming/">Workshops <img src="/assets/img/arrow-down.svg" class="pull-right drop-control" /></a>
+        <ul>
+          <li>
+            <a class="dropdown-item" href="/workshops/upcoming/">Upcoming</a>
+          </li>
+          <li>
+            <a class="dropdown-item" href="/workshops/apply/">Apply</a>
+          </li>
+          <li>
+            <a class="dropdown-item" href="/workshops/faq/">Workshop FAQ</a>
+          </li>
+          <li>
+            <a class="dropdown-item" href="/workshops/testimonials/">Testimonials</a>
+          </li>
+          <li>
+            <a class="dropdown-item" href="/workshops/special-programs/">Special Programs</a>
+          </li>
+        </ul>
+      </li>
+      <li role="presentation">
+        <a href="/resources/reading-list/">Resources <img src="/assets/img/arrow-down.svg" class="pull-right drop-control" /></a>
+        <ul>
+          <li>
+            <a class="dropdown-item" href="/resources/reading-list/">Books</a>
+          </li>
+          <li>
+            <a class="dropdown-item" href="/resources/videos/">Videos</a>
+          </li>
+          <li>
+            <a class="dropdown-item" href="/resources/updates/">Updates</a>
+          </li>
+          <li>
+            <a class="dropdown-item" href="/resources/rationality-checklist/">Rationality Checklist</a>
+          </li>
+        </ul>
+      </li>
+      <li role="presentation">
+        <a href="/donate/">Donate</a>
+      </li>
+    </ul>
+  </div>
+</div>
+<div class="mobile-nav-underlay"></div>
+  <nav class="navbar navbar-light hidden-md-down">
+    <div class="container">
+      <a class="navbar-brand" href="/"><img src="/assets/img/cfar-logo.png" alt="Center for Applied Rationality"></a>
+      <div class="float-xs-right btn-apply-container">
+        <a href="/workshops/apply" class="btn btn-primary">Apply for a Workshop</a>
+      </div>
+      <!-- Nav tabs -->
+      <ul class="nav nav-tabs" role="tablist">
+          <li class="nav-item ">
+            <a class="nav-link empty" href="/" data-target="#home">Home</a>
+          </li>
+        <li class="nav-item ">
+          <a class="nav-link " href="/about/mission/" data-target="#about">About</a>
+        </li>
+        <li class="nav-item ">
+          <a class="nav-link " href="/workshops/upcoming/" data-target="#workshops">Workshops</a>
+        </li>
+        <li class="nav-item active default">
+          <a class="nav-link " href="/resources/reading-list/" data-target="#resources">Resources</a>
+        </li>
+        <li class="nav-item ">
+          <a class="nav-link empty" href="/donate/" data-target="#donate">Donate</a>
+        </li>
+      </ul>
+    </div>
+    <!-- Tab panes -->
+    <div class="subnav-container ">
+        <div class="tab-content container">
+        <div role="tabpanel" class="tab-pane " id="home">
+          <span>&nbsp;</span>
+        </div>
+        <div role="tabpanel" class="tab-pane " id="about">
+          <ul class="nav navbar-nav">
+            <li class="nav-item ">
+              <a class="nav-link" href="/about/mission/">Mission</a>
+            </li>
+            <li class="nav-item ">
+              <a class="nav-link" href="/about/team/">Team</a>
+            </li>
+            <li class="nav-item ">
+              <a class="nav-link" href="/about/media-and-mentions/">Press</a>
+            </li>
+            <li class="nav-item ">
+              <a class="nav-link" href="/about/official-records/">Official Records</a>
+            </li>
+          </ul>
+        </div>
+        <div role="tabpanel" class="tab-pane " id="workshops">
+          <ul class="nav navbar-nav">
+            <li class="nav-item ">
+              <a class="nav-link" href="/workshops/upcoming/">Upcoming</a>
+            </li>
+            <li class="nav-item ">
+              <a class="nav-link" href="/workshops/apply/">Apply</a>
+            </li>
+            <li class="nav-item ">
+              <a class="nav-link" href="/workshops/faq/">Workshop FAQ</a>
+            </li>
+            <li class="nav-item ">
+              <a class="nav-link" href="/workshops/testimonials/">Testimonials</a>
+            </li>
+            <li class="nav-item ">
+              <a class="nav-link" href="/workshops/special-programs/">Special Programs</a>
+            </li>
+          </ul>
+        </div>
+        <div role="tabpanel" class="tab-pane active" id="resources">
+          <ul class="nav navbar-nav">
+            <li class="nav-item ">
+              <a class="nav-link" href="/resources/reading-list/">Books</a>
+            </li>
+            <li class="nav-item ">
+              <a class="nav-link" href="/resources/videos/">Videos</a>
+            </li>
+            <li class="nav-item active current">
+              <a class="nav-link" href="/resources/updates/">Updates</a>
+            </li>
+            <li class="nav-item ">
+              <a class="nav-link" href="/resources/rationality-checklist/">Rationality Checklist</a>
+            </li>
+          </ul>
+        </div>
+        <div role="tabpanel" class="tab-pane " id="donate">
+          <span>&nbsp;</span>
+        </div>
+      </div>
+    </div>
+  </nav>
+</header>
+    <main>
+<div class="post-container">
+  <header class="post-header">
+    <div class="media blog-heading">
+      <a class="media-left" href="/about/team#timothy-telleen-lawton">
+        <img class="media-object" src="/assets/img/people/tim-tl.jpg">
+      </a>
+      <div class="media-body">
+        <a href="/about/team#timothy-telleen-lawton"><p class="media-heading">Timothy Telleen-Lawton</p>
+          Executive Director</a>
+      </div>
+      <a href="https://twitter.com/share" class="twitter-share-button media-right media-top" data-show-count="false"></a><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+      <iframe src="https://www.facebook.com/plugins/share_button.php?href=http://www.rationality.org/resources/updates/2018/acdc&layout=button&size=small&mobile_iframe=true&width=59&height=20&appId" width="59" height="20" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+    </div>
+    <h1 class="post-title" itemprop="name headline">ACDC Update and Apology</h1>
+  </header>
+  <div class="post-content">
+    <p>We were horrified to learn of the serious allegations of repeated consent-violation and lasting harm detailed in three Medium posts. [<a href="https://medium.com/@mittenscautious/brent-a-warning-38e447c55ab0">Persephone</a>, <a href="https://medium.com/@mittenscautious/warning-2-153ed9f5f1f3">T</a>, and <a href="https://medium.com/@mittenscautious/warning-3-8097bb6747b1">Jonathan</a>]</p>
+<p>Today, we have taken the following actions:</p>
+<ol>
+  <li>
+    <p>Brent is banned from all CFAR activities and spaces until the original ACDC recommendation—which suggested a ban was unnecessary—can be revisited by an improved due process.  This is not a statement of judgment—we believe that a provisional ban would be an appropriate precaution for any allegation of this nature, proven or not.</p>
+  </li>
+  <li>
+    <p>We have disbanded ACDC. As things stand, the group is no longer in a position to accomplish its original mission for CFAR and the community.</p>
+  </li>
+  <li>
+    <p>We are making the apology below, for the things we already understand to have been mistakes and sources of damage.</p>
+  </li>
+</ol>
+<p>ACDC (the Alumni Community Disputes Council) is a group of three unpaid volunteer Council Members (one of whom is a CFAR staff member) appointed by CFAR in 2017 to independently hear and assess community disputes and offer recommendations in cases where action is needed.  Two days ago (in response to the Medium posts), ACDC sent an email to a number of people in the community, releasing details of ACDC’s investigation into Brent earlier this year.  That email was problematic in several ways.</p>
+<p>Firstly, <strong>it used the name of the accuser</strong>, who had trusted that their identity would be treated with discretion. This is an awful mistake. It’s one that never should have happened, and ACDC has since released a follow-up with acknowledgement and an apology. We are profoundly grateful to all of the people who ensured that publicly released versions of the email were anonymized. We strongly request that everyone maintain that going forward. We have reached out to the person affected to apologize directly, though we realize this is harmful not just to them, but to everyone who has interacted with ACDC in confidence. We are available to talk with anyone in that situation about the measures being taken to protect their privacy.</p>
+<p>Secondly, the email seemed to represent the outcome of a process aimed at answering a narrower question—”Should Brent be banned from CFAR’s community space, based on the information we have available?”—as something more significant, such as a verdict on Brent as a person or the credibility of all accusations against him. Even if the investigation had been conducted well, it would have been <strong>deeply inappropriate to construe the resulting recommendation as adjudicating the full set of accusations that came to light in the posts.</strong></p>
+<p>Thirdly, the email <strong>claimed that the Medium posts contained no new information</strong>, and that the behavior detailed in them was known to the panel when they made their decision to not ban Brent from CFAR events and spaces. It was not, and the error confused initial CFAR and community responses to the posts.</p>
+<p>To the extent that CFAR did not provide ACDC with sufficient resources and oversight to properly execute its larger mission, that is our fault and not the fault of the volunteer council members. We want to understand the details of what went wrong and how to do better going forward. We have only just started that process and will provide updates to the community once we have them. In the meantime, in addition to the actions above, we offer our apologies to the involved parties, and to all in our alumni network and in the broader community who needed better leadership in this situation.</p>
+  </div>
+</div>
+    </main>
+    <footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4">
+        <p class="copy-text">The Center for Applied Rationality is a non-profit 501(c)(3) tax-exempt organization (EIN 45-3100226)</p>
+        <br>
+        <p class="copy-text">&copy; Copyright 2011-2018 Center for Applied Rationality. All rights reserved.</p>
+      </div>
+      <div class="col-md-4">
+        <!-- Begin MailChimp Signup Form -->
+        <div id="mc_embed_signup">
+          <form action="//rationality.us5.list-manage.com/subscribe/post?u=e190f95c12790256f7d34fcc1&amp;id=e5891fd308" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+            <div id="mc_embed_signup_scroll">
+              <h5>Sign up for our newsletter:</h5>
+              <div class="mc-field-group">
+                <label for="mce-EMAIL"class="sr-only">Email</label>
+                <input type="email" value="" name="EMAIL" class="form-control" id="mce-EMAIL" placeholder="Email">
+              </div>
+              <div id="mce-responses" class="clear">
+                <div class="response" id="mce-error-response" style="display:none"></div>
+                <div class="response" id="mce-success-response" style="display:none"></div>
+              </div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+              <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_e190f95c12790256f7d34fcc1_e5891fd308" tabindex="-1" value=""></div>
+              <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="btn btn-hidden">
+            </div>
+          </form>
+        </div>
+        <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';fnames[3]='MMERGE3';ftypes[3]='text';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
+        <!--End mc_embed_signup-->
+      </div>
+      <div class="col-md-4">
+        <p><a href="/workshops/apply">Apply for a Workshop</a></p>
+        <p><a href="/about/mission">Mission</a></p>
+        <p><a href="/about/cfar-faq">FAQ</a></p>
+        <p><a href="/contact">Contact</a></p>
+      </div>
+    </div>
+  </div>
+</footer>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.0.0.min.js"></script>
+    <script type="text/javascript" src="/assets/js/site.1537590433.js"></script>
+  </body>
+  <!-- 2018-09-21 09:27:13 pm -->
+</html>

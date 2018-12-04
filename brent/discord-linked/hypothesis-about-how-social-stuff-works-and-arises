@@ -1,0 +1,1268 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script id='serverTimezoneOffset' type='application/ejson'>{"offset":0}</script>
+
+<title data-react-helmet="true">Hypothesis about how social stuff works and arises - LessWrong 2.0</title><meta data-react-helmet="true" http-equiv="Accept-CH" content="DPR, Viewport-Width, Width"/><meta data-react-helmet="true" charset="utf-8"/><meta data-react-helmet="true" name="description" content="PREFACE
+(I can&#x27;t be bothered to write a real Serious Post, so I&#x27;m just going to write
+this like a tumblr post. y&#x27;all are tryhards with writing and it&#x27;s boooooring,
+and also I have a lot of tangentially related stuff to say. Pls critique based
+on content. If something is unclear, quote it and ask for clarification)
+
+Alright so, this is intended to be an explicit description that, hopefully...
+(Read More)"/><meta data-react-helmet="true" name="viewport" content="width=device-width, initial-scale=1"/><meta data-react-helmet="true" property="og:type" content="article"/><meta data-react-helmet="true" property="og:url" content="https://www.lesswrong.com/posts/fpN3mFuGuR97xqyPx/hypothesis-about-how-social-stuff-works-and-arises"/><meta data-react-helmet="true" property="og:title" content="Hypothesis about how social stuff works and arises - LessWrong 2.0"/><meta data-react-helmet="true" property="og:description" content="PREFACE
+(I can&#x27;t be bothered to write a real Serious Post, so I&#x27;m just going to write
+this like a tumblr post. y&#x27;all are tryhards with writing and it&#x27;s boooooring,
+and also I have a lot of tangentially related stuff to say. Pls critique based
+on content. If something is unclear, quote it and ask for clarification)
+
+Alright so, this is intended to be an explicit description that, hopefully...
+(Read More)"/><meta data-react-helmet="true" name="twitter:card" content="summary"/><meta data-react-helmet="true" name="twitter:title" content="Hypothesis about how social stuff works and arises - LessWrong 2.0"/><meta data-react-helmet="true" name="twitter:description" content="PREFACE
+(I can&#x27;t be bothered to write a real Serious Post, so I&#x27;m just going to write
+this like a tumblr post. y&#x27;all are tryhards with writing and it&#x27;s boooooring,
+and also I have a lot of tangentially related stuff to say. Pls critique based
+on content. If something is unclear, quote it and ask for clarification)
+
+Alright so, this is intended to be an explicit description that, hopefully...
+(Read More)"/><link data-react-helmet="true" name="material-icons" rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/icon?family=Material+Icons"/><link data-react-helmet="true" name="react-instantsearch" rel="stylesheet" type="text/css" href="https://unpkg.com/react-instantsearch-theme-algolia@4.0.0/style.min.css"/><link data-react-helmet="true" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500"/><link data-react-helmet="true" rel="stylesheet" href="https://use.typekit.net/jvr1gjm.css"/><link data-react-helmet="true" rel="canonical" href="https://www.lesswrong.com/posts/fpN3mFuGuR97xqyPx/hypothesis-about-how-social-stuff-works-and-arises"/><link data-react-helmet="true" name="favicon" rel="shortcut icon" href="https://res.cloudinary.com/lesswrong-2-0/image/upload/v1497915096/favicon_lncumn.ico"/><link data-react-helmet="true" name="rss" rel="alternate" type="application/rss+xml" href="https://www.lesswrong.com/feed.xml"/><style id="jss-server-side">.MuiTypography-root {
+  margin: 0;
+  display: block;
+}
+.MuiTypography-display4 {
+  color: #424242;
+  font-size: 7rem;
+  font-weight: 300;
+  font-family: Calibri,"Gill Sans","Gill Sans MT",Myriad Pro,Myriad,"DejaVu Sans Condensed","Liberation Sans","Nimbus Sans L",Tahoma,Geneva,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  line-height: 1.14286em;
+  margin-left: -.04em;
+  letter-spacing: -.04em;
+}
+.MuiTypography-display3 {
+  color: #424242;
+  font-size: 3.5rem;
+  margin-top: 1.2em;
+  font-weight: 400;
+  font-family: Calibri,"Gill Sans","Gill Sans MT",Myriad Pro,Myriad,"DejaVu Sans Condensed","Liberation Sans","Nimbus Sans L",Tahoma,Geneva,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  line-height: 1.30357em;
+  margin-left: -.02em;
+  letter-spacing: -.02em;
+}
+.MuiTypography-display2 {
+  color: #424242;
+  font-size: 2.8rem;
+  margin-top: 1em;
+  font-weight: 400;
+  font-family: Calibri,"Gill Sans","Gill Sans MT",Myriad Pro,Myriad,"DejaVu Sans Condensed","Liberation Sans","Nimbus Sans L",Tahoma,Geneva,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  line-height: 1.13333em;
+  margin-left: -.02em;
+}
+.MuiTypography-display1 {
+  color: #424242;
+  font-size: 2rem;
+  margin-top: 1em;
+  font-weight: 400;
+  font-family: Calibri,"Gill Sans","Gill Sans MT",Myriad Pro,Myriad,"DejaVu Sans Condensed","Liberation Sans","Nimbus Sans L",Tahoma,Geneva,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  line-height: 1.20588em;
+}
+.MuiTypography-headline {
+  color: rgba(0, 0, 0, 0.87);
+  font-size: 1.5rem;
+  font-weight: 400;
+  font-family: warnock-pro,Palatino,"Palatino Linotype","Palatino LT STD","Book Antiqua",Georgia,serif;
+  line-height: 1.35417em;
+}
+.MuiTypography-title {
+  color: rgba(0, 0, 0, 0.87);
+  font-size: 18px;
+  font-weight: 500;
+  font-family: warnock-pro,Palatino,"Palatino Linotype","Palatino LT STD","Book Antiqua",Georgia,serif;
+  line-height: 1.16667em;
+  margin-bottom: 3px;
+}
+.MuiTypography-subheading {
+  color: #757575;
+  font-size: 15px;
+  font-weight: 400;
+  font-family: warnock-pro,Palatino,"Palatino Linotype","Palatino LT STD","Book Antiqua",Georgia,serif;
+  line-height: 1.5em;
+}
+.MuiTypography-body2 {
+  color: rgba(0, 0, 0, 0.87);
+  font-size: 1.16rem;
+  font-weight: 400;
+  font-family: Calibri,"Gill Sans","Gill Sans MT",Myriad Pro,Myriad,"DejaVu Sans Condensed","Liberation Sans","Nimbus Sans L",Tahoma,Geneva,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  line-height: 1.5rem;
+  link-underline-position: 72%;
+}
+.MuiTypography-body1 {
+  color: rgba(0, 0, 0, 0.87);
+  font-size: 1.4rem;
+  font-weight: 400;
+  font-family: Calibri,"Gill Sans","Gill Sans MT",Myriad Pro,Myriad,"DejaVu Sans Condensed","Liberation Sans","Nimbus Sans L",Tahoma,Geneva,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  line-height: 2rem;
+}
+.MuiTypography-caption {
+  color: rgba(0, 0, 0, 0.54);
+  font-size: .9rem;
+  font-weight: 400;
+  font-family: Calibri,"Gill Sans","Gill Sans MT",Myriad Pro,Myriad,"DejaVu Sans Condensed","Liberation Sans","Nimbus Sans L",Tahoma,Geneva,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  line-height: 1.375em;
+}
+.MuiTypography-button {
+  color: rgba(0, 0, 0, 0.87);
+  font-size: 0.875rem;
+  font-weight: 500;
+  font-family: Calibri,"Gill Sans","Gill Sans MT",Myriad Pro,Myriad,"DejaVu Sans Condensed","Liberation Sans","Nimbus Sans L",Tahoma,Geneva,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  text-transform: uppercase;
+}
+.MuiTypography-alignLeft {
+  text-align: left;
+}
+.MuiTypography-alignCenter {
+  text-align: center;
+}
+.MuiTypography-alignRight {
+  text-align: right;
+}
+.MuiTypography-alignJustify {
+  text-align: justify;
+}
+.MuiTypography-noWrap {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.MuiTypography-gutterBottom {
+  margin-bottom: 0.35em;
+}
+.MuiTypography-paragraph {
+  margin-bottom: 16px;
+}
+.MuiTypography-colorInherit {
+  color: inherit;
+}
+.MuiTypography-colorPrimary {
+  color: #5f9b65;
+}
+.MuiTypography-colorSecondary {
+  color: #5f9b65;
+}
+.MuiTypography-colorTextPrimary {
+  color: rgba(0, 0, 0, 0.87);
+}
+.MuiTypography-colorTextSecondary {
+  color: rgba(0, 0, 0, 0.54);
+}
+.MuiTypography-colorError {
+  color: #bf360c;
+}
+.MuiSvgIcon-root {
+  fill: currentColor;
+  width: 1em;
+  height: 1em;
+  display: inline-block;
+  font-size: 24px;
+  transition: fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  user-select: none;
+  flex-shrink: 0;
+}
+.MuiSvgIcon-colorPrimary {
+  color: #5f9b65;
+}
+.MuiSvgIcon-colorSecondary {
+  color: #5f9b65;
+}
+.MuiSvgIcon-colorAction {
+  color: rgba(0, 0, 0, 0.54);
+}
+.MuiSvgIcon-colorError {
+  color: #bf360c;
+}
+.MuiSvgIcon-colorDisabled {
+  color: rgba(0, 0, 0, 0.26);
+}
+.MuiSvgIcon-fontSizeInherit {
+  font-size: inherit;
+}
+html {
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+body {
+  margin: 0;
+  background-color: #fff;
+}
+@media print {
+  body {
+    background-color: #fff;
+  }
+}
+.MuiPaper-root {
+  background-color: #fff;
+}
+.MuiPaper-rounded {
+  border-radius: 4px;
+}
+.MuiPaper-elevation0 {
+  box-shadow: none;
+}
+.MuiPaper-elevation1 {
+  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2),0px 1px 1px 0px rgba(0, 0, 0, 0.14),0px 2px 1px -1px rgba(0, 0, 0, 0.12);
+}
+.MuiPaper-elevation2 {
+  box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.2),0px 2px 2px 0px rgba(0, 0, 0, 0.14),0px 3px 1px -2px rgba(0, 0, 0, 0.12);
+}
+.MuiPaper-elevation3 {
+  box-shadow: 0px 1px 8px 0px rgba(0, 0, 0, 0.2),0px 3px 4px 0px rgba(0, 0, 0, 0.14),0px 3px 3px -2px rgba(0, 0, 0, 0.12);
+}
+.MuiPaper-elevation4 {
+  box-shadow: 0px 2px 4px -1px rgba(0, 0, 0, 0.2),0px 4px 5px 0px rgba(0, 0, 0, 0.14),0px 1px 10px 0px rgba(0, 0, 0, 0.12);
+}
+.MuiPaper-elevation5 {
+  box-shadow: 0px 3px 5px -1px rgba(0, 0, 0, 0.2),0px 5px 8px 0px rgba(0, 0, 0, 0.14),0px 1px 14px 0px rgba(0, 0, 0, 0.12);
+}
+.MuiPaper-elevation6 {
+  box-shadow: 0px 3px 5px -1px rgba(0, 0, 0, 0.2),0px 6px 10px 0px rgba(0, 0, 0, 0.14),0px 1px 18px 0px rgba(0, 0, 0, 0.12);
+}
+.MuiPaper-elevation7 {
+  box-shadow: 0px 4px 5px -2px rgba(0, 0, 0, 0.2),0px 7px 10px 1px rgba(0, 0, 0, 0.14),0px 2px 16px 1px rgba(0, 0, 0, 0.12);
+}
+.MuiPaper-elevation8 {
+  box-shadow: 0px 5px 5px -3px rgba(0, 0, 0, 0.2),0px 8px 10px 1px rgba(0, 0, 0, 0.14),0px 3px 14px 2px rgba(0, 0, 0, 0.12);
+}
+.MuiPaper-elevation9 {
+  box-shadow: 0px 5px 6px -3px rgba(0, 0, 0, 0.2),0px 9px 12px 1px rgba(0, 0, 0, 0.14),0px 3px 16px 2px rgba(0, 0, 0, 0.12);
+}
+.MuiPaper-elevation10 {
+  box-shadow: 0px 6px 6px -3px rgba(0, 0, 0, 0.2),0px 10px 14px 1px rgba(0, 0, 0, 0.14),0px 4px 18px 3px rgba(0, 0, 0, 0.12);
+}
+.MuiPaper-elevation11 {
+  box-shadow: 0px 6px 7px -4px rgba(0, 0, 0, 0.2),0px 11px 15px 1px rgba(0, 0, 0, 0.14),0px 4px 20px 3px rgba(0, 0, 0, 0.12);
+}
+.MuiPaper-elevation12 {
+  box-shadow: 0px 7px 8px -4px rgba(0, 0, 0, 0.2),0px 12px 17px 2px rgba(0, 0, 0, 0.14),0px 5px 22px 4px rgba(0, 0, 0, 0.12);
+}
+.MuiPaper-elevation13 {
+  box-shadow: 0px 7px 8px -4px rgba(0, 0, 0, 0.2),0px 13px 19px 2px rgba(0, 0, 0, 0.14),0px 5px 24px 4px rgba(0, 0, 0, 0.12);
+}
+.MuiPaper-elevation14 {
+  box-shadow: 0px 7px 9px -4px rgba(0, 0, 0, 0.2),0px 14px 21px 2px rgba(0, 0, 0, 0.14),0px 5px 26px 4px rgba(0, 0, 0, 0.12);
+}
+.MuiPaper-elevation15 {
+  box-shadow: 0px 8px 9px -5px rgba(0, 0, 0, 0.2),0px 15px 22px 2px rgba(0, 0, 0, 0.14),0px 6px 28px 5px rgba(0, 0, 0, 0.12);
+}
+.MuiPaper-elevation16 {
+  box-shadow: 0px 8px 10px -5px rgba(0, 0, 0, 0.2),0px 16px 24px 2px rgba(0, 0, 0, 0.14),0px 6px 30px 5px rgba(0, 0, 0, 0.12);
+}
+.MuiPaper-elevation17 {
+  box-shadow: 0px 8px 11px -5px rgba(0, 0, 0, 0.2),0px 17px 26px 2px rgba(0, 0, 0, 0.14),0px 6px 32px 5px rgba(0, 0, 0, 0.12);
+}
+.MuiPaper-elevation18 {
+  box-shadow: 0px 9px 11px -5px rgba(0, 0, 0, 0.2),0px 18px 28px 2px rgba(0, 0, 0, 0.14),0px 7px 34px 6px rgba(0, 0, 0, 0.12);
+}
+.MuiPaper-elevation19 {
+  box-shadow: 0px 9px 12px -6px rgba(0, 0, 0, 0.2),0px 19px 29px 2px rgba(0, 0, 0, 0.14),0px 7px 36px 6px rgba(0, 0, 0, 0.12);
+}
+.MuiPaper-elevation20 {
+  box-shadow: 0px 10px 13px -6px rgba(0, 0, 0, 0.2),0px 20px 31px 3px rgba(0, 0, 0, 0.14),0px 8px 38px 7px rgba(0, 0, 0, 0.12);
+}
+.MuiPaper-elevation21 {
+  box-shadow: 0px 10px 13px -6px rgba(0, 0, 0, 0.2),0px 21px 33px 3px rgba(0, 0, 0, 0.14),0px 8px 40px 7px rgba(0, 0, 0, 0.12);
+}
+.MuiPaper-elevation22 {
+  box-shadow: 0px 10px 14px -6px rgba(0, 0, 0, 0.2),0px 22px 35px 3px rgba(0, 0, 0, 0.14),0px 8px 42px 7px rgba(0, 0, 0, 0.12);
+}
+.MuiPaper-elevation23 {
+  box-shadow: 0px 11px 14px -7px rgba(0, 0, 0, 0.2),0px 23px 36px 3px rgba(0, 0, 0, 0.14),0px 9px 44px 8px rgba(0, 0, 0, 0.12);
+}
+.MuiPaper-elevation24 {
+  box-shadow: 0px 11px 15px -7px rgba(0, 0, 0, 0.2),0px 24px 38px 3px rgba(0, 0, 0, 0.14),0px 9px 46px 8px rgba(0, 0, 0, 0.12);
+}
+.MuiAppBar-root {
+  width: 100%;
+  display: flex;
+  z-index: 1100;
+  box-sizing: border-box;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+.MuiAppBar-positionFixed {
+  top: 0;
+  left: auto;
+  right: 0;
+  position: fixed;
+}
+.MuiAppBar-positionAbsolute {
+  top: 0;
+  left: auto;
+  right: 0;
+  position: absolute;
+}
+.MuiAppBar-positionSticky {
+  top: 0;
+  left: auto;
+  right: 0;
+  position: sticky;
+}
+.MuiAppBar-positionStatic {
+  position: static;
+}
+.MuiAppBar-colorDefault {
+  color: rgba(0, 0, 0, 0.87);
+  background-color: #fafafa;
+}
+.MuiAppBar-colorPrimary {
+  color: #fff;
+  background-color: #5f9b65;
+}
+.MuiAppBar-colorSecondary {
+  color: #fff;
+  background-color: #5f9b65;
+}
+.MuiToolbar-root {
+  display: flex;
+  position: relative;
+  align-items: center;
+}
+.MuiToolbar-gutters {
+  padding-left: 16px;
+  padding-right: 16px;
+}
+@media (min-width:600px) {
+  .MuiToolbar-gutters {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+}
+.MuiToolbar-regular {
+  min-height: 56px;
+}
+@media (min-width:0px) and (orientation: landscape) {
+  .MuiToolbar-regular {
+    min-height: 48px;
+  }
+}
+@media (min-width:600px) {
+  .MuiToolbar-regular {
+    min-height: 64px;
+  }
+}
+.MuiToolbar-dense {
+  min-height: 48px;
+}
+.MuiTouchRipple-root {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: block;
+  z-index: 0;
+  position: absolute;
+  overflow: hidden;
+  border-radius: inherit;
+  pointer-events: none;
+}
+.MuiTouchRipple-ripple {
+  top: 0;
+  left: 0;
+  width: 50px;
+  height: 50px;
+  opacity: 0;
+  position: absolute;
+}
+.MuiTouchRipple-rippleVisible {
+  opacity: 0.3;
+  transform: scale(1);
+  animation: mui-ripple-enter 550ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.MuiTouchRipple-ripplePulsate {
+  animation-duration: 200ms;
+}
+.MuiTouchRipple-child {
+  width: 100%;
+  height: 100%;
+  opacity: 1;
+  display: block;
+  border-radius: 50%;
+  background-color: currentColor;
+}
+.MuiTouchRipple-childLeaving {
+  opacity: 0;
+  animation: mui-ripple-exit 550ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.MuiTouchRipple-childPulsate {
+  top: 0;
+  left: 0;
+  position: absolute;
+  animation: mui-ripple-pulsate 2500ms cubic-bezier(0.4, 0, 0.2, 1) 200ms infinite;
+}
+@keyframes mui-ripple-enter {
+  0% {
+    opacity: 0.1;
+    transform: scale(0);
+  }
+  100% {
+    opacity: 0.3;
+    transform: scale(1);
+  }
+}
+@keyframes mui-ripple-exit {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes mui-ripple-pulsate {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(0.92);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+.MuiButtonBase-root {
+  color: inherit;
+  cursor: pointer;
+  margin: 0;
+  border: 0;
+  display: inline-flex;
+  padding: 0;
+  outline: none;
+  position: relative;
+  user-select: none;
+  align-items: center;
+  border-radius: 0;
+  vertical-align: middle;
+  justify-content: center;
+  -moz-appearance: none;
+  text-decoration: none;
+  background-color: transparent;
+  -webkit-appearance: none;
+  -webkit-tap-highlight-color: transparent;
+}
+.MuiButtonBase-root::-moz-focus-inner {
+  border-style: none;
+}
+.MuiButtonBase-root.MuiButtonBase-disabled {
+  cursor: default;
+  pointer-events: none;
+}
+.MuiIconButton-root {
+  flex: 0 0 auto;
+  width: 48px;
+  color: rgba(0, 0, 0, 0.54);
+  height: 48px;
+  padding: 0;
+  font-size: 1.5rem;
+  text-align: center;
+  transition: background-color 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  border-radius: 50%;
+}
+.MuiIconButton-root:hover {
+  background-color: rgba(0, 0, 0, 0.08);
+}
+.MuiIconButton-root.MuiIconButton-disabled {
+  color: rgba(0, 0, 0, 0.26);
+}
+@media (hover: none) {
+  .MuiIconButton-root:hover {
+    background-color: transparent;
+  }
+}
+.MuiIconButton-root:hover.MuiIconButton-disabled {
+  background-color: transparent;
+}
+.MuiIconButton-colorInherit {
+  color: inherit;
+}
+.MuiIconButton-colorPrimary {
+  color: #5f9b65;
+}
+.MuiIconButton-colorPrimary:hover {
+  background-color: rgba(95, 155, 101, 0.08);
+}
+@media (hover: none) {
+  .MuiIconButton-colorPrimary:hover {
+    background-color: transparent;
+  }
+}
+.MuiIconButton-colorSecondary {
+  color: #5f9b65;
+}
+.MuiIconButton-colorSecondary:hover {
+  background-color: rgba(95, 155, 101, 0.08);
+}
+@media (hover: none) {
+  .MuiIconButton-colorSecondary:hover {
+    background-color: transparent;
+  }
+}
+.MuiIconButton-label {
+  width: 100%;
+  display: flex;
+  align-items: inherit;
+  justify-content: inherit;
+}
+@media (min-width:0px) and (max-width:599.95px) {
+  .jss97 {
+    display: none;
+  }
+}
+@media (min-width:0px) {
+  .jss98 {
+    display: none;
+  }
+}
+@media (max-width:599.95px) {
+  .jss99 {
+    display: none;
+  }
+}
+@media (min-width:600px) and (max-width:959.95px) {
+  .jss100 {
+    display: none;
+  }
+}
+@media (min-width:600px) {
+  .jss101 {
+    display: none;
+  }
+}
+@media (max-width:959.95px) {
+  .jss102 {
+    display: none;
+  }
+}
+@media (min-width:960px) and (max-width:1279.95px) {
+  .jss103 {
+    display: none;
+  }
+}
+@media (min-width:960px) {
+  .jss104 {
+    display: none;
+  }
+}
+@media (max-width:1279.95px) {
+  .jss105 {
+    display: none;
+  }
+}
+@media (min-width:1280px) and (max-width:1919.95px) {
+  .jss106 {
+    display: none;
+  }
+}
+@media (min-width:1280px) {
+  .jss107 {
+    display: none;
+  }
+}
+@media (max-width:1919.95px) {
+  .jss108 {
+    display: none;
+  }
+}
+@media (min-width:1920px) {
+  .jss109 {
+    display: none;
+  }
+}
+@media (min-width:1920px) {
+  .jss110 {
+    display: none;
+  }
+}
+@media (min-width:0px) {
+  .jss111 {
+    display: none;
+  }
+}
+.MuiButton-root {
+  color: rgba(0, 0, 0, 0.87);
+  padding: 8px 16px;
+  font-size: 0.875rem;
+  min-width: 64px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  min-height: 36px;
+  box-sizing: border-box;
+  line-height: 1.4em;
+  font-family: Calibri,"Gill Sans","Gill Sans MT",Myriad Pro,Myriad,"DejaVu Sans Condensed","Liberation Sans","Nimbus Sans L",Tahoma,Geneva,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight: 500;
+  border-radius: 4px;
+  text-transform: uppercase;
+}
+.MuiButton-root:hover {
+  text-decoration: none;
+  background-color: rgba(0, 0, 0, 0.08);
+}
+.MuiButton-root.MuiButton-disabled {
+  color: rgba(0, 0, 0, 0.26);
+}
+@media (hover: none) {
+  .MuiButton-root:hover {
+    background-color: transparent;
+  }
+}
+.MuiButton-root:hover.MuiButton-disabled {
+  background-color: transparent;
+}
+.MuiButton-label {
+  width: 100%;
+  display: inherit;
+  align-items: inherit;
+  justify-content: inherit;
+}
+.MuiButton-textPrimary {
+  color: #5f9b65;
+}
+.MuiButton-textPrimary:hover {
+  background-color: rgba(95, 155, 101, 0.08);
+}
+@media (hover: none) {
+  .MuiButton-textPrimary:hover {
+    background-color: transparent;
+  }
+}
+.MuiButton-textSecondary {
+  color: #5f9b65;
+}
+.MuiButton-textSecondary:hover {
+  background-color: rgba(95, 155, 101, 0.08);
+}
+@media (hover: none) {
+  .MuiButton-textSecondary:hover {
+    background-color: transparent;
+  }
+}
+.MuiButton-outlined {
+  border: 1px solid rgba(0, 0, 0, 0.23);
+}
+.MuiButton-contained {
+  color: rgba(0, 0, 0, 0.87);
+  box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.2),0px 2px 2px 0px rgba(0, 0, 0, 0.14),0px 3px 1px -2px rgba(0, 0, 0, 0.12);
+  background-color: #e0e0e0;
+}
+.MuiButton-contained.MuiButton-focusVisible {
+  box-shadow: 0px 3px 5px -1px rgba(0, 0, 0, 0.2),0px 6px 10px 0px rgba(0, 0, 0, 0.14),0px 1px 18px 0px rgba(0, 0, 0, 0.12);
+}
+.MuiButton-contained:active {
+  box-shadow: 0px 5px 5px -3px rgba(0, 0, 0, 0.2),0px 8px 10px 1px rgba(0, 0, 0, 0.14),0px 3px 14px 2px rgba(0, 0, 0, 0.12);
+}
+.MuiButton-contained.MuiButton-disabled {
+  color: rgba(0, 0, 0, 0.26);
+  box-shadow: none;
+  background-color: rgba(0, 0, 0, 0.12);
+}
+.MuiButton-contained:hover {
+  background-color: #d5d5d5;
+}
+@media (hover: none) {
+  .MuiButton-contained:hover {
+    background-color: #e0e0e0;
+  }
+}
+.MuiButton-contained:hover.MuiButton-disabled {
+  background-color: rgba(0, 0, 0, 0.12);
+}
+.MuiButton-containedPrimary {
+  color: #fff;
+  background-color: #5f9b65;
+}
+.MuiButton-containedPrimary:hover {
+  background-color: rgb(66, 108, 70);
+}
+@media (hover: none) {
+  .MuiButton-containedPrimary:hover {
+    background-color: #5f9b65;
+  }
+}
+.MuiButton-containedSecondary {
+  color: #fff;
+  background-color: #5f9b65;
+}
+.MuiButton-containedSecondary:hover {
+  background-color: rgb(66, 108, 70);
+}
+@media (hover: none) {
+  .MuiButton-containedSecondary:hover {
+    background-color: #5f9b65;
+  }
+}
+.MuiButton-fab {
+  width: 56px;
+  height: 56px;
+  padding: 0;
+  min-width: 0;
+  box-shadow: 0px 3px 5px -1px rgba(0, 0, 0, 0.2),0px 6px 10px 0px rgba(0, 0, 0, 0.14),0px 1px 18px 0px rgba(0, 0, 0, 0.12);
+  border-radius: 50%;
+}
+.MuiButton-fab:active {
+  box-shadow: 0px 7px 8px -4px rgba(0, 0, 0, 0.2),0px 12px 17px 2px rgba(0, 0, 0, 0.14),0px 5px 22px 4px rgba(0, 0, 0, 0.12);
+}
+.MuiButton-extendedFab {
+  width: auto;
+  height: 48px;
+  padding: 0 16px;
+  min-width: 48px;
+  border-radius: 24px;
+}
+.MuiButton-colorInherit {
+  color: inherit;
+}
+.MuiButton-mini {
+  width: 40px;
+  height: 40px;
+}
+.MuiButton-sizeSmall {
+  padding: 7px 8px;
+  min-width: 64px;
+  font-size: 0.8125rem;
+  min-height: 32px;
+}
+.MuiButton-sizeLarge {
+  padding: 8px 24px;
+  min-width: 112px;
+  font-size: 0.9375rem;
+  min-height: 40px;
+}
+.MuiButton-fullWidth {
+  width: 100%;
+}
+.MuiTooltip-popper {
+  z-index: 1500;
+  opacity: 0.9;
+}
+.MuiTooltip-tooltip {
+  color: #fff;
+  padding: 4px 8px;
+  font-size: 0.625rem;
+  max-width: 300px;
+  font-family: Calibri,"Gill Sans","Gill Sans MT",Myriad Pro,Myriad,"DejaVu Sans Condensed","Liberation Sans","Nimbus Sans L",Tahoma,Geneva,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  line-height: 1.4em;
+  border-radius: 4px;
+  background-color: #616161;
+}
+.MuiTooltip-touch {
+  padding: 8px 16px;
+  font-size: 0.875rem;
+  line-height: 1.14286em;
+}
+.MuiTooltip-tooltipPlacementLeft {
+  margin: 0 24px ;
+  transform-origin: right center;
+}
+@media (min-width:600px) {
+  .MuiTooltip-tooltipPlacementLeft {
+    margin: 0 14px;
+  }
+}
+.MuiTooltip-tooltipPlacementRight {
+  margin: 0 24px;
+  transform-origin: left center;
+}
+@media (min-width:600px) {
+  .MuiTooltip-tooltipPlacementRight {
+    margin: 0 14px;
+  }
+}
+.MuiTooltip-tooltipPlacementTop {
+  margin: 24px 0;
+  transform-origin: center bottom;
+}
+@media (min-width:600px) {
+  .MuiTooltip-tooltipPlacementTop {
+    margin: 14px 0;
+  }
+}
+.MuiTooltip-tooltipPlacementBottom {
+  margin: 24px 0;
+  transform-origin: center top;
+}
+@media (min-width:600px) {
+  .MuiTooltip-tooltipPlacementBottom {
+    margin: 14px 0;
+  }
+}
+.Layout-main {
+  margin: 64px auto 15px auto;
+  max-width: 1200px;
+}
+@media (max-width:959.95px) {
+  .Layout-main {
+    margin-top: 20px;
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+}
+p {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+p:first-of-type {
+  margin-top: 0;
+}
+p:last-of-type {
+  margin-bottom: 0;
+}
+.Header-appBar {
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05), 0 1px 1px rgba(0, 0, 0, 0.05);
+}
+.Header-root {
+  flex-grow: 1;
+}
+@media print {
+  .Header-root {
+    display: none;
+  }
+}
+.Header-title {
+  flex: 1;
+}
+.Header-titleLink {
+  top: 3px;
+  color: rgba(0, 0, 0, 0.87);
+  position: relative;
+  font-size: 19px;
+  vertical-align: middle;
+}
+.Header-titleLink:hover, .Header-titleLink:focus, .Header-titleLink:active {
+  opacity: 0.7;
+  text-decoration: none;
+}
+.Header-subtitle {
+  margin-left: 1em;
+  border-left: 1px solid #bdbdbd;
+  padding-left: 1em;
+  text-transform: uppercase;
+}
+.Header-menuButton {
+  margin-left: -8px;
+  margin-right: 8px;
+}
+.Header-rightHeaderItems {
+  display: flex;
+  margin-right: -8px;
+}
+.VoteButton-root {
+  color: #bdbdbd;
+  width: initial;
+  height: initial;
+  font-size: inherit;
+}
+.VoteButton-root:hover {
+  background-color: transparent;
+}
+.VoteButton-smallArrow {
+  opacity: 0.6;
+  font-size: 50%;
+}
+.VoteButton-right {
+  transform: rotate(-270deg);
+}
+.VoteButton-down {
+  transform: rotate(-180deg);
+}
+.VoteButton-left {
+  transform: rotate(-90deg);
+}
+.VoteButton-bigArrow {
+  top: -70%;
+  opacity: 0;
+  position: absolute;
+  font-size: 82%;
+  transition: opacity 1000ms cubic-bezier(0.74, -0.01, 1, 1) 0ms;
+}
+.VoteButton-bigArrowCompleted {
+  top: -75%;
+  font-size: 90%;
+}
+.VoteButton-entering {
+  opacity: 1;
+}
+.VoteButton-entered {
+  opacity: 1;
+}
+.VoteButton-exiting {
+  transition: opacity 150ms cubic-bezier(0.74, -0.01, 1, 1) 0ms;
+}
+.ErrorBoundary-errorText {
+  color: #bf360c;
+}
+.LinkPostMessage-root {
+  color: #757575;
+  font-size: .9em;
+  font-family: warnock-pro,Palatino,"Palatino Linotype","Palatino LT STD","Book Antiqua",Georgia,serif;
+  margin-bottom: 16px;
+  link-underline-position: 72%;
+}
+.UsersAccountMenu-userButton {
+  opacity: 0.8;
+  font-size: 14px;
+  font-weight: 400;
+}
+.PostsPage-header {
+  max-width: 650px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40px;
+}
+.PostsPage-title {
+  color: rgba(0, 0, 0, 0.87);
+  margin: 45px 0;
+  font-size: 3.5rem;
+  text-align: center;
+  margin-top: 1.2em;
+  font-weight: 400;
+  font-family: warnock-pro,Palatino,"Palatino Linotype","Palatino LT STD","Book Antiqua",Georgia,serif;
+  line-height: 1.30357em;
+  margin-left: -.02em;
+  letter-spacing: -.02em;
+  link-underline-position: 72%;
+}
+.PostsPage-voteTop {
+  display: flex;
+  position: relative;
+  font-size: 35px;
+  margin-top: -35px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+.PostsPage-voteDivider {
+  width: 80px;
+  border-top-color: #757575;
+  -webkit-margin-end: 0;
+  -webkit-margin-after: 0;
+  -webkit-margin-start: 0;
+  -webkit-margin-before: 0;
+}
+.PostsPage-author {
+  margin-top: 18px;
+  text-align: center;
+  font-family: warnock-pro,Palatino,"Palatino Linotype","Palatino LT STD","Book Antiqua",Georgia,serif;
+  link-underline-position: 72%;
+}
+.PostsPage-mainContent {
+  position: relative;
+  max-width: 650px;
+  font-size: 20px;
+  min-height: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40px;
+}
+.PostsPage-postContent {
+  color: rgba(0, 0, 0, 0.87);
+  font-size: 1.4rem;
+  font-weight: 400;
+  font-family: warnock-pro,Palatino,"Palatino Linotype","Palatino LT STD","Book Antiqua",Georgia,serif;
+  line-height: 2rem;
+  link-underline-position: 72%;
+}
+.PostsPage-postContent pre {
+  border: solid 1px #e0e0e0;
+  margin: 1em 0;
+  padding: 1rem;
+  white-space: pre-wrap;
+  border-radius: 5px;
+  background-color: #f5f5f5;
+}
+.PostsPage-postContent code {
+  padding: 3px;
+  font-size: .9em;
+  font-family: "Liberation Mono",Menlo,Courier,monospace;
+  font-weight: 400;
+  line-height: 1.42;
+  border-radius: 2px;
+  background-color: #f5f5f5;
+}
+.PostsPage-postContent blockquote {
+  color: rgba(0, 0, 0, 0.87);
+  margin: 0;
+  font-size: 1.4rem;
+  font-family: warnock-pro,Palatino,"Palatino Linotype","Palatino LT STD","Book Antiqua",Georgia,serif;
+  line-height: 2rem;
+  border-left: solid 3px #e0e0e0;
+  padding-top: 16px;
+  font-weight: 400;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-bottom: 16px;
+  link-underline-position: 72%;
+}
+.PostsPage-postContent li {
+  color: rgba(0, 0, 0, 0.87);
+  font-size: 1.4rem;
+  font-weight: 400;
+  font-family: warnock-pro,Palatino,"Palatino Linotype","Palatino LT STD","Book Antiqua",Georgia,serif;
+  line-height: 2rem;
+  margin-bottom: .5rem;
+  link-underline-position: 72%;
+}
+.PostsPage-postContent h1 {
+  color: #424242;
+  font-size: 2.8rem;
+  margin-top: 1em;
+  font-weight: 400;
+  font-family: warnock-pro,Palatino,"Palatino Linotype","Palatino LT STD","Book Antiqua",Georgia,serif;
+  line-height: 1.13333em;
+  margin-left: -.02em;
+  link-underline-position: 72%;
+}
+.PostsPage-postContent h2 {
+  color: #424242;
+  font-size: 2rem;
+  margin-top: 1em;
+  font-weight: 400;
+  font-family: warnock-pro,Palatino,"Palatino Linotype","Palatino LT STD","Book Antiqua",Georgia,serif;
+  line-height: 1.20588em;
+  link-underline-position: 72%;
+}
+.PostsPage-postContent h3 {
+  color: #424242;
+  font-size: 2rem;
+  margin-top: 1em;
+  font-weight: 400;
+  font-family: warnock-pro,Palatino,"Palatino Linotype","Palatino LT STD","Book Antiqua",Georgia,serif;
+  line-height: 1.20588em;
+  link-underline-position: 72%;
+}
+.PostsPage-postContent h4 {
+  color: rgba(0, 0, 0, 0.87);
+  font-size: 1.4rem;
+  font-weight: 600;
+  font-family: warnock-pro,Palatino,"Palatino Linotype","Palatino LT STD","Book Antiqua",Georgia,serif;
+  line-height: 2rem;
+  link-underline-position: 72%;
+}
+.PostsPage-postContent img {
+  max-width: 100%;
+}
+.PostsPage-postContent a, .PostsPage-postContent a:hover, .PostsPage-postContent a:focus, .PostsPage-postContent a:active, .PostsPage-postContent a:visited {
+  color: #5f9b65;
+  text-shadow: 
+      .03em 0 #fff,
+      -.03em 0 #fff,
+      0 .03em #fff,
+      0 -.03em #fff,
+      .06em 0 #fff,
+      -.06em 0 #fff,
+      .09em 0 #fff,
+      -.09em 0 #fff,
+      .12em 0 #fff,
+      -.12em 0 #fff,
+      .15em 0 #fff,
+      -.15em 0 #fff
+    ;
+  background-size: 4px 1px;
+  text-decoration: none;
+  background-image: linear-gradient(to right, #5f9b65 72%, transparent 72%);
+  background-repeat: repeat-x;
+  background-position: 0% 72%;
+}
+.PostsPage-postContent a *, .PostsPage-postContent a *:after, .PostsPage-postContent a:after, .PostsPage-postContent a *:before, .PostsPage-postContent a:before, .PostsPage-postContent a:hover *, .PostsPage-postContent a:hover *:after, .PostsPage-postContent a:hover:after, .PostsPage-postContent a:hover *:before, .PostsPage-postContent a:hover:before, .PostsPage-postContent a:focus *, .PostsPage-postContent a:focus *:after, .PostsPage-postContent a:focus:after, .PostsPage-postContent a:focus *:before, .PostsPage-postContent a:focus:before, .PostsPage-postContent a:active *, .PostsPage-postContent a:active *:after, .PostsPage-postContent a:active:after, .PostsPage-postContent a:active *:before, .PostsPage-postContent a:active:before, .PostsPage-postContent a:visited *, .PostsPage-postContent a:visited *:after, .PostsPage-postContent a:visited:after, .PostsPage-postContent a:visited *:before, .PostsPage-postContent a:visited:before {
+  text-shadow: none;
+}
+.PostsPage-postContent pre a, .PostsPage-postContent pre a:visited, .PostsPage-postContent pre a:hover, .PostsPage-postContent pre a:focus, .PostsPage-postContent pre a:active {
+  color: #5f9b65;
+  text-shadow: 
+      .03em 0 #f5f5f5,
+      -.03em 0 #f5f5f5,
+      0 .03em #f5f5f5,
+      0 -.03em #f5f5f5,
+      .06em 0 #f5f5f5,
+      -.06em 0 #f5f5f5,
+      .09em 0 #f5f5f5,
+      -.09em 0 #f5f5f5,
+      .12em 0 #f5f5f5,
+      -.12em 0 #f5f5f5,
+      .15em 0 #f5f5f5,
+      -.15em 0 #f5f5f5
+    ;
+  background-size: 4px 1px;
+  text-decoration: none;
+  background-image: linear-gradient(to right, #5f9b65 72%, transparent 72%);
+  background-repeat: repeat-x;
+  background-position: 0% 97%;
+}
+.PostsPage-postContent pre a *, .PostsPage-postContent pre a *:after, .PostsPage-postContent pre a:after, .PostsPage-postContent pre a *:before, .PostsPage-postContent pre a:before, .PostsPage-postContent pre a:visited *, .PostsPage-postContent pre a:visited *:after, .PostsPage-postContent pre a:visited:after, .PostsPage-postContent pre a:visited *:before, .PostsPage-postContent pre a:visited:before, .PostsPage-postContent pre a:hover *, .PostsPage-postContent pre a:hover *:after, .PostsPage-postContent pre a:hover:after, .PostsPage-postContent pre a:hover *:before, .PostsPage-postContent pre a:hover:before, .PostsPage-postContent pre a:focus *, .PostsPage-postContent pre a:focus *:after, .PostsPage-postContent pre a:focus:after, .PostsPage-postContent pre a:focus *:before, .PostsPage-postContent pre a:focus:before, .PostsPage-postContent pre a:active *, .PostsPage-postContent pre a:active *:after, .PostsPage-postContent pre a:active:after, .PostsPage-postContent pre a:active *:before, .PostsPage-postContent pre a:active:before {
+  text-shadow: none;
+}
+.PostsPage-metadata {
+  font-family: warnock-pro,Palatino,"Palatino Linotype","Palatino LT STD","Book Antiqua",Georgia,serif;
+  link-underline-position: 72%;
+}
+.PostsPage-subtitle {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: .5rem;
+}
+.PostsPage-voteBottom {
+  display: flex;
+  position: relative;
+  font-size: 45px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+.PostsPage-postFooter {
+  margin-bottom: 30px;
+}
+.PostsPage-draft {
+  color: rgb(127, 175, 131);
+}
+.PostsVote-upvote {
+  margin-bottom: -22px;
+}
+.PostsVote-downvote {
+  margin-top: -25px;
+}
+.PostsVote-voteScores {
+  margin: 25% 15% 15% 15%;
+}
+.PostsVote-voteScore {
+  color: #9e9e9e;
+  z-index: 1;
+  position: relative;
+  font-size: 55%;
+  padding-left: 1px;
+}
+.PostsVote-secondaryVoteScore {
+  font-size: 35%;
+  margin-bottom: 2px;
+}
+.PostsVote-voteBlock {
+  width: 50px;
+}
+.PostsVote-tooltip {
+  color: #9e9e9e;
+  font-size: 1rem;
+  transition: opacity 150ms cubic-bezier(0.4, 0, 1, 1) 0ms;
+  margin-left: 0;
+  background-color: white;
+}
+.SunshineSidebar-root {
+  top: 0;
+  right: 0;
+  width: 250px;
+  z-index: 1000;
+  display: none;
+  position: absolute;
+  margin-top: 63px;
+  background: white;
+}
+@media (min-width:1280px) {
+  .SunshineSidebar-root {
+    display: block;
+  }
+}
+.SunshineSidebar-toggle {
+  float: right;
+  color: #bdbdbd;
+  margin: 12px;
+  cursor: pointer;
+  z-index: 1001;
+  position: relative;
+}</style><script type="text/inject-data">%7B%22dehydrated-initial-data%22%3A%22%7B%5C%22messages%5C%22%3A%5B%5D%2C%5C%22postsViewed%5C%22%3A%5B%5D%2C%5C%22apollo%5C%22%3A%7B%5C%22data%5C%22%3A%7B%5C%22ROOT_QUERY%5C%22%3A%7B%5C%22currentUser%5C%22%3Anull%2C%5C%22PostsSingle(%7B%5C%5C%5C%22documentId%5C%5C%5C%22%3A%5C%5C%5C%22fpN3mFuGuR97xqyPx%5C%5C%5C%22%2C%5C%5C%5C%22enableCache%5C%5C%5C%22%3Atrue%7D)%5C%22%3A%7B%5C%22type%5C%22%3A%5C%22id%5C%22%2C%5C%22id%5C%22%3A%5C%22PostfpN3mFuGuR97xqyPx%5C%22%2C%5C%22generated%5C%22%3Afalse%7D%7D%2C%5C%22PostfpN3mFuGuR97xqyPx%5C%22%3A%7B%5C%22__typename%5C%22%3A%5C%22Post%5C%22%2C%5C%22_id%5C%22%3A%5C%22fpN3mFuGuR97xqyPx%5C%22%2C%5C%22title%5C%22%3A%5C%22Hypothesis%20about%20how%20social%20stuff%20works%20and%20arises%5C%22%2C%5C%22url%5C%22%3Anull%2C%5C%22slug%5C%22%3A%5C%22hypothesis-about-how-social-stuff-works-and-arises%5C%22%2C%5C%22postedAt%5C%22%3A%5C%222018-09-04T22%3A47%3A38.805Z%5C%22%2C%5C%22createdAt%5C%22%3Anull%2C%5C%22sticky%5C%22%3Afalse%2C%5C%22metaSticky%5C%22%3Afalse%2C%5C%22status%5C%22%3A2%2C%5C%22frontpageDate%5C%22%3A%5C%222018-09-05T17%3A53%3A12.422Z%5C%22%2C%5C%22meta%5C%22%3Afalse%2C%5C%22excerpt%5C%22%3A%5C%22%3Ch2%3EPreface%3C%2Fh2%3E%5C%5Cn%3Cp%3E(I%20can't%20be%20bothered%20to%20write%20a%20real%20Serious%20Post%2C%20so%20I'm%20just%20going%20to%20write%20this%20like%20a%20tumblr%20post.%20y'all%20are%20tryhards%20with%20writing%20and%20it's%20boooooring%2C%20and%20also%20I%20have%20a%20lot%20of%20tangentially%20related%20stuff%20to%20say.%20Pls%20critique%20based%20on%20content.%20If%20something%20is%20unclear%2C%20quote%20it%20and%20ask%20for%20clarification)%3C%2Fp%3E%5C%5Cn%3Cp%3EAlright%20so%2C%20this%20is%20intended%20to%20be%20an%20explicit%20description%20that%2C%20hopefully...%20(Read%20More)%3C%2Fp%3E%5C%5Cn%5C%22%2C%5C%22htmlHighlight%5C%22%3A%5C%22%3Ch2%3EPreface%3C%2Fh2%3E%5C%5Cn%3Cp%3E(I%20can't%20be%20bothered%20to%20write%20a%20real%20Serious%20Post%2C%20so%20I'm%20just%20going%20to%20write%20this%20like%20a%20tumblr%20post.%20y'all%20are%20tryhards%20with%20writing%20and%20it's%20boooooring%2C%20and%20also%20I%20have%20a%20lot%20of%20tangentially%20related%20stuff%20to%20say.%20Pls%20critique%20based%20on%20content.%20If%20something%20is%20unclear%2C%20quote%20it%20and%20ask%20for%20clarification)%3C%2Fp%3E%5C%5Cn%3Cp%3EAlright%20so%2C%20this%20is%20intended%20to%20be%20an%20explicit%20description%20that%2C%20hopefully%2C%20could%20be%20turned%20into%20an%20actual%20program%2C%20that%20would%20generate%20the%20same%20low-level%20behavior%20as%20the%20way%20social%20stuff%20arises%20from%20brains.%20Any%20divergence%20is%20a%20mistake%2C%20and%20should%20be%20called%20out%20and%20corrected.%20it%20is%20not%20intended%20to%20be%20a%20%3Cem%3Efake%3C%2Fem%3E%20framework.%20it's%20either%20actually%20a%20description%20of%20parts%20of%20the%20causal%20graph%20that%20are%20above%20a%20threshold%20level%20of%20impact%2C%20or%20it's%20wrong.%20It's%20hopefully%20also%20a%20good%20framework.%20I'm%20pretty%20sure%20it's%20wrong%20in%20important%20ways%2C%20I'd%20like%20to%20hear%20what%20people%20suggest%20to%20improve%20it.%3C%2Fp%3E%5C%5Cn%3Cp%3ERecommended%20knowledge%3A%20vague%20understanding%20of%20what's%20known%20about%20how%20the%20cortex%20sheet%20implements%20fast%20inference%2Fhow%20%26quot%3Bsystem%201%26quot%3B%20works%2C%20how%20human%20reward%20works%2C%20etc%2C%20and%2For%20how%20ANNs%20work%2C%20how%20reinforcement%20learning%20works%2C%20etc.%3C%2Fp%3E%5C%5Cn%3Cp%3EThe%20hope%20is%20that%20the%20computational%20model%20would%20generate%20social%20stuff%20we%20actually%20see%2C%20as%20high-probability%20special%20cases%20-%20in%20semi-technical%20terms%20you%20can%20ignore%20if%20you%20want%2C%20I'm%20hopeful%20it's%20a%20good%20causal%2Fgenerative%20model%2C%20aka%20that%20it%20allows%20compressing%20common%20social%20patterns%20with%20at%20least%20somewhat%20accurate%20causal%20graphs.%3C%2Fp%3E%5C%5Cn%5C%22%2C%5C%22viewCount%5C%22%3Anull%2C%5C%22clickCount%5C%22%3Anull%2C%5C%22userId%5C%22%3A%5C%225iPRfSnjako6iM6LG%5C%22%2C%5C%22user%5C%22%3A%7B%5C%22type%5C%22%3A%5C%22id%5C%22%2C%5C%22id%5C%22%3A%5C%22User5iPRfSnjako6iM6LG%5C%22%2C%5C%22generated%5C%22%3Afalse%7D%2C%5C%22coauthors%5C%22%3A%5B%5D%2C%5C%22categories%5C%22%3A%5B%5D%2C%5C%22commentCount%5C%22%3A14%2C%5C%22currentUserVotes%5C%22%3A%5B%5D%2C%5C%22baseScore%5C%22%3A31%2C%5C%22unlisted%5C%22%3Afalse%2C%5C%22score%5C%22%3A0.034022544883489665%2C%5C%22feedId%5C%22%3Anull%2C%5C%22feedLink%5C%22%3Anull%2C%5C%22feed%5C%22%3Anull%2C%5C%22lastVisitedAt%5C%22%3Anull%2C%5C%22lastCommentedAt%5C%22%3A%5C%222018-09-07T12%3A32%3A26.941Z%5C%22%2C%5C%22canonicalCollectionSlug%5C%22%3Anull%2C%5C%22curatedDate%5C%22%3Anull%2C%5C%22wordCount%5C%22%3A1632%2C%5C%22commentsLocked%5C%22%3Anull%2C%5C%22groupId%5C%22%3Anull%2C%5C%22location%5C%22%3Anull%2C%5C%22googleLocation%5C%22%3Anull%2C%5C%22mongoLocation%5C%22%3Anull%2C%5C%22startTime%5C%22%3Anull%2C%5C%22endTime%5C%22%3Anull%2C%5C%22facebookLink%5C%22%3Anull%2C%5C%22website%5C%22%3Anull%2C%5C%22contactInfo%5C%22%3Anull%2C%5C%22isEvent%5C%22%3Anull%2C%5C%22reviewedByUserId%5C%22%3A%5C%22EQNTWXLKMeWMp2FQS%5C%22%2C%5C%22suggestForCuratedUserIds%5C%22%3Anull%2C%5C%22suggestForCuratedUsernames%5C%22%3Anull%2C%5C%22reviewForCuratedUserId%5C%22%3A%5C%22XtphY3uYHwruKqDyG%5C%22%2C%5C%22af%5C%22%3Anull%2C%5C%22afBaseScore%5C%22%3Anull%2C%5C%22afCommentCount%5C%22%3Anull%2C%5C%22afLastCommentedAt%5C%22%3A%5C%222018-09-04T21%3A37%3A44.818Z%5C%22%2C%5C%22afSticky%5C%22%3Afalse%2C%5C%22voteCount%5C%22%3A14%2C%5C%22lastEditedAs%5C%22%3A%5C%22markdown%5C%22%2C%5C%22body%5C%22%3A%5C%22Preface%5C%5Cn-------%5C%5Cn%5C%5Cn(I%20can't%20be%20bothered%20to%20write%20a%20real%20Serious%20Post%2C%20so%20I'm%20just%20going%20to%20write%20this%20like%20a%20tumblr%20post.%20y'all%20are%20tryhards%20with%20writing%20and%20it's%20boooooring%2C%20and%20also%20I%20have%20a%20lot%20of%20tangentially%20related%20stuff%20to%20say.%20Pls%20critique%20based%20on%20content.%20If%20something%20is%20unclear%2C%20quote%20it%20and%20ask%20for%20clarification)%5C%5Cn%5C%5CnAlright%20so%2C%20this%20is%20intended%20to%20be%20an%20explicit%20description%20that%2C%20hopefully%2C%20could%20be%20turned%20into%20an%20actual%20program%2C%20that%20would%20generate%20the%20same%20low-level%20behavior%20as%20the%20way%20social%20stuff%20arises%20from%20brains.%20Any%20divergence%20is%20a%20mistake%2C%20and%20should%20be%20called%20out%20and%20corrected.%20it%20is%20not%20intended%20to%20be%20a%20_fake_%20framework.%20it's%20either%20actually%20a%20description%20of%20parts%20of%20the%20causal%20graph%20that%20are%20above%20a%20threshold%20level%20of%20impact%2C%20or%20it's%20wrong.%20It's%20hopefully%20also%20a%20good%20framework.%20I'm%20pretty%20sure%20it's%20wrong%20in%20important%20ways%2C%20I'd%20like%20to%20hear%20what%20people%20suggest%20to%20improve%20it.%5C%5Cn%5C%5CnRecommended%20knowledge%3A%20vague%20understanding%20of%20what's%20known%20about%20how%20the%20cortex%20sheet%20implements%20fast%20inference%2Fhow%20%5C%5C%5C%22system%201%5C%5C%5C%22%20works%2C%20how%20human%20reward%20works%2C%20etc%2C%20and%2For%20how%20ANNs%20work%2C%20how%20reinforcement%20learning%20works%2C%20etc.%5C%5Cn%5C%5CnThe%20hope%20is%20that%20the%20computational%20model%20would%20generate%20social%20stuff%20we%20actually%20see%2C%20as%20high-probability%20special%20cases%20-%20in%20semi-technical%20terms%20you%20can%20ignore%20if%20you%20want%2C%20I'm%20hopeful%20it's%20a%20good%20causal%2Fgenerative%20model%2C%20aka%20that%20it%20allows%20compressing%20common%20social%20patterns%20with%20at%20least%20somewhat%20accurate%20causal%20graphs.%5C%5Cn%5C%5CnThe%20thing%5C%5Cn-------%5C%5Cn%5C%5CnSo%20we're%20making%20an%20executable%20model%20of%20part%20of%20the%20brain%2C%20so%20I'm%20going%20to%20write%20it%20as%20a%20series%20of%20changes%20I'm%20going%20to%20make.%20(I'm%20uncomfortable%20with%20the%20structured-ness%20of%20this%2C%20if%20anyone%20has%20any%20ideas%20for%20how%20to%20generalize%20it%2C%20that%20would%20be%20helpful.)%5C%5Cn%5C%5Cn1.%20To%20start%20our%20brain%20thingy%20off%2C%20add%20**direct%20preferences**%3A%20experiences%20our%20new%20brain%20wants%20to%20have.%20Make%20negative%20things%20much%20worse%2C%20maybe%20around%205x%2C%20than%20good%20things.%5C%5Cn%20%20%20%20-%20From%20the%20inside%2C%20this%20is%20an%20experience%20that%20in-the-moment%20is%20enjoyable%2Fsatisfying%2Fjuicy%2Ffun%2Frewarding%2Fattractive%20to%20you%2Fthrilling%2Fetc%20etc.%20Basic%20stuff%20like%20drinking%20water%2C%20having%20snuggles%2C%20being%20accepted%2C%20etc%20-%20preferences%20that%20are%20nature%20and%20not%20nurture.%5C%5Cn%20%20%20%20-%20From%20the%20outside%2C%20this%20is%20something%20like%20the%20experience%20producing%20dopamine%2Fserotonin%2Fendorphin%2Foxytocin%2Fetc%20in%2C%20like%2C%20a%20young%20child%20or%20something%20-%20ie%2C%20it's%20*natively*%20rewarding.%5C%5Cn%20%20%20%20-%20In%20the%20implementable%20form%20of%20this%20model%2C%20our%20reinforcement%20learner%20needs%20a%20state-reward%20function.%5C%5Cn%20%20%20%20-%20%20Social%20sort%20of%20exists%20here%2C%20but%20only%20in%20the%20form%20that%20if%20an%20agent%20can%20give%20something%20you%20want%2C%20such%20as%20snuggles%2C%20then%20you%20want%20that%20interaction.%5C%5Cn2.%20Then%2C%20make%20the%20direct%20preferences%20update%20by%20**pulling%20the%20rewards%20back%20through%20time**.%5C%5Cn%20%20%20%20-%20From%20the%20inside%2C%20this%20is%20the%20experience%20of%20things%20that%20lead%20to%20rewarding%20things%20becoming%20rewarding%20themselves%20-%20operant%20conditioning%20and%20preferences%20that%20come%20from%20nurture%2C%20eg%20complex%20flavor%20preferences%2C%20room%20layout%20preferences%2C%20preferences%20for%20stability%2C%20preferences%20for%20hygiene%20being%20easy%2C%20preferences%20for%20stability%2C%20etc.%5C%5Cn%20%20%20%20-%20From%20the%20outside%2C%20this%20is%20how%20dopamine%20release%20and%20such%20happens%20when%20a%20stimulus%20is%20presented%20that%20indicates%20an%20increase%20in%20future%20reward%5C%5Cn%20%20%20%20-%20In%20the%20implementable%20form%20of%20this%20model%2C%20this%20is%20any%20temporal%20difference%20learning%20technique%2C%20such%20as%20q%20learning%5C%5Cn%20%20%20%20-%20Social%20exists%20more%20here%2C%20in%20that%20our%20agent%20learns%20which%20agents%20reliably%20produce%20experiences%20are%20level-1%20preferred%20vs%20dispreferred.%20If%20there's%20a%20level-1%20boring%2Fdragging%2Fpainful%2Fetc%20thing%20another%20agent%20does%2C%20it%20*might*%20result%20in%20an%20update%20towards%20lower%20probability%20of%20good%20interactions%20with%20that%20agent%20in%20that%20context.%20If%20there's%20a%20level-1%20fun%2Fgood%2Fsatisfying%2Fetc%20thing%20another%20agent%20does%2C%20it%20*might*%20result%20in%20an%20update%20towards%20that%20agent%20being%20good%20to%20interact%20with%20in%20that%20context%20and%20maybe%20in%20others.%5C%5Cn3.%20Then%2C%20modify%20preferences%20to%20deal%20with%20**one-on-one%20interactions%20with%20other%20agents**%3A%5C%5Cn%20%20%20%20-%20Add%20tracking%20of%20retribution%20for%20other%20agents%5C%5Cn%20%20%20%20%20%20%20%20-%20From%20the%20inside%2C%20this%20is%20feeling%20that%20you%20are%20your%20own%20person%2C%20getting%20angry%20if%20someone%20does%20something%20you%20don't%20like%2C%20and%20becoming%20less%20angry%20if%20you%20feel%20that%20they're%20actually%20sorry.%20%5C%5Cn%20%20%20%20%20%20%20%20-%20From%20the%20outside%2C%20this%20is%20people%20being%20quick%20to%20anger%20and%20not%20thinking%20things%20through%20before%20getting%20angry%20about%20Bad%20Things.%20something%20about%20SNS%20as%20well.%20I'm%20less%20familiar%20with%20neural%20implementation%20of%20anger.%5C%5Cn%20%20%20%20%20%20%20%20-%20To%20implement%3A%20Track%20retribution-worthiness%20of%20the%20other%20agent.%20Increase%20it%20if%20the%20other%20agent%20does%20something%20you%20consider%20retribution-worthy.%20Initialize%20what's%20retribution-worthy%20to%20be%20%5C%5C%5C%22anything%20that%20hurts%20me%5C%5C%5C%22.%20Initialize%20retribution-worthiness%20of%20other%20agents%20to%20be%20zero.%20Decrease%20retribution-worthiness%20once%20retribution%20has%20been%20enacted%20and%20accepted%20as%20itself%20not%20retribution-worthy%20by%20the%20other%20agent.%5C%5Cn%20%20%20%20-%20Track%20deservingness%2Fcaring-for%20other%20agents.%20Keep%20decreasing%20an%20agents'%20deservingness%20open%20as%20an%20option%20for%20how%20to%20enact%20retribution.%5C%5Cn%20%20%20%20%20%20%20%20-%20From%20the%20inside%2C%20this%20is%20the%20feeling%20that%20you%20want%20good%20for%20other%20people%2Furge%20to%20be%20fair.%20It%20is%20not%20the%20same%20thing%20as%20empathy.%5C%5Cn%20%20%20%20%20%20%20%20-%20From%20the%20outside%2C%20this%20is%20people%20naturally%20having%20moral%20sysems.%5C%5Cn%20%20%20%20%20%20%20%20-%20To%20implement%2C%20have%20a%20world%20model%20that%20allows%20inferring%20other%20agents's%20locations%20and%20preferences%2C%20and%20mix%20their%20preferences%20with%20yours%20a%20little%2C%20or%20something.%20correct%20implementation%20is%20safe%20ai%5C%5Cn%20%20%20%20-%20Track%20physical%20power-over-the-world%20of%20you%20vs%20other%20agents%5C%5Cn%20%20%20%20%20%20%20%20-%20From%20the%20inside%2C%20this%20is%20the%20feeling%20that%20someone%20else%20is%20more%20powerful%20or%20that%20you%20are%20more%20powerful.%20(fixme%3A%20Also%20something%20about%20the%20impro%20thing%20goes%20here%3F%20how%20to%20integrate%3F)%5C%5Cn%20%20%20%20%20%20%20%20-%20From%20the%20outside%2C%20this%20is%20animals'%20hardcoded%20tracking%20of%20threat%2Fpower%20signaling%20-%20I'd%20expect%20to%20find%20it%20at%20least%20in%20other%20mammals%5C%5Cn%20%20%20%20%20%20%20%20-%20To%20implement%2C%20hand-train%20a%20pattern%20matcher%20on%20%5BThreatening%20vs%20Nonthreatening%5D%20data%2C%20and%20provide%20this%20as%20a%20feature%20to%20reinforcement%20learning%3B%20also%20increase%20deservingness%2Fdecrease%20retributionworthiness%20for%20agents%20that%20have%20high%20power%2C%20because%20they%20are%20able%20to%20force%20this%2C%20so%20treat%20it%20as%20an%20acausal%20trade%5C%5Cn4.%20Then%2C%20**track%20other%20agent's%20beliefs**%20to%20iterate%20this%20over%20a%20social%20graph%5C%5Cn%20%20%20%20-%20Track%20other%20agent's%20coalition-building%20power%2C%20update%20the%20power-over-the-world%20dominance%20based%20on%20an%20agent's%20ability%20to%20build%20coalitions%20and%20harness%20other%20agent's%20power.%5C%5Cn%20%20%20%20%20%20%20%20-%20From%20the%20inside%2C%20this%20is%20the%20feeling%20that%20someone%20else%20has%20a%20lot%20of%20friends%2Fis%20popular%2C%20or%20that%20you%20have%20a%20lot%20of%20friends%2Fare%20popular%5C%5Cn%20%20%20%20-%20Track%20other%20agents'%20verbal%20trustworthiness%2C%20update%20your%20models%20on%20level%202%20directly%20from%20trusted%20agents'%20statements%20of%20fact%5C%5Cn%20%20%20%20-%20Track%20other%20agents'%20retribution%20lists%20to%20form%20consensus%20on%20what%20is%20retribution-worthy%3B%20update%20what%20you%20treat%20as%20retribution-worthy%20off%20of%20what%20other%20agents%20will%20punish%20you%20for%20not%20punishing%5C%5Cn%20%20%20%20-%20Track%20other%20agents'%20retribution%20status%20and%20deservingness%20among%20other%20agents%2C%20in%20case%20of%20coordinated%20punishment.%5C%5Cn%20%20%20%20-%20Predict%20agents'%20Rewardingness%2C%20Retribution-worthiness%2C%20Deservingness%2C%20and%20Power%20based%20on%20any%20proxy%20signals%20you%20can%20get%20-%20try%20to%20update%20as%20fast%20as%20possible.%5C%5Cn%20%20%20%20-%20Implementation%3A%20I%20*think*%20all%20you%20need%20to%20do%20is%20add%20a%20world%20model%20capable%20of%20rolling-in%20modeling%20other%20agents%20modeling%20other%20agents%20etc%20as%20feelings%2C%20and%20then%20all%20of%20level%204%20should%20naturally%20fall%20out%20of%20tracking%20stuff%20from%20earlier%20levels%2C%20but%20I'm%20not%20sure.%20For%20what%20I%20mean%20by%20rolling-in%2C%20see%20%5BUnrolling%20social%20metacognition%5D(https%3A%2F%2Fwww.lesswrong.com%2Fposts%2FK4eDzqS2rbcBDsCLZ%2Funrolling-social-metacognition-three-levels-of-meta-are-not)%5C%5Cn%20%20%20%20%20%20%20%20%5C%5Cn%5C%5CnThings%20that%20seem%20like%20they're%20missing%20to%20me%5C%5Cn-------%5C%5Cn%5C%5Cn%20-%20Greg%20pointed%20out%20that%20current%20artificial%20RL%20(ie%2C%20step%201)%20is%20missing%20something%20simple%20and%20important%20about%20the%20way%20reward%20works%20in%20the%20brain%2C%20but%20neither%20of%20us%20are%20quite%20sure%20what%20exactly%20it%20is.%5C%5Cn-%20Greg%20also%20pointed%20out%20that%20the%20way%20I'm%20thinking%20about%20power%20here%20doesn't%20properly%20take%20into%20account%20the%20second%20to%20second%20impro%20thing%5C%5Cn-%20Greg%20thought%20there%20were%20interesting%20bits%20about%20how%20people%20do%20empathy%20that%20disagree%20really%20hard%20with%20the%20way%20I%20thought%20level%203%20works%5C%5Cn-%20Lex%20had%20a%20bunch%20of%20interesting%20critiques%20I%20didn't%20really%20understand%20well%20enough%20to%20use.%20I%20thiiink%20I%20might%20have%20integrated%20them%20at%20this%20point%3F%20not%20sure.%5C%5Cn-%20A%20bunch%20of%20people%20including%20me%20hate%20anything%20that%20has%20levels%20for%20being%20probably%20more%20complicated%20in%20terms%20of%20being%20organized%20structurally%20and%20simpler%20in%20terms%20of%20amount%20of%20detail%20than%20reality%20actually%20has.%20But%20I%20still%20feel%20like%20the%20levels%20thing%20is%20actually%20a%20pretty%20damn%20good%20representation.%20Suggestions%20welcome%2C%20callouts%20are%20not%5C%5Cn-%20This%20explanation%20sucks%20and%20people%20probably%20won't%20get%20useful%20intuitions%20out%20of%20this%20the%20way%20I%20have%20from%20thinking%20about%20it%20a%20lot%5C%5Cn%5C%5Cnmisc%20interesting%20consequences%5C%5Cn-------%5C%5Cn%5C%5Cn-%20level%204%20makes%20each%20of%20the%20other%20levels%20into%20partially-grounded%20%5Bkeynesian%20beauty%20contests%5D(https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FKeynesian_beauty_contest)%20-%20a%20thing%20from%20economics%20that%20was%20intended%20to%20model%20the%20stock%20market%20-%20which%20I%20think%20is%20where%20a%20lot%20of%20%5C%5C%5C%22status%20signaling%5C%5C%5C%22%20stuff%20comes%20from.%20But%20that%20doesn't%20mean%20there%20isn't%20a%20real%20beauty%20contest%20underneath.%5C%5Cn-%20level%202%20means%20it's%20not%20merely%20a%20single%20%5C%5C%5C%22emotional%20bank%20account%5C%5C%5C%22%20deciding%20whether%20people%20enjoy%20you%20-%20it's%20a%20question%20of%20whether%20they%20*predict*%20you'll%20be%20fun%20to%20be%20around%2C%20which%20they%20can%20keep%20doing%20even%20if%20you%20make%20a%20large%20mistake%20once.%5C%5Cn-%20level%203%20Deservingness%20is%20referring%20to%20how%20when%20people%20say%20%5C%5C%5C%22I%20like%20you%20but%20I%20don't%20want%20to%20interact%20with%20you%5C%5C%5C%22%2C%20there%20is%20a%20meaningful%20prediction%20about%20their%20future%20behavior%20being%20positive%20towards%20you%20that%20they're%20making%20-%20they%20just%20won't%20necessarily%20want%20to%20like%2C%20hang%20out%5C%5Cn%5C%5CnExamples%20of%20things%20to%20analyze%20would%20be%20welcome%2C%20to%20exercise%20the%20model%2C%20whether%20the%20examples%20fit%20in%20it%20or%20not%3B%20I'll%20share%20some%20more%20at%20some%20point%2C%20I%20have%20a%20bunch%20of%20notes%20to%20share.%5C%5Cn%5C%22%2C%5C%22htmlBody%5C%22%3A%5C%22%3Chtml%3E%3Chead%3E%3C%2Fhead%3E%3Cbody%3E%3Ch2%3EPreface%3C%2Fh2%3E%5C%5Cn%3Cp%3E(I%20can't%20be%20bothered%20to%20write%20a%20real%20Serious%20Post%2C%20so%20I'm%20just%20going%20to%20write%20this%20like%20a%20tumblr%20post.%20y'all%20are%20tryhards%20with%20writing%20and%20it's%20boooooring%2C%20and%20also%20I%20have%20a%20lot%20of%20tangentially%20related%20stuff%20to%20say.%20Pls%20critique%20based%20on%20content.%20If%20something%20is%20unclear%2C%20quote%20it%20and%20ask%20for%20clarification)%3C%2Fp%3E%5C%5Cn%3Cp%3EAlright%20so%2C%20this%20is%20intended%20to%20be%20an%20explicit%20description%20that%2C%20hopefully%2C%20could%20be%20turned%20into%20an%20actual%20program%2C%20that%20would%20generate%20the%20same%20low-level%20behavior%20as%20the%20way%20social%20stuff%20arises%20from%20brains.%20Any%20divergence%20is%20a%20mistake%2C%20and%20should%20be%20called%20out%20and%20corrected.%20it%20is%20not%20intended%20to%20be%20a%20%3Cem%3Efake%3C%2Fem%3E%20framework.%20it's%20either%20actually%20a%20description%20of%20parts%20of%20the%20causal%20graph%20that%20are%20above%20a%20threshold%20level%20of%20impact%2C%20or%20it's%20wrong.%20It's%20hopefully%20also%20a%20good%20framework.%20I'm%20pretty%20sure%20it's%20wrong%20in%20important%20ways%2C%20I'd%20like%20to%20hear%20what%20people%20suggest%20to%20improve%20it.%3C%2Fp%3E%5C%5Cn%3Cp%3ERecommended%20knowledge%3A%20vague%20understanding%20of%20what's%20known%20about%20how%20the%20cortex%20sheet%20implements%20fast%20inference%2Fhow%20%5C%5C%5C%22system%201%5C%5C%5C%22%20works%2C%20how%20human%20reward%20works%2C%20etc%2C%20and%2For%20how%20ANNs%20work%2C%20how%20reinforcement%20learning%20works%2C%20etc.%3C%2Fp%3E%5C%5Cn%3Cp%3EThe%20hope%20is%20that%20the%20computational%20model%20would%20generate%20social%20stuff%20we%20actually%20see%2C%20as%20high-probability%20special%20cases%20-%20in%20semi-technical%20terms%20you%20can%20ignore%20if%20you%20want%2C%20I'm%20hopeful%20it's%20a%20good%20causal%2Fgenerative%20model%2C%20aka%20that%20it%20allows%20compressing%20common%20social%20patterns%20with%20at%20least%20somewhat%20accurate%20causal%20graphs.%3C%2Fp%3E%5C%5Cn%3Ch2%3EThe%20thing%3C%2Fh2%3E%5C%5Cn%3Cp%3ESo%20we're%20making%20an%20executable%20model%20of%20part%20of%20the%20brain%2C%20so%20I'm%20going%20to%20write%20it%20as%20a%20series%20of%20changes%20I'm%20going%20to%20make.%20(I'm%20uncomfortable%20with%20the%20structured-ness%20of%20this%2C%20if%20anyone%20has%20any%20ideas%20for%20how%20to%20generalize%20it%2C%20that%20would%20be%20helpful.)%3C%2Fp%3E%5C%5Cn%3Col%3E%5C%5Cn%3Cli%3ETo%20start%20our%20brain%20thingy%20off%2C%20add%20%3Cstrong%3Edirect%20preferences%3C%2Fstrong%3E%3A%20experiences%20our%20new%20brain%20wants%20to%20have.%20Make%20negative%20things%20much%20worse%2C%20maybe%20around%205x%2C%20than%20good%20things.%5C%5Cn%3Cul%3E%5C%5Cn%3Cli%3EFrom%20the%20inside%2C%20this%20is%20an%20experience%20that%20in-the-moment%20is%20enjoyable%2Fsatisfying%2Fjuicy%2Ffun%2Frewarding%2Fattractive%20to%20you%2Fthrilling%2Fetc%20etc.%20Basic%20stuff%20like%20drinking%20water%2C%20having%20snuggles%2C%20being%20accepted%2C%20etc%20-%20preferences%20that%20are%20nature%20and%20not%20nurture.%3C%2Fli%3E%5C%5Cn%3Cli%3EFrom%20the%20outside%2C%20this%20is%20something%20like%20the%20experience%20producing%20dopamine%2Fserotonin%2Fendorphin%2Foxytocin%2Fetc%20in%2C%20like%2C%20a%20young%20child%20or%20something%20-%20ie%2C%20it's%20%3Cem%3Enatively%3C%2Fem%3E%20rewarding.%3C%2Fli%3E%5C%5Cn%3Cli%3EIn%20the%20implementable%20form%20of%20this%20model%2C%20our%20reinforcement%20learner%20needs%20a%20state-reward%20function.%3C%2Fli%3E%5C%5Cn%3Cli%3ESocial%20sort%20of%20exists%20here%2C%20but%20only%20in%20the%20form%20that%20if%20an%20agent%20can%20give%20something%20you%20want%2C%20such%20as%20snuggles%2C%20then%20you%20want%20that%20interaction.%3C%2Fli%3E%5C%5Cn%3C%2Ful%3E%5C%5Cn%3C%2Fli%3E%5C%5Cn%3Cli%3EThen%2C%20make%20the%20direct%20preferences%20update%20by%20%3Cstrong%3Epulling%20the%20rewards%20back%20through%20time%3C%2Fstrong%3E.%5C%5Cn%3Cul%3E%5C%5Cn%3Cli%3EFrom%20the%20inside%2C%20this%20is%20the%20experience%20of%20things%20that%20lead%20to%20rewarding%20things%20becoming%20rewarding%20themselves%20-%20operant%20conditioning%20and%20preferences%20that%20come%20from%20nurture%2C%20eg%20complex%20flavor%20preferences%2C%20room%20layout%20preferences%2C%20preferences%20for%20stability%2C%20preferences%20for%20hygiene%20being%20easy%2C%20preferences%20for%20stability%2C%20etc.%3C%2Fli%3E%5C%5Cn%3Cli%3EFrom%20the%20outside%2C%20this%20is%20how%20dopamine%20release%20and%20such%20happens%20when%20a%20stimulus%20is%20presented%20that%20indicates%20an%20increase%20in%20future%20reward%3C%2Fli%3E%5C%5Cn%3Cli%3EIn%20the%20implementable%20form%20of%20this%20model%2C%20this%20is%20any%20temporal%20difference%20learning%20technique%2C%20such%20as%20q%20learning%3C%2Fli%3E%5C%5Cn%3Cli%3ESocial%20exists%20more%20here%2C%20in%20that%20our%20agent%20learns%20which%20agents%20reliably%20produce%20experiences%20are%20level-1%20preferred%20vs%20dispreferred.%20If%20there's%20a%20level-1%20boring%2Fdragging%2Fpainful%2Fetc%20thing%20another%20agent%20does%2C%20it%20%3Cem%3Emight%3C%2Fem%3E%20result%20in%20an%20update%20towards%20lower%20probability%20of%20good%20interactions%20with%20that%20agent%20in%20that%20context.%20If%20there's%20a%20level-1%20fun%2Fgood%2Fsatisfying%2Fetc%20thing%20another%20agent%20does%2C%20it%20%3Cem%3Emight%3C%2Fem%3E%20result%20in%20an%20update%20towards%20that%20agent%20being%20good%20to%20interact%20with%20in%20that%20context%20and%20maybe%20in%20others.%3C%2Fli%3E%5C%5Cn%3C%2Ful%3E%5C%5Cn%3C%2Fli%3E%5C%5Cn%3Cli%3EThen%2C%20modify%20preferences%20to%20deal%20with%20%3Cstrong%3Eone-on-one%20interactions%20with%20other%20agents%3C%2Fstrong%3E%3A%5C%5Cn%3Cul%3E%5C%5Cn%3Cli%3EAdd%20tracking%20of%20retribution%20for%20other%20agents%5C%5Cn%3Cul%3E%5C%5Cn%3Cli%3EFrom%20the%20inside%2C%20this%20is%20feeling%20that%20you%20are%20your%20own%20person%2C%20getting%20angry%20if%20someone%20does%20something%20you%20don't%20like%2C%20and%20becoming%20less%20angry%20if%20you%20feel%20that%20they're%20actually%20sorry.%3C%2Fli%3E%5C%5Cn%3Cli%3EFrom%20the%20outside%2C%20this%20is%20people%20being%20quick%20to%20anger%20and%20not%20thinking%20things%20through%20before%20getting%20angry%20about%20Bad%20Things.%20something%20about%20SNS%20as%20well.%20I'm%20less%20familiar%20with%20neural%20implementation%20of%20anger.%3C%2Fli%3E%5C%5Cn%3Cli%3ETo%20implement%3A%20Track%20retribution-worthiness%20of%20the%20other%20agent.%20Increase%20it%20if%20the%20other%20agent%20does%20something%20you%20consider%20retribution-worthy.%20Initialize%20what's%20retribution-worthy%20to%20be%20%5C%5C%5C%22anything%20that%20hurts%20me%5C%5C%5C%22.%20Initialize%20retribution-worthiness%20of%20other%20agents%20to%20be%20zero.%20Decrease%20retribution-worthiness%20once%20retribution%20has%20been%20enacted%20and%20accepted%20as%20itself%20not%20retribution-worthy%20by%20the%20other%20agent.%3C%2Fli%3E%5C%5Cn%3C%2Ful%3E%5C%5Cn%3C%2Fli%3E%5C%5Cn%3Cli%3ETrack%20deservingness%2Fcaring-for%20other%20agents.%20Keep%20decreasing%20an%20agents'%20deservingness%20open%20as%20an%20option%20for%20how%20to%20enact%20retribution.%5C%5Cn%3Cul%3E%5C%5Cn%3Cli%3EFrom%20the%20inside%2C%20this%20is%20the%20feeling%20that%20you%20want%20good%20for%20other%20people%2Furge%20to%20be%20fair.%20It%20is%20not%20the%20same%20thing%20as%20empathy.%3C%2Fli%3E%5C%5Cn%3Cli%3EFrom%20the%20outside%2C%20this%20is%20people%20naturally%20having%20moral%20sysems.%3C%2Fli%3E%5C%5Cn%3Cli%3ETo%20implement%2C%20have%20a%20world%20model%20that%20allows%20inferring%20other%20agents's%20locations%20and%20preferences%2C%20and%20mix%20their%20preferences%20with%20yours%20a%20little%2C%20or%20something.%20correct%20implementation%20is%20safe%20ai%3C%2Fli%3E%5C%5Cn%3C%2Ful%3E%5C%5Cn%3C%2Fli%3E%5C%5Cn%3Cli%3ETrack%20physical%20power-over-the-world%20of%20you%20vs%20other%20agents%5C%5Cn%3Cul%3E%5C%5Cn%3Cli%3EFrom%20the%20inside%2C%20this%20is%20the%20feeling%20that%20someone%20else%20is%20more%20powerful%20or%20that%20you%20are%20more%20powerful.%20(fixme%3A%20Also%20something%20about%20the%20impro%20thing%20goes%20here%3F%20how%20to%20integrate%3F)%3C%2Fli%3E%5C%5Cn%3Cli%3EFrom%20the%20outside%2C%20this%20is%20animals'%20hardcoded%20tracking%20of%20threat%2Fpower%20signaling%20-%20I'd%20expect%20to%20find%20it%20at%20least%20in%20other%20mammals%3C%2Fli%3E%5C%5Cn%3Cli%3ETo%20implement%2C%20hand-train%20a%20pattern%20matcher%20on%20%5BThreatening%20vs%20Nonthreatening%5D%20data%2C%20and%20provide%20this%20as%20a%20feature%20to%20reinforcement%20learning%3B%20also%20increase%20deservingness%2Fdecrease%20retributionworthiness%20for%20agents%20that%20have%20high%20power%2C%20because%20they%20are%20able%20to%20force%20this%2C%20so%20treat%20it%20as%20an%20acausal%20trade%3C%2Fli%3E%5C%5Cn%3C%2Ful%3E%5C%5Cn%3C%2Fli%3E%5C%5Cn%3C%2Ful%3E%5C%5Cn%3C%2Fli%3E%5C%5Cn%3Cli%3EThen%2C%20%3Cstrong%3Etrack%20other%20agent's%20beliefs%3C%2Fstrong%3E%20to%20iterate%20this%20over%20a%20social%20graph%5C%5Cn%3Cul%3E%5C%5Cn%3Cli%3ETrack%20other%20agent's%20coalition-building%20power%2C%20update%20the%20power-over-the-world%20dominance%20based%20on%20an%20agent's%20ability%20to%20build%20coalitions%20and%20harness%20other%20agent's%20power.%5C%5Cn%3Cul%3E%5C%5Cn%3Cli%3EFrom%20the%20inside%2C%20this%20is%20the%20feeling%20that%20someone%20else%20has%20a%20lot%20of%20friends%2Fis%20popular%2C%20or%20that%20you%20have%20a%20lot%20of%20friends%2Fare%20popular%3C%2Fli%3E%5C%5Cn%3C%2Ful%3E%5C%5Cn%3C%2Fli%3E%5C%5Cn%3Cli%3ETrack%20other%20agents'%20verbal%20trustworthiness%2C%20update%20your%20models%20on%20level%202%20directly%20from%20trusted%20agents'%20statements%20of%20fact%3C%2Fli%3E%5C%5Cn%3Cli%3ETrack%20other%20agents'%20retribution%20lists%20to%20form%20consensus%20on%20what%20is%20retribution-worthy%3B%20update%20what%20you%20treat%20as%20retribution-worthy%20off%20of%20what%20other%20agents%20will%20punish%20you%20for%20not%20punishing%3C%2Fli%3E%5C%5Cn%3Cli%3ETrack%20other%20agents'%20retribution%20status%20and%20deservingness%20among%20other%20agents%2C%20in%20case%20of%20coordinated%20punishment.%3C%2Fli%3E%5C%5Cn%3Cli%3EPredict%20agents'%20Rewardingness%2C%20Retribution-worthiness%2C%20Deservingness%2C%20and%20Power%20based%20on%20any%20proxy%20signals%20you%20can%20get%20-%20try%20to%20update%20as%20fast%20as%20possible.%3C%2Fli%3E%5C%5Cn%3Cli%3EImplementation%3A%20I%20%3Cem%3Ethink%3C%2Fem%3E%20all%20you%20need%20to%20do%20is%20add%20a%20world%20model%20capable%20of%20rolling-in%20modeling%20other%20agents%20modeling%20other%20agents%20etc%20as%20feelings%2C%20and%20then%20all%20of%20level%204%20should%20naturally%20fall%20out%20of%20tracking%20stuff%20from%20earlier%20levels%2C%20but%20I'm%20not%20sure.%20For%20what%20I%20mean%20by%20rolling-in%2C%20see%20%3Ca%20href%3D%5C%5C%5C%22https%3A%2F%2Fwww.lesswrong.com%2Fposts%2FK4eDzqS2rbcBDsCLZ%2Funrolling-social-metacognition-three-levels-of-meta-are-not%5C%5C%5C%22%3EUnrolling%20social%20metacognition%3C%2Fa%3E%3C%2Fli%3E%5C%5Cn%3C%2Ful%3E%5C%5Cn%3C%2Fli%3E%5C%5Cn%3C%2Fol%3E%5C%5Cn%3Ch2%3EThings%20that%20seem%20like%20they're%20missing%20to%20me%3C%2Fh2%3E%5C%5Cn%3Cul%3E%5C%5Cn%3Cli%3EGreg%20pointed%20out%20that%20current%20artificial%20RL%20(ie%2C%20step%201)%20is%20missing%20something%20simple%20and%20important%20about%20the%20way%20reward%20works%20in%20the%20brain%2C%20but%20neither%20of%20us%20are%20quite%20sure%20what%20exactly%20it%20is.%3C%2Fli%3E%5C%5Cn%3Cli%3EGreg%20also%20pointed%20out%20that%20the%20way%20I'm%20thinking%20about%20power%20here%20doesn't%20properly%20take%20into%20account%20the%20second%20to%20second%20impro%20thing%3C%2Fli%3E%5C%5Cn%3Cli%3EGreg%20thought%20there%20were%20interesting%20bits%20about%20how%20people%20do%20empathy%20that%20disagree%20really%20hard%20with%20the%20way%20I%20thought%20level%203%20works%3C%2Fli%3E%5C%5Cn%3Cli%3ELex%20had%20a%20bunch%20of%20interesting%20critiques%20I%20didn't%20really%20understand%20well%20enough%20to%20use.%20I%20thiiink%20I%20might%20have%20integrated%20them%20at%20this%20point%3F%20not%20sure.%3C%2Fli%3E%5C%5Cn%3Cli%3EA%20bunch%20of%20people%20including%20me%20hate%20anything%20that%20has%20levels%20for%20being%20probably%20more%20complicated%20in%20terms%20of%20being%20organized%20structurally%20and%20simpler%20in%20terms%20of%20amount%20of%20detail%20than%20reality%20actually%20has.%20But%20I%20still%20feel%20like%20the%20levels%20thing%20is%20actually%20a%20pretty%20damn%20good%20representation.%20Suggestions%20welcome%2C%20callouts%20are%20not%3C%2Fli%3E%5C%5Cn%3Cli%3EThis%20explanation%20sucks%20and%20people%20probably%20won't%20get%20useful%20intuitions%20out%20of%20this%20the%20way%20I%20have%20from%20thinking%20about%20it%20a%20lot%3C%2Fli%3E%5C%5Cn%3C%2Ful%3E%5C%5Cn%3Ch2%3Emisc%20interesting%20consequences%3C%2Fh2%3E%5C%5Cn%3Cul%3E%5C%5Cn%3Cli%3Elevel%204%20makes%20each%20of%20the%20other%20levels%20into%20partially-grounded%20%3Ca%20href%3D%5C%5C%5C%22https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FKeynesian_beauty_contest%5C%5C%5C%22%3Ekeynesian%20beauty%20contests%3C%2Fa%3E%20-%20a%20thing%20from%20economics%20that%20was%20intended%20to%20model%20the%20stock%20market%20-%20which%20I%20think%20is%20where%20a%20lot%20of%20%5C%5C%5C%22status%20signaling%5C%5C%5C%22%20stuff%20comes%20from.%20But%20that%20doesn't%20mean%20there%20isn't%20a%20real%20beauty%20contest%20underneath.%3C%2Fli%3E%5C%5Cn%3Cli%3Elevel%202%20means%20it's%20not%20merely%20a%20single%20%5C%5C%5C%22emotional%20bank%20account%5C%5C%5C%22%20deciding%20whether%20people%20enjoy%20you%20-%20it's%20a%20question%20of%20whether%20they%20%3Cem%3Epredict%3C%2Fem%3E%20you'll%20be%20fun%20to%20be%20around%2C%20which%20they%20can%20keep%20doing%20even%20if%20you%20make%20a%20large%20mistake%20once.%3C%2Fli%3E%5C%5Cn%3Cli%3Elevel%203%20Deservingness%20is%20referring%20to%20how%20when%20people%20say%20%5C%5C%5C%22I%20like%20you%20but%20I%20don't%20want%20to%20interact%20with%20you%5C%5C%5C%22%2C%20there%20is%20a%20meaningful%20prediction%20about%20their%20future%20behavior%20being%20positive%20towards%20you%20that%20they're%20making%20-%20they%20just%20won't%20necessarily%20want%20to%20like%2C%20hang%20out%3C%2Fli%3E%5C%5Cn%3C%2Ful%3E%5C%5Cn%3Cp%3EExamples%20of%20things%20to%20analyze%20would%20be%20welcome%2C%20to%20exercise%20the%20model%2C%20whether%20the%20examples%20fit%20in%20it%20or%20not%3B%20I'll%20share%20some%20more%20at%20some%20point%2C%20I%20have%20a%20bunch%20of%20notes%20to%20share.%3C%2Fp%3E%5C%5Cn%3C%2Fbody%3E%3C%2Fhtml%3E%5C%22%2C%5C%22content%5C%22%3Anull%2C%5C%22plaintextExcerpt%5C%22%3A%5C%22PREFACE%5C%5Cn(I%20can't%20be%20bothered%20to%20write%20a%20real%20Serious%20Post%2C%20so%20I'm%20just%20going%20to%20write%5C%5Cnthis%20like%20a%20tumblr%20post.%20y'all%20are%20tryhards%20with%20writing%20and%20it's%20boooooring%2C%5C%5Cnand%20also%20I%20have%20a%20lot%20of%20tangentially%20related%20stuff%20to%20say.%20Pls%20critique%20based%5C%5Cnon%20content.%20If%20something%20is%20unclear%2C%20quote%20it%20and%20ask%20for%20clarification)%5C%5Cn%5C%5CnAlright%20so%2C%20this%20is%20intended%20to%20be%20an%20explicit%20description%20that%2C%20hopefully...%5C%5Cn(Read%20More)%5C%22%2C%5C%22draft%5C%22%3Anull%2C%5C%22commentSortOrder%5C%22%3Anull%2C%5C%22canonicalPrevPostSlug%5C%22%3Anull%2C%5C%22canonicalNextPostSlug%5C%22%3Anull%2C%5C%22canonicalSequenceId%5C%22%3Anull%2C%5C%22canonicalBookId%5C%22%3Anull%2C%5C%22bannedUserIds%5C%22%3Anull%2C%5C%22hideAuthor%5C%22%3Anull%2C%5C%22canonicalSequence%5C%22%3Anull%2C%5C%22canonicalBook%5C%22%3Anull%2C%5C%22canonicalCollection%5C%22%3Anull%2C%5C%22collectionTitle%5C%22%3Anull%2C%5C%22types%5C%22%3Anull%7D%2C%5C%22User5iPRfSnjako6iM6LG%5C%22%3A%7B%5C%22_id%5C%22%3A%5C%225iPRfSnjako6iM6LG%5C%22%2C%5C%22slug%5C%22%3A%5C%22lahwran%5C%22%2C%5C%22username%5C%22%3A%5C%22lahwran%5C%22%2C%5C%22displayName%5C%22%3A%5C%22lahwran%5C%22%2C%5C%22emailHash%5C%22%3Anull%2C%5C%22karma%5C%22%3A706%2C%5C%22afKarma%5C%22%3A0%2C%5C%22deleted%5C%22%3Afalse%2C%5C%22__typename%5C%22%3A%5C%22User%5C%22%2C%5C%22groups%5C%22%3Anull%2C%5C%22moderationStyle%5C%22%3Anull%2C%5C%22bannedUserIds%5C%22%3Anull%2C%5C%22moderationGuidelines%5C%22%3Anull%2C%5C%22moderatorAssistance%5C%22%3Anull%7D%7D%2C%5C%22optimistic%5C%22%3A%5B%5D%2C%5C%22reducerError%5C%22%3Anull%7D%7D%22%2C%22utcOffset%22%3A0%7D</script>
+  <link rel="stylesheet" type="text/css" class="__meteor-css__" href="/8364571a5d27303c3ba04f7db2f2e6cc5a5d69ec.css?meteor_css_resource=true">
+
+</head>
+<body><div id="react-app"><div class="locale-en" data-reactroot=""><div></div><div class="wrapper" id="wrapper"><div><div id="intercome-outer-frame"></div><noscript class="noscript-warning"> This website requires javascript to properly function. Consider activating javascript to get access to all site functionality. </noscript><div class="Header-root"><div class="headroom-wrapper"><div class="headroom headroom--unfixed"><header class="MuiPaper-root MuiPaper-elevation4 MuiAppBar-root MuiAppBar-positionStatic MuiAppBar-colorDefault Header-appBar"><div class="MuiToolbar-root MuiToolbar-regular MuiToolbar-gutters"><button tabindex="0" class="MuiButtonBase-root MuiIconButton-root MuiIconButton-colorInherit Header-menuButton" type="button" aria-label="Menu"><span class="MuiIconButton-label"><svg class="MuiSvgIcon-root" focusable="false" viewBox="0 0 24 24" aria-hidden="true"><g><path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"></path></g></svg></span><span class="MuiTouchRipple-root"></span></button><h2 class="MuiTypography-root MuiTypography-title MuiTypography-colorTextSecondary Header-title"><div class="jss102"><a class="Header-titleLink" href="/">LESSWRONG</a></div><div class="jss104"><a class="Header-titleLink" href="/">LW</a></div></h2><div class="Header-rightHeaderItems"><span></span><div class="users-menu"><button tabindex="0" class="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-flat" type="button"><span class="MuiButton-label"><span class="UsersAccountMenu-userButton" style="color:rgba(0, 0, 0, 0.87)">Login</span></span><span class="MuiTouchRipple-root"></span></button><div style="display:none"></div></div></div></div></header><div><div style="position:fixed;height:100vh;width:100%;top:0;left:-100%;opacity:0;background-color:rgba(0, 0, 0, 0.54);-webkit-tap-highlight-color:rgba(0, 0, 0, 0);will-change:opacity;transform:translateZ(0);transition:left 0ms cubic-bezier(0.23, 1, 0.32, 1) 400ms, opacity 400ms cubic-bezier(0.23, 1, 0.32, 1) 0ms;z-index:1200;pointer-events:none;-webkit-transform:translateZ(0);-ms-transform:translateZ(0);-webkit-transition:left 0ms cubic-bezier(0.23, 1, 0.32, 1) 400ms, opacity 400ms cubic-bezier(0.23, 1, 0.32, 1) 0ms;-moz-transition:left 0ms cubic-bezier(0.23, 1, 0.32, 1) 400ms, opacity 400ms cubic-bezier(0.23, 1, 0.32, 1) 0ms"></div><div class="menu-drawer" style="color:rgba(0, 0, 0, 0.87);background-color:#ffffff;transition:-ms-transform 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms,-webkit-transform 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms,transform 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms;box-sizing:border-box;font-family:Roboto, sans-serif;-webkit-tap-highlight-color:rgba(0,0,0,0);box-shadow:0 3px 10px rgba(0, 0, 0, 0.16),
+         0 3px 10px rgba(0, 0, 0, 0.23);border-radius:0px;height:100vh;width:225px;position:fixed;z-index:1300;left:0;top:0;transform:translate(-235px, 0);overflow:auto;-webkit-overflow-scrolling:touch;-webkit-transition:-webkit-transform 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms,transform 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms;-moz-transition:transform 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms;-moz-box-sizing:border-box;-webkit-transform:translate(-235px, 0);-ms-transform:translate(-235px, 0)"><div><a style="border:10px;box-sizing:border-box;display:block;font-family:Roboto, sans-serif;-webkit-tap-highlight-color:rgba(0, 0, 0, 0);cursor:pointer;text-decoration:none;margin:0;padding:0;outline:none;font-size:16px;font-weight:inherit;position:relative;color:rgba(0, 0, 0, 0.87);line-height:48px;transition:all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms;min-height:48px;white-space:nowrap;background:none;-moz-box-sizing:border-box;-webkit-transition:all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms;-moz-transition:all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms" role="menuitem" tabindex="0" href="/"><div><div style="margin-left:0;padding-left:16px;padding-right:16px;padding-bottom:0;padding-top:0;position:relative"> HOME </div></div></a></div><hr style="margin:0;margin-top:-1px;margin-left:0;height:1px;border:none;background-color:#e0e0e0"/><div><a style="border:10px;box-sizing:border-box;display:block;font-family:Roboto, sans-serif;-webkit-tap-highlight-color:rgba(0, 0, 0, 0);cursor:pointer;text-decoration:none;margin:0;padding:0;outline:none;font-size:16px;font-weight:inherit;position:relative;color:rgba(0, 0, 0, 0.87);line-height:48px;transition:all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms;min-height:48px;white-space:nowrap;background:none;-moz-box-sizing:border-box;-webkit-transition:all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms;-moz-transition:all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms" role="menuitem" tabindex="0" href="/library"><div><div style="margin-left:0;padding-left:16px;padding-right:16px;padding-bottom:0;padding-top:0;position:relative"> LIBRARY </div></div></a></div><div><a style="border:10px;box-sizing:border-box;display:block;font-family:Roboto, sans-serif;-webkit-tap-highlight-color:rgba(0, 0, 0, 0);cursor:pointer;text-decoration:none;margin:0;padding:0;outline:none;font-size:16px;font-weight:inherit;position:relative;color:rgba(0, 0, 0, 0.87);line-height:48px;transition:all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms;min-height:48px;white-space:nowrap;background:none;-moz-box-sizing:border-box;-webkit-transition:all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms;-moz-transition:all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms" role="menuitem" tabindex="0" href="/rationality"><div><div style="margin-left:0;padding-left:35px;padding-right:16px;padding-bottom:0;padding-top:0;position:relative">RATIONALITY: A-Z</div></div></a></div><div><a style="border:10px;box-sizing:border-box;display:block;font-family:Roboto, sans-serif;-webkit-tap-highlight-color:rgba(0, 0, 0, 0);cursor:pointer;text-decoration:none;margin:0;padding:0;outline:none;font-size:16px;font-weight:inherit;position:relative;color:rgba(0, 0, 0, 0.87);line-height:48px;transition:all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms;min-height:48px;white-space:nowrap;background:none;-moz-box-sizing:border-box;-webkit-transition:all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms;-moz-transition:all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms" role="menuitem" tabindex="0" href="/codex"><div><div style="margin-left:0;padding-left:35px;padding-right:16px;padding-bottom:0;padding-top:0;position:relative">THE CODEX</div></div></a></div><div><a style="border:10px;box-sizing:border-box;display:block;font-family:Roboto, sans-serif;-webkit-tap-highlight-color:rgba(0, 0, 0, 0);cursor:pointer;text-decoration:none;margin:0;padding:0;outline:none;font-size:16px;font-weight:inherit;position:relative;color:rgba(0, 0, 0, 0.87);line-height:48px;transition:all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms;min-height:48px;white-space:nowrap;background:none;-moz-box-sizing:border-box;-webkit-transition:all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms;-moz-transition:all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms" role="menuitem" tabindex="0" href="/hpmor"><div><div style="margin-left:0;padding-left:35px;padding-right:16px;padding-bottom:0;padding-top:0;position:relative">HPMOR</div></div></a></div><hr style="margin:0;margin-top:-1px;margin-left:0;height:1px;border:none;background-color:#e0e0e0"/><div><a style="border:10px;box-sizing:border-box;display:block;font-family:Roboto, sans-serif;-webkit-tap-highlight-color:rgba(0, 0, 0, 0);cursor:pointer;text-decoration:none;margin:0;padding:0;outline:none;font-size:16px;font-weight:inherit;position:relative;color:rgba(0, 0, 0, 0.87);line-height:48px;transition:all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms;min-height:48px;white-space:nowrap;background:none;-moz-box-sizing:border-box;-webkit-transition:all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms;-moz-transition:all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms" role="menuitem" tabindex="0" href="/community"><div><div style="margin-left:0;padding-left:16px;padding-right:16px;padding-bottom:0;padding-top:0;position:relative"> COMMUNITY </div></div></a></div><div><a style="border:10px;box-sizing:border-box;display:block;font-family:Roboto, sans-serif;-webkit-tap-highlight-color:rgba(0, 0, 0, 0);cursor:pointer;text-decoration:none;margin:0;padding:0;outline:none;font-size:16px;font-weight:inherit;position:relative;color:rgba(0, 0, 0, 0.87);line-height:48px;transition:all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms;min-height:48px;white-space:nowrap;background:none;-moz-box-sizing:border-box;-webkit-transition:all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms;-moz-transition:all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms" role="menuitem" tabindex="0" href="/daily"><div><div style="margin-left:0;padding-left:16px;padding-right:16px;padding-bottom:0;padding-top:0;position:relative"> ALL POSTS </div></div></a></div><div><a style="border:10px;box-sizing:border-box;display:block;font-family:Roboto, sans-serif;-webkit-tap-highlight-color:rgba(0, 0, 0, 0);cursor:pointer;text-decoration:none;margin:0;padding:0;outline:none;font-size:16px;font-weight:inherit;position:relative;color:rgba(0, 0, 0, 0.87);line-height:48px;transition:all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms;min-height:48px;white-space:nowrap;background:none;-moz-box-sizing:border-box;-webkit-transition:all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms;-moz-transition:all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms" role="menuitem" tabindex="0" href="/meta"><div><div style="margin-left:0;padding-left:16px;padding-right:16px;padding-bottom:0;padding-top:0;position:relative"> META </div></div></a></div><div><a style="border:10px;box-sizing:border-box;display:block;font-family:Roboto, sans-serif;-webkit-tap-highlight-color:rgba(0, 0, 0, 0);cursor:pointer;text-decoration:none;margin:0;padding:0;outline:none;font-size:16px;font-weight:inherit;position:relative;color:rgba(0, 0, 0, 0.87);line-height:48px;transition:all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms;min-height:48px;white-space:nowrap;background:none;-moz-box-sizing:border-box;-webkit-transition:all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms;-moz-transition:all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms" role="menuitem" tabindex="0" href="/about"><div><div style="margin-left:0;padding-left:16px;padding-right:16px;padding-bottom:0;padding-top:0;position:relative"> ABOUT  </div></div></a></div></div></div></div></div></div><div class="Layout-main"><div class="flash-messages"><div style="position:fixed;left:50%;display:-webkit-box,-moz-box,-ms-flexbox,-webkit-flex,flex;bottom:0;z-index:2900;visibility:hidden;transform:translate(-50%, 48px);transition:-ms-transform 400ms cubic-bezier(0.23, 1, 0.32, 1) 0ms,-webkit-transform 400ms cubic-bezier(0.23, 1, 0.32, 1) 0ms,transform 400ms cubic-bezier(0.23, 1, 0.32, 1) 0ms, visibility 400ms cubic-bezier(0.23, 1, 0.32, 1) 0ms;-webkit-transform:translate(-50%, 48px);-ms-transform:translate(-50%, 48px);-webkit-transition:-webkit-transform 400ms cubic-bezier(0.23, 1, 0.32, 1) 0ms,transform 400ms cubic-bezier(0.23, 1, 0.32, 1) 0ms, visibility 400ms cubic-bezier(0.23, 1, 0.32, 1) 0ms;-moz-transition:transform 400ms cubic-bezier(0.23, 1, 0.32, 1) 0ms, visibility 400ms cubic-bezier(0.23, 1, 0.32, 1) 0ms"></div></div><div></div><div><div class="PostsPage-header"><h1 class="MuiTypography-root MuiTypography-display3 PostsPage-title">Hypothesis about how social stuff works and arises</h1><div class="PostsPage-voteTop"><hr class="PostsPage-voteDivider"/><div class="PostsVote-voteBlock"><div class="PostsVote-upvote" title="Click-and-hold for strong vote"><button tabindex="0" class="MuiButtonBase-root MuiIconButton-root VoteButton-root VoteButton-up" type="button"><span class="MuiIconButton-label"><svg class="MuiSvgIcon-root VoteButton-smallArrow" focusable="false" viewBox="6 6 12 12" aria-hidden="true"><g><path d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"></path></g></svg><svg class="MuiSvgIcon-root VoteButton-bigArrow" focusable="false" viewBox="6 6 12 12" aria-hidden="true" style="color:"><g><path d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"></path></g></svg></span></button></div><div class="PostsVote-voteScores"><h1 class="MuiTypography-root MuiTypography-headline PostsVote-voteScore" title="14 Votes">31</h1></div><div class="PostsVote-downvote" title="Click-and-hold for strong vote"><button tabindex="0" class="MuiButtonBase-root MuiIconButton-root VoteButton-root VoteButton-down" type="button"><span class="MuiIconButton-label"><svg class="MuiSvgIcon-root VoteButton-smallArrow" focusable="false" viewBox="6 6 12 12" aria-hidden="true"><g><path d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"></path></g></svg><svg class="MuiSvgIcon-root VoteButton-bigArrow" focusable="false" viewBox="6 6 12 12" aria-hidden="true" style="color:"><g><path d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"></path></g></svg></span></button></div></div><hr class="PostsPage-voteDivider"/></div><span class="MuiTypography-root MuiTypography-body1 MuiTypography-colorTextSecondary PostsPage-author"><a class="users-name" href="/users/lahwran">lahwran</a></span></div><div class="PostsPage-mainContent"><div class="posts-page-content-body-metadata PostsPage-metadata"><div class="posts-page-content-body-metadata-date"><div class="PostsPage-subtitle">Sep 4, 2018</div></div><div class="posts-page-content-body-metadata-comments"><a href="#comments">14 comments</a></div><div class="posts-page-content-body-metadata-actions"><div class="posts-page-admin-actions-wrapper"></div></div></div><div class="PostsPage-postContent"><div class="LinkPostMessage-root"></div><div><html><head></head><body><h2>Preface</h2>
+<p>(I can't be bothered to write a real Serious Post, so I'm just going to write this like a tumblr post. y'all are tryhards with writing and it's boooooring, and also I have a lot of tangentially related stuff to say. Pls critique based on content. If something is unclear, quote it and ask for clarification)</p>
+<p>Alright so, this is intended to be an explicit description that, hopefully, could be turned into an actual program, that would generate the same low-level behavior as the way social stuff arises from brains. Any divergence is a mistake, and should be called out and corrected. it is not intended to be a <em>fake</em> framework. it's either actually a description of parts of the causal graph that are above a threshold level of impact, or it's wrong. It's hopefully also a good framework. I'm pretty sure it's wrong in important ways, I'd like to hear what people suggest to improve it.</p>
+<p>Recommended knowledge: vague understanding of what's known about how the cortex sheet implements fast inference/how "system 1" works, how human reward works, etc, and/or how ANNs work, how reinforcement learning works, etc.</p>
+<p>The hope is that the computational model would generate social stuff we actually see, as high-probability special cases - in semi-technical terms you can ignore if you want, I'm hopeful it's a good causal/generative model, aka that it allows compressing common social patterns with at least somewhat accurate causal graphs.</p>
+<h2>The thing</h2>
+<p>So we're making an executable model of part of the brain, so I'm going to write it as a series of changes I'm going to make. (I'm uncomfortable with the structured-ness of this, if anyone has any ideas for how to generalize it, that would be helpful.)</p>
+<ol>
+<li>To start our brain thingy off, add <strong>direct preferences</strong>: experiences our new brain wants to have. Make negative things much worse, maybe around 5x, than good things.
+<ul>
+<li>From the inside, this is an experience that in-the-moment is enjoyable/satisfying/juicy/fun/rewarding/attractive to you/thrilling/etc etc. Basic stuff like drinking water, having snuggles, being accepted, etc - preferences that are nature and not nurture.</li>
+<li>From the outside, this is something like the experience producing dopamine/serotonin/endorphin/oxytocin/etc in, like, a young child or something - ie, it's <em>natively</em> rewarding.</li>
+<li>In the implementable form of this model, our reinforcement learner needs a state-reward function.</li>
+<li>Social sort of exists here, but only in the form that if an agent can give something you want, such as snuggles, then you want that interaction.</li>
+</ul>
+</li>
+<li>Then, make the direct preferences update by <strong>pulling the rewards back through time</strong>.
+<ul>
+<li>From the inside, this is the experience of things that lead to rewarding things becoming rewarding themselves - operant conditioning and preferences that come from nurture, eg complex flavor preferences, room layout preferences, preferences for stability, preferences for hygiene being easy, preferences for stability, etc.</li>
+<li>From the outside, this is how dopamine release and such happens when a stimulus is presented that indicates an increase in future reward</li>
+<li>In the implementable form of this model, this is any temporal difference learning technique, such as q learning</li>
+<li>Social exists more here, in that our agent learns which agents reliably produce experiences are level-1 preferred vs dispreferred. If there's a level-1 boring/dragging/painful/etc thing another agent does, it <em>might</em> result in an update towards lower probability of good interactions with that agent in that context. If there's a level-1 fun/good/satisfying/etc thing another agent does, it <em>might</em> result in an update towards that agent being good to interact with in that context and maybe in others.</li>
+</ul>
+</li>
+<li>Then, modify preferences to deal with <strong>one-on-one interactions with other agents</strong>:
+<ul>
+<li>Add tracking of retribution for other agents
+<ul>
+<li>From the inside, this is feeling that you are your own person, getting angry if someone does something you don't like, and becoming less angry if you feel that they're actually sorry.</li>
+<li>From the outside, this is people being quick to anger and not thinking things through before getting angry about Bad Things. something about SNS as well. I'm less familiar with neural implementation of anger.</li>
+<li>To implement: Track retribution-worthiness of the other agent. Increase it if the other agent does something you consider retribution-worthy. Initialize what's retribution-worthy to be "anything that hurts me". Initialize retribution-worthiness of other agents to be zero. Decrease retribution-worthiness once retribution has been enacted and accepted as itself not retribution-worthy by the other agent.</li>
+</ul>
+</li>
+<li>Track deservingness/caring-for other agents. Keep decreasing an agents' deservingness open as an option for how to enact retribution.
+<ul>
+<li>From the inside, this is the feeling that you want good for other people/urge to be fair. It is not the same thing as empathy.</li>
+<li>From the outside, this is people naturally having moral sysems.</li>
+<li>To implement, have a world model that allows inferring other agents's locations and preferences, and mix their preferences with yours a little, or something. correct implementation is safe ai</li>
+</ul>
+</li>
+<li>Track physical power-over-the-world of you vs other agents
+<ul>
+<li>From the inside, this is the feeling that someone else is more powerful or that you are more powerful. (fixme: Also something about the impro thing goes here? how to integrate?)</li>
+<li>From the outside, this is animals' hardcoded tracking of threat/power signaling - I'd expect to find it at least in other mammals</li>
+<li>To implement, hand-train a pattern matcher on [Threatening vs Nonthreatening] data, and provide this as a feature to reinforcement learning; also increase deservingness/decrease retributionworthiness for agents that have high power, because they are able to force this, so treat it as an acausal trade</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Then, <strong>track other agent's beliefs</strong> to iterate this over a social graph
+<ul>
+<li>Track other agent's coalition-building power, update the power-over-the-world dominance based on an agent's ability to build coalitions and harness other agent's power.
+<ul>
+<li>From the inside, this is the feeling that someone else has a lot of friends/is popular, or that you have a lot of friends/are popular</li>
+</ul>
+</li>
+<li>Track other agents' verbal trustworthiness, update your models on level 2 directly from trusted agents' statements of fact</li>
+<li>Track other agents' retribution lists to form consensus on what is retribution-worthy; update what you treat as retribution-worthy off of what other agents will punish you for not punishing</li>
+<li>Track other agents' retribution status and deservingness among other agents, in case of coordinated punishment.</li>
+<li>Predict agents' Rewardingness, Retribution-worthiness, Deservingness, and Power based on any proxy signals you can get - try to update as fast as possible.</li>
+<li>Implementation: I <em>think</em> all you need to do is add a world model capable of rolling-in modeling other agents modeling other agents etc as feelings, and then all of level 4 should naturally fall out of tracking stuff from earlier levels, but I'm not sure. For what I mean by rolling-in, see <a href="https://www.lesswrong.com/posts/K4eDzqS2rbcBDsCLZ/unrolling-social-metacognition-three-levels-of-meta-are-not">Unrolling social metacognition</a></li>
+</ul>
+</li>
+</ol>
+<h2>Things that seem like they're missing to me</h2>
+<ul>
+<li>Greg pointed out that current artificial RL (ie, step 1) is missing something simple and important about the way reward works in the brain, but neither of us are quite sure what exactly it is.</li>
+<li>Greg also pointed out that the way I'm thinking about power here doesn't properly take into account the second to second impro thing</li>
+<li>Greg thought there were interesting bits about how people do empathy that disagree really hard with the way I thought level 3 works</li>
+<li>Lex had a bunch of interesting critiques I didn't really understand well enough to use. I thiiink I might have integrated them at this point? not sure.</li>
+<li>A bunch of people including me hate anything that has levels for being probably more complicated in terms of being organized structurally and simpler in terms of amount of detail than reality actually has. But I still feel like the levels thing is actually a pretty damn good representation. Suggestions welcome, callouts are not</li>
+<li>This explanation sucks and people probably won't get useful intuitions out of this the way I have from thinking about it a lot</li>
+</ul>
+<h2>misc interesting consequences</h2>
+<ul>
+<li>level 4 makes each of the other levels into partially-grounded <a href="https://en.wikipedia.org/wiki/Keynesian_beauty_contest">keynesian beauty contests</a> - a thing from economics that was intended to model the stock market - which I think is where a lot of "status signaling" stuff comes from. But that doesn't mean there isn't a real beauty contest underneath.</li>
+<li>level 2 means it's not merely a single "emotional bank account" deciding whether people enjoy you - it's a question of whether they <em>predict</em> you'll be fun to be around, which they can keep doing even if you make a large mistake once.</li>
+<li>level 3 Deservingness is referring to how when people say "I like you but I don't want to interact with you", there is a meaningful prediction about their future behavior being positive towards you that they're making - they just won't necessarily want to like, hang out</li>
+</ul>
+<p>Examples of things to analyze would be welcome, to exercise the model, whether the examples fit in it or not; I'll share some more at some point, I have a bunch of notes to share.</p>
+</body></html></div></div></div><div class="PostsPage-postFooter"><div class="PostsPage-voteBottom"><div class="PostsVote-voteBlock"><div class="PostsVote-upvote" title="Click-and-hold for strong vote"><button tabindex="0" class="MuiButtonBase-root MuiIconButton-root VoteButton-root VoteButton-up" type="button"><span class="MuiIconButton-label"><svg class="MuiSvgIcon-root VoteButton-smallArrow" focusable="false" viewBox="6 6 12 12" aria-hidden="true"><g><path d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"></path></g></svg><svg class="MuiSvgIcon-root VoteButton-bigArrow" focusable="false" viewBox="6 6 12 12" aria-hidden="true" style="color:"><g><path d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"></path></g></svg></span></button></div><div class="PostsVote-voteScores"><h1 class="MuiTypography-root MuiTypography-headline PostsVote-voteScore" title="14 Votes">31</h1></div><div class="PostsVote-downvote" title="Click-and-hold for strong vote"><button tabindex="0" class="MuiButtonBase-root MuiIconButton-root VoteButton-root VoteButton-down" type="button"><span class="MuiIconButton-label"><svg class="MuiSvgIcon-root VoteButton-smallArrow" focusable="false" viewBox="6 6 12 12" aria-hidden="true"><g><path d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"></path></g></svg><svg class="MuiSvgIcon-root VoteButton-bigArrow" focusable="false" viewBox="6 6 12 12" aria-hidden="true" style="color:"><g><path d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"></path></g></svg></span></button></div></div></div><span class="MuiTypography-root MuiTypography-body1 MuiTypography-colorTextSecondary PostsPage-author"><a class="users-name" href="/users/lahwran">lahwran</a></span></div></div><div id="comments"><div class="posts-comments-thread"><div class="spinner undefined"><div class="bounce1"></div><div class="bounce2"></div><div class="bounce3"></div></div></div></div></div></div></div></div></div>
+  <script type="text/javascript">__meteor_runtime_config__ = JSON.parse(decodeURIComponent("%7B%22meteorRelease%22%3A%22METEOR%401.7.0.5%22%2C%22meteorEnv%22%3A%7B%22NODE_ENV%22%3A%22production%22%2C%22TEST_METADATA%22%3A%22%7B%7D%22%7D%2C%22PUBLIC_SETTINGS%22%3A%7B%22title%22%3A%22LessWrong%22%2C%22tagline%22%3A%22A%20community%20blog%20devoted%20to%20refining%20the%20art%20of%20rationality%22%2C%22logoUrl%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Flesswrong-2-0%2Fimage%2Fupload%2Fv1498011194%2FLessWrong_Logo_skglnw.svg%22%2C%22logoHeight%22%3A%2250%22%2C%22logoWidth%22%3A%22200%22%2C%22faviconUrl%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Flesswrong-2-0%2Fimage%2Fupload%2Fv1497915096%2Ffavicon_lncumn.ico%22%2C%22requirePostsApproval%22%3Afalse%2C%22requireViewInvite%22%3Afalse%2C%22requirePostInvite%22%3Afalse%2C%22enableNewsletter%22%3Afalse%2C%22newsletterFrequency%22%3A%5B1%2C2%2C3%2C4%5D%2C%22autoSubscribe%22%3Afalse%2C%22emailNotifications%22%3Atrue%2C%22postInterval%22%3A20%2C%22RSSLinksPointTo%22%3A%22post%22%2C%22commentInterval%22%3A20%2C%22maxPostsPerDay%22%3A10%2C%22startInvitesCount%22%3A5%2C%22postsPerPage%22%3A10%2C%22siteImage%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Flesswrong-2-0%2Fimage%2Fupload%2Fv1503704344%2Fsequencesgrid%2Fh6vrwdypijqgsop7xwa0.jpg%22%2C%22language%22%3A%22en%22%2C%22locale%22%3A%22en%22%2C%22googleAnalytics%22%3A%7B%22apiKey%22%3A%22UA-60844744-4%22%7D%2C%22googleMaps%22%3A%7B%22apiKey%22%3A%22AIzaSyA3C48rl26gynG3qIuNuS-3Bh_Zz9jFXkY%22%7D%2C%22twitterAccount%22%3A%22foo%22%2C%22facebookPage%22%3A%22http%3A%2F%2Ffacebook.com%2Ffoo%22%2C%22runVoteMigration%22%3Afalse%2C%22embedProvider%22%3A%22builtin%22%2C%22algolia%22%3A%7B%22appId%22%3A%22Z0GR6EXQHD%22%2C%22searchKey%22%3A%220b1d20b957917dbb5e1c2f3ad1d04ee2%22%7D%7D%2C%22ROOT_URL%22%3A%22https%3A%2F%2Fwww.lesswrong.com%22%2C%22ROOT_URL_PATH_PREFIX%22%3A%22%22%2C%22appId%22%3A%221txv9r51kxht481ysl8bb%22%2C%22autoupdateVersion%22%3A%2208698a22e1cff7875418ea6309fd5750e46401db%22%2C%22autoupdateVersionRefreshable%22%3A%22ad4905d7b1ce3b1c3d6e0fe34fcd73587b70aa1c%22%2C%22autoupdateVersionCordova%22%3A%22none%22%2C%22isModern%22%3Afalse%7D"))</script>
+
+  <script type="text/javascript" src="/abc35a6b07dc05685c32fc7270a06f6574c9a97c.js?meteor_js_resource=true"></script>
+
+
+</body>
+</html>

@@ -1,0 +1,555 @@
+<!DOCTYPE html><script>var __pbpa = true;</script><script>var translated_warning_string = 'Warning: Never enter your Tumblr password unless \u201chttps://www.tumblr.com/login\u201d\x0ais the address in your web browser.\x0a\x0aYou should also see a green \u201cTumblr, Inc.\u201d identification in the address bar.\x0a\x0aSpammers and other bad guys use fake forms to steal passwords.\x0a\x0aTumblr will never ask you to log in from a user\u2019s blog.\x0a\x0aAre you absolutely sure you want to continue?';</script><script type="text/javascript" language="javascript" src="https://assets.tumblr.com/assets/scripts/pre_tumblelog.js?_v=b9f848c06fcba7eaf305d4a7cb7a1b98"></script><!doctype html>
+
+<!--[if IE 8]>    <html class="no-js ie8" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--><html lang="en"><!--<![endif]-->
+
+    <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# blog: http://ogp.me/ns/blog#">
+
+    	<meta charset="utf-8">
+
+		<meta name="font:Body" content="Georgia">
+		<meta name="font:Titles" content="Baskerville">
+
+		<meta name="if:Single Column" content="0">
+
+		<meta name="image:Header image" content="https://static.tumblr.com/fkm6sn6/59Xlce272/header_white.png">
+		<meta name="if:Enable Header Image" content="1">
+
+		<meta name="color:Primary colour" content="#565656">
+		<meta name="color:Secondary colour" content="#AAAAAA">
+		<meta name="color:Tertiary colour" content="#000000">
+
+		<meta name="image:Background" content="">
+		<meta name="color:Background" content="#F7F7F7">
+		<meta name="color:Content Background" content="#FFFFFF">
+
+		<meta name="color:Stripe" content="#F7F7F7">
+
+		<meta name="if:Show Title" content="1">
+		<meta name="if:Top Navigation Drawer" content="1">
+		<meta name="if:To Top Button" content="1">
+
+		<meta name="if:Enable Infinite Scroll" content="1">
+
+		<meta name="if:Small meta info" content="0">
+		<meta name="if:Hide Meta Icons" content="0">
+		<meta name="if:Hide Description" content="0">
+		<meta name="if:Paragraph indentation" content="1">
+
+		<meta name="if:Show Tumblr Links" content="0">
+		<meta name="if:Show Tags" content="0">
+
+		<meta name="if:Show Drop Shadows" content="1">
+		<meta name="if:Show Album Art on Audio Posts" content="1">
+
+		<meta name="text:Disqus Shortname" content="">
+		<meta name="text:Google Analytics Code" content="">
+
+		<meta name="if:Legacy Mode" content="0">
+
+		<title>The Unit of Caring</title>
+
+		<style>figure{margin:0}.tmblr-iframe{position:absolute}.tmblr-iframe.hide{display:none}.tmblr-iframe--amp-cta-button{visibility:hidden;position:fixed;bottom:10px;left:50%;transform:translateX(-50%);z-index:100}.tmblr-iframe--amp-cta-button.tmblr-iframe--loaded{visibility:visible;animation:iframe-app-cta-transition .2s ease-out}</style><link rel="shortcut icon" href="https://78.media.tumblr.com/avatar_11ff7449b8f6_128.pnj">
+		<link rel="alternate" type="application/rss+xml" href="https://theunitofcaring.tumblr.com/rss">
+		<meta name="description" content="Community politics; fallout of the last few posts [[MORE]]I&rsquo;m still emotionally exhausted and not up for writing a full postmortem of the Brent thing, or honestly even for writing this, but there have...">
+
+		
+
+		<link href="https://static.tumblr.com/urgl1bv/gqHm3yo3j/jquery.fancybox-1.3.4.css" rel="stylesheet" type="text/css">
+		<link href="https://static.tumblr.com/urgl1bv/AZam1mx1l/normalize.css" rel="stylesheet" type="text/css">
+		<link href="//netdna.bootstrapcdn.com/font-awesome/3.1.1/css/font-awesome.css" rel="stylesheet">
+
+		<style type="text/css">
+
+			/*
+			   -=  Inkhorn Tumblr Theme
+			   -=  Design & Code by Theme Anorak – themeanorak.com
+			   -=  V 2.1
+			*/
+
+			/* -=  clearfix =-  */
+
+			.clearfix:after { display: block; height: 0; clear: both; visibility: hidden; }
+			.clearfix { display: inline-table; }
+
+			/* -=  general and layout  =- */
+
+			body { margin: 0 auto; width: 100%; height:100%; background:#F7F7F7 url('https://assets.tumblr.com/images/x.gif?v=1'); color: #565656; font-family: Georgia, Palatino, 'Palatino Linotype', Times, 'Times New Roman', serif, Baskerville, Times, "Times New Roman", serif; font-weight: 300; font-size: 13px; line-height: 24px;  }
+
+			#background { background:#FFFFFF; margin: 0 auto; width: 730px; }
+			#background-inner { margin:0 auto; background:#FFFFFF; border-left: 15px solid #F7F7F7; border-right: 15px solid #F7F7F7; width:670px; }
+			section#blog { margin: 0 auto; width: 670px; }
+
+			header { margin: 0px auto 54px auto; padding-top:60px; }
+			footer { margin: 0 auto; text-align: center; color: #AAAAAA; padding-bottom: 56px; }
+
+			ul#tumblr-links,
+			ul#pages { width:510px; text-align: center; padding:0px; margin:24px 0px 0px 0px; }
+
+			#header-image { text-align:center; margin:0 auto 24px auto; }
+			img.header-image { max-width: 85%; }
+			#header-image a { text-align:center; margin:0 auto; margin-bottom:36px; border-bottom:none; padding:0px; }
+			#header-image a:hover
+			#header-image a:active,
+			#header-image a:visited { border-bottom:none; padding:0px; }
+
+			ul#tumblr-links li,
+			ul#pages li { display:inline; margin:0px 12px; }
+
+			/* -=  typography  =- */
+
+			h1 { text-align: center; font-size: 24px; font-weight: 400; font-family: Baskerville, 'Times New Roman', Times, serif; "Times New Roman", serif; margin-bottom: 36px; }
+			h3 { text-align: center; font-size: 13px; margin: 24px auto 0px auto; font-style: italic; font-weight: 300; border-top: 1px solid darkGray; width: 400px; padding: 7px 0px; border-bottom: 1px solid darkGray; }
+			h2 { text-align: center; font-family: Baskerville, 'Times New Roman', Times, serif, "Times New Roman", serif; font-weight: 400; font-size: 20px; margin-bottom: 18px; line-height: 32px; }
+
+			a,
+			a:link,
+			a:visited,
+			a:active { color: #000000; text-decoration: none; border-bottom: 1px solid #AAAAAA; padding-bottom: 2px; -webkit-transition: all 0.3s ease-out; -moz-transition: all 0.3s ease-out; transition: all 0.3s ease-out; }
+			a:hover { border-bottom: 1px solid #000000; }
+
+			a#fancybox-close,
+			a#fancybox-close:hover,
+			a.image-link:hover,
+			a.image-link { border-bottom:none; margin:0px; }
+
+			h1 a, h1 a:link,
+			h2 a, h2 a:link,
+			h3 a, h3 a:link { border-bottom:none; color: #000000; }
+			h1 a:hover, img a:hover, h2 a:hover, h3 a:hover { border-bottom:none; }
+			h2.quote { margin-bottom:12px; }
+
+			p:first-of-type { text-indent: 0px; }
+			p { text-indent: 24px; margin:0px 0px 12px 0px; }
+			p.no-indent { text-indent:0px; }
+
+			a.no-indent,
+			a.no-indent:active,
+			a.no-indent:visited,
+			a.no-indent:hover { border-bottom:none; padding:0px; }
+
+			blockquote { padding-left:24px; border-left:1px solid #AAAAAA; font-style: none; margin:12px; }
+			blockquote img { max-width:100%; }
+
+			footer a,
+			footer a:link,
+			footer a:visited,
+			footer a:active { color: #AAAAAA; text-decoration: none; border-bottom: none; }
+			footer a:hover { border-bottom: none; color:#565656; }
+
+			nav a,
+			nav a:link,
+			nav a:visited,
+			nav a:active { color: #565656; text-decoration: none; border-bottom: 0px solid #FFFFFF; -webkit-transition: all 0.3s ease-out; -moz-transition: all 0.3s ease-out; transition: all 0.3s ease-out; }
+			nav a:hover { color:#000000; border-bottom: 1px solid #AAAAAA; padding-bottom: 2px; }
+			header nav { text-align:center; }
+
+			/* -=  posts and content styles  =- */
+
+			.post { width: 510px; padding: 0px 30px 36px 30px; margin:0 auto; }
+
+			.post.photoset .photoset,
+			.post.video .player,
+			.post img { padding: 5px;  padding: 5px; box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.39); -moz-box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.39); -webkit-box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.39); background-color:#fff; margin: 5px 0px 12px 0px; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px;  }
+
+			.post.video .player { padding-bottom:0px; }
+			.post.video iframe { margin-bottom:-2px; }
+
+			.post ul.meta { text-align: center; font-size:13px; letter-spacing:0px; text-transform: none; margin:10px 0px 0px 0px; padding-left:0px;  }
+			.post ul.meta li { display: inline; color: #AAAAAA; margin-right: 12px; }
+			.post ul.meta li.like { margin-right:3px; height:20px; }
+			.post ul.meta li.like iframe { height:12px; }
+			.post ul.meta li.tag a { padding-right:8px; display: inline-block; }
+			.post ul.meta a { color: #AAAAAA; border-bottom: none; }
+			.post ul.meta a:hover { color: #000000; border-bottom: none; }
+
+			.post ul.meta.tags { margin:5px 0px 0px 0px; }
+
+			.post .like_button { display: inline-block; height:12px; line-height: 12px; }
+
+			.post .caption { text-align:center; }
+			.post .caption p { margin-top:0px; }
+			.post.photo a.image-link .image { margin-bottom:12px; }
+
+			.post.photo { width:85%; text-align:center; }
+			.post.photo .caption { width:510px; margin:0 auto; }
+
+			.post.text img { max-width:500px; margin:12px 0px 0px 0px; }
+
+			.post.link a.link h2 i { font-size:12px; padding-left:8px; }
+
+			.post.quote .source { text-align:center; margin-bottom:12px; }
+
+			.post.chat p { margin:0px; padding:0px; }
+			.post.chat .lines { width:500px; margin-bottom:3px; }
+			.post.chat .label { text-align:right; font-weight:800; float:left; width:30%; }
+			.post.chat .line { text-align:left; width: 65%; padding-left:24px; float:left; }
+
+			.post.audio { text-align:center; }
+			.post.audio .art img { width:207px; height:207px; }
+			.post.audio .player { margin: 0px auto 12px; border: 1px solid #ccc; width: 207px; height: 28px; }
+
+			ol.notes a,
+			ol.notes a:active,
+			ol.notes a:link,
+			ol.notes a:visited,
+			ol.notes a:hover { border-bottom:none; padding:0px; margin:0px; }
+
+			ol.notes { padding:0px; list-style: none; text-align:left; }
+			ol.notes li { padding:10px 0px; border-bottom:1px solid #AAAAAA; }
+			ol.notes li:last-of-type { border-bottom:none; }
+			ol.notes span a,
+			ol.notes span a:active,
+			ol.notes span a:link,
+			ol.notes span a:visited { border-bottom:1px solid #AAAAAA; padding-bottom:2px; }
+			ol.notes span a:hover { border-bottom:1px solid #000000; padding-bottom:2px; }
+			ol.notes a img { padding:0px 12px 0px 0px; box-shadow:none; margin:0px; border-bottom:none; border-radius:0px; }
+			.note.more_notes_link_container { margin-top:12px; }
+
+			#disqus_thread { margin-top:64px; }
+			.permalink-footer { margin-top:32px; width:100%; }
+
+			#disqus_thread .dsq-textarea,
+			#disqus_thread .dsq-textarea-reply { margin-left: 56px; }
+			#disqus_thread .dsq-comment-body { padding-left:56px; }
+			#disqus_thread #dsq-content h3 { font-style:normal; text-align: left; font-weight:700; }
+			#disqus_thread img { box-shadow:none; padding:0px; background-color:none; }
+
+			#disqus_thread a,
+			#disqus_thread a:link,
+			#disqus_thread a:active,
+			#disqus_thread a:visited,
+			#disqus_thread a:hover { border-bottom:none; }
+
+			#infinite-scroll-footer { display:none; font-size:12px; }
+
+			a#next { margin-left:5px; }
+			a#prev { margin-right:5px; }
+
+			i { font-size:12.5px; padding-right:1px; color:#565656; }
+
+			#to-top { position: fixed; bottom:10px; left:20px; display: none; }
+			#to-top p { margin:0px; }
+			#to-top p a { opacity:0.7; }
+
+			/* -=  Options CSS  =- */
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			/* -=  Custom CSS  =- */
+
+			
+
+		</style>
+
+		<!--[if lt IE 9]>
+			<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+		<script src="https://static.tumblr.com/urgl1bv/udLm41xq0/jquery.infinitescroll.min.js"></script>
+		<script src="https://static.tumblr.com/urgl1bv/aP8m3ynqq/jquery.easing-1.3.pack.js"></script>
+		<script src="https://static.tumblr.com/urgl1bv/tZ8m3yne1/jquery.fancybox-1.3.4.pack.js"></script>
+		<script src="https://static.tumblr.com/urgl1bv/2EMme8nfy/jquery.masonry.min.js"></script>
+		<script src="https://static.tumblr.com/urgl1bv/46tmo5ttx/less-1.3.3.min.js"></script>
+
+		<script type="text/javascript">
+
+			// use fancybox for hi-res images
+			$(document).ready(function() {
+				$("a.image-link").fancybox();
+				noIndent();
+			});
+
+			// remove image indentation in paragraphs
+			function noIndent() {
+				$("a.image-link").fancybox();
+				$(".post.text p:has(img)").addClass("no-indent");
+				$(".post.text p a:has(img)").addClass("no-indent");
+			}
+
+			// set height of background div
+			function setHeight() {
+			    var viewport = $(window).height();
+			    var background = $("#background").height();
+
+			    if (viewport > background) {
+					$("#background, #background-inner").css("height", viewport);
+				}
+			}
+
+			$(document).ready(function() {
+			    setHeight();
+			    $(window).bind('resize', setHeight);
+			});
+
+			/*
+			// display theme anorak help on customize screen
+			$(document).ready(function () {
+			    if(window.location.href.indexOf("tumblr.com/customize") > -1) {
+			       // display bottom right credit and support link later
+			    }
+			});
+			*/
+
+		</script>
+
+		
+
+		
+		<script type="text/javascript">
+
+			// scroll to top
+			$(function () {
+				$(window).scroll(function () {
+					if ($(this).scrollTop() > 700) {
+						$('#to-top').fadeIn();
+					} else {
+						$('#to-top').fadeOut();
+					}
+				});
+				// scroll body to 0px on click
+				$('#to-top a').click(function () {
+					$('body,html').animate({
+						scrollTop: 0
+					}, 800);
+					return false;
+				});
+			});
+
+		</script>
+		
+
+		
+
+		
+
+
+	<link rel="alternate" href="android-app://com.tumblr/tumblr/x-callback-url/blog?blogName=theunitofcaring%26postID=178304033006" /><link rel="alternate" href="ios-app://305343404/tumblr/x-callback-url/blog?blogName=theunitofcaring&postID=178304033006" /><link rel="alternate" type="application/json+oembed" href="https://www.tumblr.com/oembed/1.0?url=https://theunitofcaring.tumblr.com/post/178304033006/community-politics-fallout-of-the-last-few" title="Community politics; fallout of the last few posts
+[[MORE]]I&rsquo;m still emotionally exhausted and not up for writing a full postmortem of the Brent thing, or honestly even for writing this, but there have been some developments that deserve the same..."/><link rel="amphtml" href=https://theunitofcaring.tumblr.com/post/178304033006/community-politics-fallout-of-the-last-few/amp /><script src="https://assets.tumblr.com/assets/scripts/tumblelog_post_message_queue.js?_v=a8fadfa499d8cb7c3f8eefdf0b1adfdd"></script><link rel="stylesheet" type="text/css" href="https://assets.tumblr.com/fonts/gibson/stylesheet.css?v=3"><meta name="keywords" content="abuse cw" /><!-- BEGIN TUMBLR FACEBOOK OPENGRAPH TAGS --><!-- If you'd like to specify your own Open Graph tags, define the og:url and og:title tags in your theme's HTML. --><!-- Read more: http://ogp.me/ --><meta property="fb:app_id" content="48119224995" /><meta property="og:site_name" content="The Unit of Caring" /><meta property="og:title" content="" /><meta property="og:url" content="https://theunitofcaring.tumblr.com/post/178304033006/community-politics-fallout-of-the-last-few" /><meta property="og:type" content="tumblr-feed:entry" /><meta property="og:description" content="Community politics; fallout of the last few posts
+[[MORE]]I&rsquo;m still emotionally exhausted and not up for writing a full postmortem of the Brent thing, or honestly even for writing this, but there have..." /><meta property="og:determiner" content="a" /><meta property="og:image" content="https://assets.tumblr.com/images/og/fb_landscape_share.png" /><meta property="al:ios:url" content="tumblr://x-callback-url/blog?blogName=theunitofcaring&amp;postID=178304033006" /><meta property="al:ios:app_name" content="Tumblr" /><meta property="al:ios:app_store_id" content="305343404" /><meta property="al:android:url" content="tumblr://x-callback-url/blog?blogName=theunitofcaring&amp;postID=178304033006" /><meta property="al:android:app_name" content="Tumblr" /><meta property="al:android:package" content="com.tumblr" /><!-- END TUMBLR FACEBOOK OPENGRAPH TAGS --><!-- GOOGLE CAROUSEL --><script type="application/ld+json">
+	{"@type":"SocialMediaPosting","url":"https:\/\/theunitofcaring.tumblr.com\/post\/178304033006\/community-politics-fallout-of-the-last-few","mainEntityOfPage":true,"datePublished":"2018-09-21T05:20:46-04:00","author":"theunitofcaring","articleBody":"Community politics; fallout of the last few posts\n[[MORE]]I\u2019m still emotionally exhausted and not up for writing a full postmortem of the Brent thing, or honestly even for writing this, but there have been some developments that deserve the same circulation as the original content. I spent a while...","@context":"http:\/\/schema.org"}</script><link rel="canonical" href="https://theunitofcaring.tumblr.com/post/178304033006/community-politics-fallout-of-the-last-few" /></head>
+
+	
+
+	<body id="" class="permalink-page">
+
+		<div id="background">
+		<div id="background-inner">
+
+			<header>
+				
+				<h1><a href="/">The Unit of Caring</a></h1>
+				<h3>you gave me wings when you showed me birds</h3>
+				<nav>
+		            
+		            <ul id="pages" class="clearfix">
+		                <li><a href="/ask" class="page">Ask</a></li><li><a href="/about" class="page">About</a></li><li><a href="/patreon" class="page">Patreon</a></li>
+		            </ul>
+		            
+		            
+	            </nav>
+			</header>
+
+			<section id="blog" class="clearfix">
+
+			
+
+				
+				<div class="post text" id="178304033006">
+					
+					<p>Community politics; fallout of the last few posts</p><p>I&rsquo;m still emotionally exhausted and not up for writing a full postmortem of the Brent thing, or honestly even for writing this, but there have been some developments that deserve the same circulation as the original content. I spent a while agonizing over how to order these bullet points so people didn&rsquo;t feel like the most important ones were buried; please just read all of them if you care about the details of this situation/are making decisions based on it, and go do something more enjoyable if you don&rsquo;t.<br /><br /></p><p>- Everyone involved is safe. Generous people offered to arrange for the writers of the Medium posts to stay in a hotel for a few nights if they felt that they needed this for their safety; they decided not to, and everyone is safe.<br />-&nbsp;[there was a link here]&nbsp;is another ex of Brent&rsquo;s who is willing to talk with people about their experiences; the things they said match with everything I already knew about Brent&rsquo;s relationships before he joined our community, including details like names, so I&rsquo;m sure they&rsquo;re the real thing. [update: they have removed this offer.]<br />- The author of the <a href="https://t.umblr.com/redirect?z=https%3A%2F%2Fmedium.com%2F%40mittenscautious%2Fwarning-3-8097bb6747b1&amp;t=ODM2ZTgzMzUwNzhiMzI4N2U3N2Q0OTYwY2QyNzI4Njc1MDZiNzFlZixLOHFQeHk4OQ%3D%3D&amp;b=t%3Am6qrPXyDSmUKCWsl3MKtiA&amp;p=https%3A%2F%2Ftheunitofcaring.tumblr.com%2Fpost%2F178304033006%2Fcommunity-politics-fallout-of-the-last-few&amp;m=1">third post</a> about Brent&rsquo;s manipulation is married to the author of the <a href="https://t.umblr.com/redirect?z=https%3A%2F%2Fmedium.com%2F%40mittenscautious%2Fwarning-2-153ed9f5f1f3&amp;t=YmY2YzY4NWYwZmFhODFkOTM5OWIzYTUzZTgzYzAzMjExYWNkZmM3NSxLOHFQeHk4OQ%3D%3D&amp;b=t%3Am6qrPXyDSmUKCWsl3MKtiA&amp;p=https%3A%2F%2Ftheunitofcaring.tumblr.com%2Fpost%2F178304033006%2Fcommunity-politics-fallout-of-the-last-few&amp;m=1">second post</a>; I don&rsquo;t think this is nefarious or anything but it&rsquo;s context people deserve to have while interpreting the posts.<br />- As far as I know, no one has contested any of the things put forth in any of the Medium posts. My understanding* is that Brent agrees they are true.&nbsp;<br />- Some people have reached out to verify peoples&rsquo; stories of Brent lying, and in particular of Brent lying to keep his new partners away from people. I continue to have a chat log of Brent telling me he hadn&rsquo;t been on a date in two years.&nbsp;<br />Person A, who I described in my last post as&nbsp;&lsquo;heard from Brent that Brent&rsquo;s friends&nbsp;B and C were responsible for looking out for Brent&rsquo;s new girlfriend, but learned that B and C didn&rsquo;t know about this&rsquo;, dug up chatlogs and found that they&rsquo;d misremembered - they heard from Brent&rsquo;s friend&nbsp;<i>B </i>that B and C were looking out for Brent&rsquo;s new partner, and <i>C </i>didn&rsquo;t know about this. This is not Brent&rsquo;s fault, and shouldn&rsquo;t have been listed as an example of Brent&rsquo;s deceptive behavior.&nbsp;<br />- The REACH panel is conducting an investigation. I was on the REACH panel before everything went public; I&rsquo;ve stepped down, because it is important to me (and was important to the Medium piece writers) that I not have to decline comment on this until the investigation concludes, but also the REACH investigation needs to be impartial. This seemed like the best way to balance those.&nbsp;</p><p>*&nbsp;I have not seen or heard him say this; my understanding comes from other people sharing statements they say Brent has contemplated making, and from statements in defense of Brent.</p>
+				<!-- / post text -->
+				
+
+				
+
+				
+
+				
+
+				
+
+				
+
+				
+
+				
+
+				<!-- post meta -->
+				
+
+				
+					<ul class="meta">
+						<li><i class="icon-calendar-empty"></i> 20 September 2018</li>
+						<i class="icon-tags"></i><li class="tag"><a href="https://theunitofcaring.tumblr.com/tagged/abuse-cw">#abuse cw</a></li>
+						<li class="like"><div class="like_button" data-post-id="178304033006" data-blog-name="theunitofcaring" id="like_button_178304033006"><iframe id="like_iframe_178304033006" src="https://assets.tumblr.com/assets/html/like_iframe.html?_v=66c22ab5319d742bca5762b8d18f9d06#name=theunitofcaring&amp;post_id=178304033006&amp;color=black&amp;rk=K8qPxy89" scrolling="no" width="10" height="10" frameborder="0" class="like_toggle" allowTransparency="true" name="like_iframe_178304033006"></iframe></div></li>
+						<li><a href="https://theunitofcaring.tumblr.com/post/178304033006/community-politics-fallout-of-the-last-few">56</a></li>
+					</ul>
+					<div class="permalink-footer clearfix">
+						
+<ol class="notes"><!-- START NOTES --><li class="note like tumblelog_cameoappearance without_commentary"><a rel="nofollow" class="avatar_frame" target="_blank" href="https://cameoappearance.tumblr.com/" title="CameoAppearance and the Blog of Many Things " rel="nofollow"><img src="https://78.media.tumblr.com/avatar_be39a20050b2_16.pnj" class="avatar " alt="" /></a><span class="action"><a rel="nofollow" href="https://cameoappearance.tumblr.com/" title="CameoAppearance and the Blog of Many Things" rel="nofollow">cameoappearance</a> liked this                                    </span><div class="clear"></div></li><li class="note like tumblelog_bpd-anon without_commentary"><a rel="nofollow" class="avatar_frame" target="_blank" href="https://bpd-anon.tumblr.com/" title="Untitled " rel="nofollow"><img src="https://78.media.tumblr.com/avatar_3d1b388c5694_16.pnj" class="avatar " alt="" /></a><span class="action"><a rel="nofollow" href="https://bpd-anon.tumblr.com/" title="Untitled" rel="nofollow">bpd-anon</a> liked this                                    </span><div class="clear"></div></li><li class="note like tumblelog_holomanga without_commentary"><a rel="nofollow" class="avatar_frame" target="_blank" href="https://holomanga.tumblr.com/" title="Tetraspace with Grouping " rel="nofollow"><img src="https://78.media.tumblr.com/avatar_045557edb64f_16.pnj" class="avatar " alt="" /></a><span class="action"><a rel="nofollow" href="https://holomanga.tumblr.com/" title="Tetraspace with Grouping" rel="nofollow">holomanga</a> liked this                                    </span><div class="clear"></div></li><li class="note like tumblelog_coffeespoonsposts without_commentary"><a rel="nofollow" class="avatar_frame" target="_blank" href="http://coffeespoonsposts.tumblr.com/" title="Coffee Spoons Posts " rel="nofollow"><img src="https://assets.tumblr.com/images/default_avatar/sphere_open_16.png" class="avatar " alt="" /></a><span class="action"><a rel="nofollow" href="http://coffeespoonsposts.tumblr.com/" title="Coffee Spoons Posts" rel="nofollow">coffeespoonsposts</a> liked this                                    </span><div class="clear"></div></li><li class="note like tumblelog_hylleddin without_commentary"><a rel="nofollow" class="avatar_frame" target="_blank" href="http://hylleddin.tumblr.com/" title="Hylleddin " rel="nofollow"><img src="https://78.media.tumblr.com/avatar_ce9e69d792d5_16.pnj" class="avatar " alt="" /></a><span class="action"><a rel="nofollow" href="http://hylleddin.tumblr.com/" title="Hylleddin" rel="nofollow">hylleddin</a> liked this                                    </span><div class="clear"></div></li><li class="note reblog tumblelog_russian-hackers-official without_commentary"><a rel="nofollow" class="avatar_frame" target="_blank" href="http://russian-hackers-official.tumblr.com/" title="Iron &amp; Misery Co."><img src="https://78.media.tumblr.com/avatar_738ee92fa903_16.pnj" class="avatar " alt="" /></a><span class="action" data-post-url="http://russian-hackers-official.tumblr.com/post/178317748378"><a rel="nofollow" href="http://russian-hackers-official.tumblr.com/" class="tumblelog" title="Iron &amp; Misery Co.">russian-hackers-official</a> reblogged this from <a rel="nofollow" href="https://tchtchtchtchtch.tumblr.com/" class="source_tumblelog" title="tcheasdfjkl">tchtchtchtchtch</a>                                                                                                                                                                                    </span><div class="clear"></div></li><li class="note like tumblelog_russian-hackers-official without_commentary"><a rel="nofollow" class="avatar_frame" target="_blank" href="http://russian-hackers-official.tumblr.com/" title="Iron &amp; Misery Co. " rel="nofollow"><img src="https://78.media.tumblr.com/avatar_738ee92fa903_16.pnj" class="avatar " alt="" /></a><span class="action"><a rel="nofollow" href="http://russian-hackers-official.tumblr.com/" title="Iron &amp; Misery Co." rel="nofollow">russian-hackers-official</a> liked this                                    </span><div class="clear"></div></li><li class="note like tumblelog_elysiananathema without_commentary"><a rel="nofollow" class="avatar_frame" target="_blank" href="http://elysiananathema.tumblr.com/" title="Elysian Anathema " rel="nofollow"><img src="https://78.media.tumblr.com/avatar_9112ec827f56_16.pnj" class="avatar " alt="" /></a><span class="action"><a rel="nofollow" href="http://elysiananathema.tumblr.com/" title="Elysian Anathema" rel="nofollow">elysiananathema</a> liked this                                    </span><div class="clear"></div></li><li class="note like tumblelog_arundelo without_commentary"><a rel="nofollow" class="avatar_frame" target="_blank" href="https://arundelo.tumblr.com/" title="glamboyantly fey " rel="nofollow"><img src="https://78.media.tumblr.com/avatar_30cc9c8e5deb_16.pnj" class="avatar " alt="" /></a><span class="action"><a rel="nofollow" href="https://arundelo.tumblr.com/" title="glamboyantly fey" rel="nofollow">arundelo</a> liked this                                    </span><div class="clear"></div></li><li class="note like tumblelog_queerdo-mcjewface without_commentary"><a rel="nofollow" class="avatar_frame" target="_blank" href="https://queerdo-mcjewface.tumblr.com/" title=" " rel="nofollow"><img src="https://78.media.tumblr.com/avatar_03815289b01d_16.pnj" class="avatar " alt="" /></a><span class="action"><a rel="nofollow" href="https://queerdo-mcjewface.tumblr.com/" title="" rel="nofollow">queerdo-mcjewface</a> liked this                                    </span><div class="clear"></div></li><li class="note reply tumblelog_roseapprentice without_commentary"><a rel="nofollow" class="avatar_frame" target="_blank" href="https://roseapprentice.tumblr.com/" title="free, as other folk, to look up as well as down"><img src="https://78.media.tumblr.com/avatar_7d7d763d162e_16.pnj" class="avatar " alt="" /></a><span class="action"><a rel="nofollow" href="https://roseapprentice.tumblr.com/" title="free, as other folk, to look up as well as down">roseapprentice</a> said:                                             
+                                                <span class="answer_content">
+                                the first link in this post appears to be broken.                            </span></span><div class="clear"></div></li><li class="note like tumblelog_evolution-is-just-a-theorem without_commentary"><a rel="nofollow" class="avatar_frame" target="_blank" href="https://evolution-is-just-a-theorem.tumblr.com/" title="Virtue Maximizer " rel="nofollow"><img src="https://78.media.tumblr.com/avatar_85569a04956c_16.pnj" class="avatar " alt="" /></a><span class="action"><a rel="nofollow" href="https://evolution-is-just-a-theorem.tumblr.com/" title="Virtue Maximizer" rel="nofollow">evolution-is-just-a-theorem</a> liked this                                    </span><div class="clear"></div></li><li class="note like tumblelog_theothin without_commentary"><a rel="nofollow" class="avatar_frame" target="_blank" href="http://theothin.tumblr.com/" title="nerf lyn " rel="nofollow"><img src="https://78.media.tumblr.com/avatar_050486479a4c_16.pnj" class="avatar " alt="" /></a><span class="action"><a rel="nofollow" href="http://theothin.tumblr.com/" title="nerf lyn" rel="nofollow">theothin</a> liked this                                    </span><div class="clear"></div></li><li class="note like tumblelog_iambic-plantarmeter without_commentary"><a rel="nofollow" class="avatar_frame" target="_blank" href="https://iambic-plantarmeter.tumblr.com/" title="get in this Trojan Dinosaur " rel="nofollow"><img src="https://78.media.tumblr.com/avatar_077918561b42_16.pnj" class="avatar " alt="" /></a><span class="action"><a rel="nofollow" href="https://iambic-plantarmeter.tumblr.com/" title="get in this Trojan Dinosaur" rel="nofollow">iambic-plantarmeter</a> liked this                                    </span><div class="clear"></div></li><li class="note like tumblelog_blashimov without_commentary"><a rel="nofollow" class="avatar_frame" target="_blank" href="https://blashimov.tumblr.com/" title="Untitled " rel="nofollow"><img src="https://78.media.tumblr.com/avatar_fa4afd05d025_16.pnj" class="avatar " alt="" /></a><span class="action"><a rel="nofollow" href="https://blashimov.tumblr.com/" title="Untitled" rel="nofollow">blashimov</a> liked this                                    </span><div class="clear"></div></li><li class="note like tumblelog_ghostofasecretary without_commentary"><a rel="nofollow" class="avatar_frame" target="_blank" href="http://ghostofasecretary.tumblr.com/" title="the aim of waking is to dream " rel="nofollow"><img src="https://78.media.tumblr.com/avatar_7c7da72938b6_16.pnj" class="avatar " alt="" /></a><span class="action"><a rel="nofollow" href="http://ghostofasecretary.tumblr.com/" title="the aim of waking is to dream" rel="nofollow">ghostofasecretary</a> liked this                                    </span><div class="clear"></div></li><li class="note like tumblelog_empresszo without_commentary"><a rel="nofollow" class="avatar_frame" target="_blank" href="https://empresszo.tumblr.com/" title=":0 " rel="nofollow"><img src="https://78.media.tumblr.com/avatar_48ca0d0660bd_16.pnj" class="avatar " alt="" /></a><span class="action"><a rel="nofollow" href="https://empresszo.tumblr.com/" title=":0" rel="nofollow">empresszo</a> liked this                                    </span><div class="clear"></div></li><li class="note like tumblelog_keepsakewhales without_commentary"><a rel="nofollow" class="avatar_frame" target="_blank" href="http://keepsakewhales.tumblr.com/" title="Keepsake Whales " rel="nofollow"><img src="https://assets.tumblr.com/images/default_avatar/sphere_closed_16.png" class="avatar " alt="" /></a><span class="action"><a rel="nofollow" href="http://keepsakewhales.tumblr.com/" title="Keepsake Whales" rel="nofollow">keepsakewhales</a> liked this                                    </span><div class="clear"></div></li><li class="note like tumblelog_bobisonlybob without_commentary"><a rel="nofollow" class="avatar_frame" target="_blank" href="https://bobisonlybob.tumblr.com/" title="Bob is Only Bob " rel="nofollow"><img src="https://78.media.tumblr.com/avatar_a3971e808232_16.pnj" class="avatar " alt="" /></a><span class="action"><a rel="nofollow" href="https://bobisonlybob.tumblr.com/" title="Bob is Only Bob" rel="nofollow">bobisonlybob</a> liked this                                    </span><div class="clear"></div></li><li class="note like tumblelog_wolfydrawings without_commentary"><a rel="nofollow" class="avatar_frame" target="_blank" href="http://wolfydrawings.tumblr.com/" title="Wolfy&#039;s Drawings! " rel="nofollow"><img src="https://78.media.tumblr.com/avatar_6725fa5ea850_16.pnj" class="avatar " alt="" /></a><span class="action"><a rel="nofollow" href="http://wolfydrawings.tumblr.com/" title="Wolfy&#039;s Drawings!" rel="nofollow">wolfydrawings</a> liked this                                    </span><div class="clear"></div></li><li class="note like tumblelog_jack-v without_commentary"><a rel="nofollow" class="avatar_frame" target="_blank" href="http://jack-v.tumblr.com/" title="Untitled " rel="nofollow"><img src="https://assets.tumblr.com/images/default_avatar_16.png" class="avatar " alt="" /></a><span class="action"><a rel="nofollow" href="http://jack-v.tumblr.com/" title="Untitled" rel="nofollow">jack-v</a> liked this                                    </span><div class="clear"></div></li><li class="note like tumblelog_high-priestess-of-elua without_commentary"><a rel="nofollow" class="avatar_frame" target="_blank" href="https://high-priestess-of-elua.tumblr.com/" title="Humans First " rel="nofollow"><img src="https://78.media.tumblr.com/avatar_751cb8e23cc4_16.pnj" class="avatar " alt="" /></a><span class="action"><a rel="nofollow" href="https://high-priestess-of-elua.tumblr.com/" title="Humans First" rel="nofollow">high-priestess-of-elua</a> liked this                                    </span><div class="clear"></div></li><li class="note reply tumblelog_valiantfoxdinosaur without_commentary"><a rel="nofollow" class="avatar_frame" target="_blank" href="https://valiantfoxdinosaur.tumblr.com/" title="theme? what theme?"><img src="https://assets.tumblr.com/images/default_avatar/cone_open_16.png" class="avatar " alt="" /></a><span class="action"><a rel="nofollow" href="https://valiantfoxdinosaur.tumblr.com/" title="theme? what theme?">valiantfoxdinosaur</a> said:                                             
+                                                <span class="answer_content">
+                                Statements he&rsquo;s contemplated making? Or just statements someone&rsquo;s written for him and asked or contemplated asking him to make? I&rsquo;m aware of the latter but not the former.                            </span></span><div class="clear"></div></li><li class="note reply tumblelog_slatestarscratchpad without_commentary"><a rel="nofollow" class="avatar_frame" target="_blank" href="https://slatestarscratchpad.tumblr.com/" title="Slate Star Scratchpad"><img src="https://78.media.tumblr.com/avatar_182bb9b9d65b_16.pnj" class="avatar " alt="" /></a><span class="action"><a rel="nofollow" href="https://slatestarscratchpad.tumblr.com/" title="Slate Star Scratchpad">slatestarscratchpad</a> said:                                             
+                                                <span class="answer_content">
+                                Thank you for keeping everyone updated and trying to do the right thing.                            </span></span><div class="clear"></div></li><li class="note like tumblelog_wirehead-wannabe without_commentary"><a rel="nofollow" class="avatar_frame" target="_blank" href="http://wirehead-wannabe.tumblr.com/" title="Wirehead Wannabe " rel="nofollow"><img src="https://78.media.tumblr.com/avatar_c1033e329673_16.pnj" class="avatar " alt="" /></a><span class="action"><a rel="nofollow" href="http://wirehead-wannabe.tumblr.com/" title="Wirehead Wannabe" rel="nofollow">wirehead-wannabe</a> liked this                                    </span><div class="clear"></div></li><li class="note like tumblelog_antigirlhood without_commentary"><a rel="nofollow" class="avatar_frame" target="_blank" href="https://antigirlhood.tumblr.com/" title=". to forget everything. to make room for sunlight. " rel="nofollow"><img src="https://78.media.tumblr.com/avatar_1a25049e90d8_16.pnj" class="avatar " alt="" /></a><span class="action"><a rel="nofollow" href="https://antigirlhood.tumblr.com/" title=". to forget everything. to make room for sunlight." rel="nofollow">antigirlhood</a> liked this                                    </span><div class="clear"></div></li><li class="note like tumblelog_michaelkeenan without_commentary"><a rel="nofollow" class="avatar_frame" target="_blank" href="http://michaelkeenan.tumblr.com/" title="Michael Keenan " rel="nofollow"><img src="https://78.media.tumblr.com/avatar_64901524b208_16.pnj" class="avatar " alt="" /></a><span class="action"><a rel="nofollow" href="http://michaelkeenan.tumblr.com/" title="Michael Keenan" rel="nofollow">michaelkeenan</a> liked this                                    </span><div class="clear"></div></li><li class="note like tumblelog_apprenticebard without_commentary"><a rel="nofollow" class="avatar_frame" target="_blank" href="https://apprenticebard.tumblr.com/" title="throw your starfish " rel="nofollow"><img src="https://78.media.tumblr.com/avatar_71316ecd4151_16.pnj" class="avatar " alt="" /></a><span class="action"><a rel="nofollow" href="https://apprenticebard.tumblr.com/" title="throw your starfish" rel="nofollow">apprenticebard</a> liked this                                    </span><div class="clear"></div></li><li class="note like tumblelog_azdoine without_commentary"><a rel="nofollow" class="avatar_frame" target="_blank" href="https://azdoine.tumblr.com/" title="Kabbalistic Behavioral Therapy " rel="nofollow"><img src="https://78.media.tumblr.com/avatar_30091e5e08d3_16.pnj" class="avatar " alt="" /></a><span class="action"><a rel="nofollow" href="https://azdoine.tumblr.com/" title="Kabbalistic Behavioral Therapy" rel="nofollow">azdoine</a> liked this                                    </span><div class="clear"></div></li><li class="note reblog tumblelog_theopjones with_commentary"><a rel="nofollow" class="avatar_frame" target="_blank" href="https://theopjones.tumblr.com/" title=""><img src="https://78.media.tumblr.com/avatar_125a7d7648fa_16.pnj" class="avatar " alt="" /></a><span class="action" data-post-url="https://theopjones.tumblr.com/post/178305258912"><a rel="nofollow" href="https://theopjones.tumblr.com/" class="tumblelog" title="">theopjones</a> reblogged this from <a rel="nofollow" href="https://theunitofcaring.tumblr.com/" class="source_tumblelog" title="The Unit of Caring">theunitofcaring</a> and added:                                                                                                                                                                                    </span><div class="clear"></div><blockquote><a rel="nofollow" href="https://theopjones.tumblr.com/post/178305258912" title="View post">
+                                I think you did the right thing re making public posts at the expense of needing to recuse yourself from the panel. Your...                            </a></blockquote></li><li class="note like tumblelog_femmeprince without_commentary"><a rel="nofollow" class="avatar_frame" target="_blank" href="http://femmeprince.tumblr.com/" title="That was my &quot;real&quot; name " rel="nofollow"><img src="https://78.media.tumblr.com/avatar_1259d190c6b4_16.pnj" class="avatar " alt="" /></a><span class="action"><a rel="nofollow" href="http://femmeprince.tumblr.com/" title="That was my &quot;real&quot; name" rel="nofollow">femmeprince</a> liked this                                    </span><div class="clear"></div></li><li class="note like tumblelog_theopjones without_commentary"><a rel="nofollow" class="avatar_frame" target="_blank" href="https://theopjones.tumblr.com/" title=" " rel="nofollow"><img src="https://78.media.tumblr.com/avatar_125a7d7648fa_16.pnj" class="avatar " alt="" /></a><span class="action"><a rel="nofollow" href="https://theopjones.tumblr.com/" title="" rel="nofollow">theopjones</a> liked this                                    </span><div class="clear"></div></li><li class="note like tumblelog_sockdrawerdemon without_commentary"><a rel="nofollow" class="avatar_frame" target="_blank" href="http://sockdrawerdemon.tumblr.com/" title="Not cool enough for this. " rel="nofollow"><img src="https://78.media.tumblr.com/avatar_91a90a3de426_16.pnj" class="avatar " alt="" /></a><span class="action"><a rel="nofollow" href="http://sockdrawerdemon.tumblr.com/" title="Not cool enough for this." rel="nofollow">sockdrawerdemon</a> liked this                                    </span><div class="clear"></div></li><li class="note like tumblelog_nextworldover without_commentary"><a rel="nofollow" class="avatar_frame" target="_blank" href="https://nextworldover.tumblr.com/" title="Next World Over " rel="nofollow"><img src="https://78.media.tumblr.com/avatar_6f6853db5f27_16.pnj" class="avatar " alt="" /></a><span class="action"><a rel="nofollow" href="https://nextworldover.tumblr.com/" title="Next World Over" rel="nofollow">nextworldover</a> liked this                                    </span><div class="clear"></div></li><li class="note like tumblelog_yumantimatter without_commentary"><a rel="nofollow" class="avatar_frame" target="_blank" href="https://yumantimatter.tumblr.com/" title="YumAntimatter " rel="nofollow"><img src="https://78.media.tumblr.com/avatar_2f0f9249cfac_16.pnj" class="avatar " alt="" /></a><span class="action"><a rel="nofollow" href="https://yumantimatter.tumblr.com/" title="YumAntimatter" rel="nofollow">yumantimatter</a> liked this                                    </span><div class="clear"></div></li><li class="note like tumblelog_rubegoldbergsaciddreams without_commentary"><a rel="nofollow" class="avatar_frame" target="_blank" href="https://rubegoldbergsaciddreams.tumblr.com/" title="do stupid things faster with more energy " rel="nofollow"><img src="https://78.media.tumblr.com/avatar_02ee4e74f0a3_16.pnj" class="avatar " alt="" /></a><span class="action"><a rel="nofollow" href="https://rubegoldbergsaciddreams.tumblr.com/" title="do stupid things faster with more energy" rel="nofollow">rubegoldbergsaciddreams</a> liked this                                    </span><div class="clear"></div></li><li class="note like tumblelog_pratfins without_commentary"><a rel="nofollow" class="avatar_frame" target="_blank" href="https://pratfins.tumblr.com/" title="Enim Parvi Se " rel="nofollow"><img src="https://78.media.tumblr.com/avatar_f260a8f09d27_16.pnj" class="avatar " alt="" /></a><span class="action"><a rel="nofollow" href="https://pratfins.tumblr.com/" title="Enim Parvi Se" rel="nofollow">pratfins</a> liked this                                    </span><div class="clear"></div></li><li class="note like tumblelog_spugpow without_commentary"><a rel="nofollow" class="avatar_frame" target="_blank" href="http://spugpow.tumblr.com/" title="SPUGPOW " rel="nofollow"><img src="https://78.media.tumblr.com/avatar_bdb6ec37b13e_16.pnj" class="avatar " alt="" /></a><span class="action"><a rel="nofollow" href="http://spugpow.tumblr.com/" title="SPUGPOW" rel="nofollow">spugpow</a> liked this                                    </span><div class="clear"></div></li><li class="note reblog tumblelog_drethelin without_commentary"><a rel="nofollow" class="avatar_frame" target="_blank" href="https://drethelin.tumblr.com/" title="Splendid Palimpsest"><img src="https://78.media.tumblr.com/avatar_58ce801a0148_16.pnj" class="avatar " alt="" /></a><span class="action" data-post-url="https://drethelin.tumblr.com/post/178304456518"><a rel="nofollow" href="https://drethelin.tumblr.com/" class="tumblelog" title="Splendid Palimpsest">drethelin</a> reblogged this from <a rel="nofollow" href="https://theunitofcaring.tumblr.com/" class="source_tumblelog" title="The Unit of Caring">theunitofcaring</a>                                                                                                                                                                                    </span><div class="clear"></div></li><li class="note like tumblelog_drethelin without_commentary"><a rel="nofollow" class="avatar_frame" target="_blank" href="https://drethelin.tumblr.com/" title="Splendid Palimpsest " rel="nofollow"><img src="https://78.media.tumblr.com/avatar_58ce801a0148_16.pnj" class="avatar " alt="" /></a><span class="action"><a rel="nofollow" href="https://drethelin.tumblr.com/" title="Splendid Palimpsest" rel="nofollow">drethelin</a> liked this                                    </span><div class="clear"></div></li><li class="note reblog tumblelog_humanfist with_commentary"><a rel="nofollow" class="avatar_frame" target="_blank" href="https://humanfist.tumblr.com/" title="humanfist"><img src="https://assets.tumblr.com/images/default_avatar/pyramid_closed_16.png" class="avatar " alt="" /></a><span class="action" data-post-url="https://humanfist.tumblr.com/post/178304374551"><a rel="nofollow" href="https://humanfist.tumblr.com/" class="tumblelog" title="humanfist">humanfist</a> reblogged this from <a rel="nofollow" href="https://theunitofcaring.tumblr.com/" class="source_tumblelog" title="The Unit of Caring">theunitofcaring</a> and added:                                                                                                                                                                                    </span><div class="clear"></div><blockquote><a rel="nofollow" href="https://humanfist.tumblr.com/post/178304374551" title="View post">
+                                This has pretty significant influence on my view of the situation.                            </a></blockquote></li><li class="note like tumblelog_derplefurf without_commentary"><a rel="nofollow" class="avatar_frame" target="_blank" href="https://derplefurf.tumblr.com/" title="Cheese-Eating Dragonborn " rel="nofollow"><img src="https://78.media.tumblr.com/avatar_35a45c2f617b_16.pnj" class="avatar " alt="" /></a><span class="action"><a rel="nofollow" href="https://derplefurf.tumblr.com/" title="Cheese-Eating Dragonborn" rel="nofollow">derplefurf</a> liked this                                    </span><div class="clear"></div></li><li class="note like tumblelog_jaiwithani without_commentary"><a rel="nofollow" class="avatar_frame" target="_blank" href="https://jaiwithani.tumblr.com/" title="don&#039;t panic " rel="nofollow"><img src="https://78.media.tumblr.com/avatar_55ad652ecbce_16.pnj" class="avatar " alt="" /></a><span class="action"><a rel="nofollow" href="https://jaiwithani.tumblr.com/" title="don&#039;t panic" rel="nofollow">jaiwithani</a> liked this                                    </span><div class="clear"></div></li><li class="note like tumblelog_saamdaamdandaurbhed without_commentary"><a rel="nofollow" class="avatar_frame" target="_blank" href="http://saamdaamdandaurbhed.tumblr.com/" title="Saam Daam Dand Bhed " rel="nofollow"><img src="https://78.media.tumblr.com/avatar_b48f84596175_16.pnj" class="avatar " alt="" /></a><span class="action"><a rel="nofollow" href="http://saamdaamdandaurbhed.tumblr.com/" title="Saam Daam Dand Bhed" rel="nofollow">saamdaamdandaurbhed</a> liked this                                    </span><div class="clear"></div></li><li class="note like tumblelog_squareroot-1 without_commentary"><a rel="nofollow" class="avatar_frame" target="_blank" href="http://squareroot-1.tumblr.com/" title="The Square Root of Negative One " rel="nofollow"><img src="https://78.media.tumblr.com/avatar_aeccbce78787_16.pnj" class="avatar " alt="" /></a><span class="action"><a rel="nofollow" href="http://squareroot-1.tumblr.com/" title="The Square Root of Negative One" rel="nofollow">squareroot-1</a> liked this                                    </span><div class="clear"></div></li><li class="note like tumblelog_illidanstr without_commentary"><a rel="nofollow" class="avatar_frame" target="_blank" href="http://illidanstr.tumblr.com/" title="Descent into Knowledge " rel="nofollow"><img src="https://78.media.tumblr.com/avatar_f0505b1cc42b_16.pnj" class="avatar " alt="" /></a><span class="action"><a rel="nofollow" href="http://illidanstr.tumblr.com/" title="Descent into Knowledge" rel="nofollow">illidanstr</a> liked this                                    </span><div class="clear"></div></li><li class="note reblog tumblelog_mitoticcephalopod without_commentary"><a rel="nofollow" class="avatar_frame" target="_blank" href="https://mitoticcephalopod.tumblr.com/" title="Multitudes of Squid Flying Through The Sky"><img src="https://78.media.tumblr.com/avatar_2a15ea0d39d1_16.pnj" class="avatar " alt="" /></a><span class="action" data-post-url="https://mitoticcephalopod.tumblr.com/post/178304196771"><a rel="nofollow" href="https://mitoticcephalopod.tumblr.com/" class="tumblelog" title="Multitudes of Squid Flying Through The Sky">mitoticcephalopod</a> reblogged this from <a rel="nofollow" href="https://theunitofcaring.tumblr.com/" class="source_tumblelog" title="The Unit of Caring">theunitofcaring</a>                                                                                                                                                                                    </span><div class="clear"></div></li><li class="note like tumblelog_mitoticcephalopod without_commentary"><a rel="nofollow" class="avatar_frame" target="_blank" href="https://mitoticcephalopod.tumblr.com/" title="Multitudes of Squid Flying Through The Sky " rel="nofollow"><img src="https://78.media.tumblr.com/avatar_2a15ea0d39d1_16.pnj" class="avatar " alt="" /></a><span class="action"><a rel="nofollow" href="https://mitoticcephalopod.tumblr.com/" title="Multitudes of Squid Flying Through The Sky" rel="nofollow">mitoticcephalopod</a> liked this                                    </span><div class="clear"></div></li><li class="note reblog tumblelog_tchtchtchtchtch without_commentary"><a rel="nofollow" class="avatar_frame" target="_blank" href="https://tchtchtchtchtch.tumblr.com/" title="tcheasdfjkl"><img src="https://78.media.tumblr.com/avatar_17c4e20843fc_16.pnj" class="avatar " alt="" /></a><span class="action" data-post-url="https://tchtchtchtchtch.tumblr.com/post/178304184664"><a rel="nofollow" href="https://tchtchtchtchtch.tumblr.com/" class="tumblelog" title="tcheasdfjkl">tchtchtchtchtch</a> reblogged this from <a rel="nofollow" href="https://theunitofcaring.tumblr.com/" class="source_tumblelog" title="The Unit of Caring">theunitofcaring</a>                                                                                                                                                                                    </span><div class="clear"></div></li><li class="note like tumblelog_existentialterror without_commentary"><a rel="nofollow" class="avatar_frame" target="_blank" href="https://existentialterror.tumblr.com/" title="Special Feature Deep-Sea Creature " rel="nofollow"><img src="https://78.media.tumblr.com/avatar_4f77b4488567_16.pnj" class="avatar " alt="" /></a><span class="action"><a rel="nofollow" href="https://existentialterror.tumblr.com/" title="Special Feature Deep-Sea Creature" rel="nofollow">existentialterror</a> liked this                                    </span><div class="clear"></div></li><li class="note more_notes_link_container" style="text-align:center;" id="more_notes_178304033006"><a class="more_notes_link" rel="nofollow" href="#" onclick="this.style.display='none';document.getElementById('notes_loading_178304033006').style.display = 'block';if(window.ActiveXObject)var tumblrReq=new ActiveXObject('Microsoft.XMLHTTP');else if(window.XMLHttpRequest)var tumblrReq=new XMLHttpRequest();else return false;tumblrReq.onreadystatechange=function(){if(tumblrReq.readyState==4){var notes_html=tumblrReq.responseText.split('<!-- START '+'NOTES -->')[1].split('<!-- END '+'NOTES -->')[0];
+if(window.tumblrNotesLoaded)if(tumblrNotesLoaded(notes_html)==false)return;var more_notes_link=document.getElementById('more_notes_178304033006');var notes=more_notes_link.parentNode;notes.removeChild(more_notes_link);notes.innerHTML+=notes_html;if(window.tumblrNotesInserted)tumblrNotesInserted(notes_html);}};tumblrReq.open('GET','/notes/178304033006/aIbFiJ4oe?from_c=1537507519',true);tumblrReq.send();return false;">Show more notes</a><span class="notes_loading" id="notes_loading_178304033006" style="display:none;">Loading...</span></li><!-- END NOTES --></ol></div>
+				
+				<!-- / post meta -->
+
+				</div>
+
+			
+
+			</section>
+
+			<div id="infinite-scroll-footer">
+				<p>Tumblr theme by <a href="http://themeanorak.com" title="Free and premium Tumblr themes by Theme Anorak">Theme Anorak</a></p>
+			</div>
+
+			<div id="to-top">
+				<p><i class="icon-circle-arrow-up"></i> <a href="#">Back to top</a></p>
+			</div>
+
+			<footer>
+
+				
+
+				<p>Tumblr theme by <a href="http://themeanorak.com" title="Free and premium Tumblr themes by Theme Anorak">Theme Anorak</a></p>
+
+			</footer>
+
+		</div>
+
+		</div>
+
+	<!--[if lt IE 7 ]>
+		<script src="//ajax.googleapis.com/ajax/libs/chrome-frame/1.0.3/CFInstall.min.js"></script>
+		<script>window.attachEvent('onload',function(){CFInstall.check({mode:'overlay'})})</script>
+	<![endif]-->
+	<!-- Start of StatCounter Code for Tumblr -->
+<script type="text/javascript">
+var sc_project=10443969; 
+var sc_invisible=0; 
+var sc_security="4c1fd452"; 
+var scJsHost = (("https:" == document.location.protocol) ?
+"https://secure." : "http://www.");
+document.write("<sc"+"ript type='text/javascript' src='" +
+scJsHost+
+"statcounter.com/counter/counter.js'></"+"script>");
+</script>
+<noscript><div class="statcounter"><a title="tumblr visit
+counter" href="http://statcounter.com/tumblr/"
+target="_blank"><img class="statcounter"
+src="http://c.statcounter.com/10443969/0/4c1fd452/0/"
+alt="tumblr visit counter"></a></div></noscript>
+<!-- End of StatCounter Code for Tumblr -->
+
+	
+<iframe scrolling="no" width="1" height="1" frameborder="0" style="background-color:transparent; overflow:hidden; position:absolute; top:0; left:0; z-index:9999;" id="ga_target"></iframe><script type="text/javascript">
+    (function(){
+        var analytics_frame = document.getElementById('ga_target');
+        var analytics_iframe_loaded;
+        var user_logged_in;
+        var blog_is_nsfw = 'No';
+        var addthis_enabled = false;
+
+        var eventMethod = window.addEventListener ? "addEventListener" : "attachEvent";
+        var eventer = window[eventMethod];
+        var messageEvent = eventMethod == "attachEvent" ? "onmessage" : "message";
+        eventer(messageEvent,function(e) {
+            var message = (e.data && e.data.split) ? e.data.split(';') : '';
+            switch (message[0]) {
+                case 'analytics_iframe_loaded':
+                    analytics_iframe_loaded = true;
+                    postCSMessage();
+                    postGAMessage();
+                    postATMessage();
+                    postRapidMessage();
+                    break;
+                case 'user_logged_in':
+                    user_logged_in = message[1];
+                    postGAMessage();
+                    postATMessage();
+                    break;
+            }
+        }, false);
+
+        analytics_frame.src = "https://assets.tumblr.com/analytics.html?5d7b0fdb3336b03752f25a64c36c39e9#" +
+                              "https://theunitofcaring.tumblr.com";
+        function postGAMessage() {
+            if (analytics_iframe_loaded && user_logged_in) {
+                var is_ajax = false;
+                analytics_frame.contentWindow.postMessage(['tick_google_analytics', is_ajax, user_logged_in, blog_is_nsfw, '/post/178304033006/community-politics-fallout-of-the-last-few?route=%2Fpost%2F%3Aid%2F%3Asummary'].join(';'), analytics_frame.src.split('/analytics.html')[0]);
+            }
+        }
+        function postCSMessage() {
+            COMSCORE = true;
+            analytics_frame.contentWindow.postMessage('enable_comscore;' + window.location, analytics_frame.src.split('/analytics.html')[0]);
+        }
+        function postATMessage() {
+            if (addthis_enabled && analytics_iframe_loaded) {
+                analytics_frame.contentWindow.postMessage('enable_addthis', analytics_frame.src.split('/analytics.html')[0]);
+            }
+        }
+        function postRapidMessage() {
+                            if (analytics_iframe_loaded) {
+                    var is_ajax = '';
+                    var route = '/post/:id/:summary';
+                    var tumblelog_id = '186234563';
+                    var yahoo_space_id = '1197719230';
+                    var rapid_client_only = '1';
+                    var apv = '1';
+                    var rapid_ex = '';
+
+                    analytics_frame.contentWindow.postMessage(
+                        [
+                            'tick_rapid', is_ajax, route, user_logged_in, tumblelog_id,
+                            yahoo_space_id, rapid_client_only, apv, rapid_ex
+                        ].join(';'),
+                        analytics_frame.src.split('/analytics.html')[0]
+                    );
+                }
+                    }
+    })();
+</script><script type="text/javascript">!function(s){s.src='https://px.srvcs.tumblr.com/impixu?T=1537816011&J=eyJ0eXBlIjoidXJsIiwidXJsIjoiaHR0cDovL3RoZXVuaXRvZmNhcmluZy50dW1ibHIuY29tL3Bvc3QvMTc4MzA0MDMzMDA2L2NvbW11bml0eS1wb2xpdGljcy1mYWxsb3V0LW9mLXRoZS1sYXN0LWZldyIsInJlcXR5cGUiOjAsInJvdXRlIjoiL3Bvc3QvOmlkLzpzdW1tYXJ5In0=&U=DIJLBDEIBH&K=9f499eacc9e007915c2e27c1569c1040f2085edbd6c5f446f79adea2832bf100&R='.replace(/&R=[^&$]*/,'').concat('&R='+escape(document.referrer)).slice(0,2000).replace(/%.?.?$/,'');}(new Image());</script><noscript><img style="position:absolute;z-index:-3334;top:0px;left:0px;visibility:hidden;" src="https://px.srvcs.tumblr.com/impixu?T=1537816011&J=eyJ0eXBlIjoidXJsIiwidXJsIjoiaHR0cDovL3RoZXVuaXRvZmNhcmluZy50dW1ibHIuY29tL3Bvc3QvMTc4MzA0MDMzMDA2L2NvbW11bml0eS1wb2xpdGljcy1mYWxsb3V0LW9mLXRoZS1sYXN0LWZldyIsInJlcXR5cGUiOjAsInJvdXRlIjoiL3Bvc3QvOmlkLzpzdW1tYXJ5Iiwibm9zY3JpcHQiOjF9&U=DIJLBDEIBH&K=b76dbee2d36604e50d708da42f3b738499d7d3f4e204617ca6392fb915b6107e&R="></noscript><script >
+        (function (w,d) {
+            'use strict';
+            var l = function(el, type, listener, useCapture) {
+                el.addEventListener ?
+                el.addEventListener(type, listener, !!useCapture) :
+                el.attachEvent && el.attachEvent('on' + type, listener, !!useCapture);
+            };
+            var a = function () {
+                                if (d.getElementById('tumblr-cdx')) {
+                    return;
+                }
+                var s = d.createElement('script');
+                var el = d.getElementsByTagName('script')[0];
+                s.async = true;
+                s.src = 'https://assets.tumblr.com/assets/scripts/vendor/cedexis/1-13960-radar10.min.js?_v=78f984559620089dbe79aa1ddebe951d';
+                s.type = 'text/javascript';
+                s.id = 'tumblr-cdx';
+                d.body.appendChild(s);
+            };
+            l(w,'load',a);
+        }(window, document));
+</script><script type="text/javascript">!function(s){s.src='https://px.srvcs.tumblr.com/impixu?T=1537816011&J=eyJ0eXBlIjoicG9zdCIsInVybCI6Imh0dHA6Ly90aGV1bml0b2ZjYXJpbmcudHVtYmxyLmNvbS9wb3N0LzE3ODMwNDAzMzAwNi9jb21tdW5pdHktcG9saXRpY3MtZmFsbG91dC1vZi10aGUtbGFzdC1mZXciLCJyZXF0eXBlIjowLCJyb3V0ZSI6Ii9wb3N0LzppZC86c3VtbWFyeSIsInBvc3RzIjpbeyJwb3N0aWQiOiIxNzgzMDQwMzMwMDYiLCJibG9naWQiOiIxODYyMzQ1NjMiLCJzb3VyY2UiOjMzfV19&U=GINFKNCEIL&K=e8525d0e4415fcb9ea83a59ef45d03bdf31e483de5f8d799f90145ce0d64b2b6&R='.replace(/&R=[^&$]*/,'').concat('&R='+escape(document.referrer)).slice(0,2000).replace(/%.?.?$/,'');}(new Image());</script><noscript><img style="position:absolute;z-index:-3334;top:0px;left:0px;visibility:hidden;" src="https://px.srvcs.tumblr.com/impixu?T=1537816011&J=eyJ0eXBlIjoicG9zdCIsInVybCI6Imh0dHA6Ly90aGV1bml0b2ZjYXJpbmcudHVtYmxyLmNvbS9wb3N0LzE3ODMwNDAzMzAwNi9jb21tdW5pdHktcG9saXRpY3MtZmFsbG91dC1vZi10aGUtbGFzdC1mZXciLCJyZXF0eXBlIjowLCJyb3V0ZSI6Ii9wb3N0LzppZC86c3VtbWFyeSIsInBvc3RzIjpbeyJwb3N0aWQiOiIxNzgzMDQwMzMwMDYiLCJibG9naWQiOiIxODYyMzQ1NjMiLCJzb3VyY2UiOjMzfV0sIm5vc2NyaXB0IjoxfQ==&U=GINFKNCEIL&K=88b71aa915055ab03efcd8e2d0ff15561cb8e58c171fcdefd5ccf1af66708d35&R="></noscript><noscript id="bootloader" data-bootstrap="{&quot;Components&quot;:{&quot;PostActivity&quot;:[],&quot;NotificationPoller&quot;:{&quot;messaging_keys&quot;:[],&quot;token&quot;:&quot;c86f8a500596474a7ef5034081f694bd&quot;,&quot;inbox_unread&quot;:0},&quot;DesktopDashboardLogo&quot;:{&quot;animations&quot;:[[&quot;https:\/\/assets.tumblr.com\/images\/logo\/hover-animations\/1.png?_v=161861acded461bb6e995593a3bae835&quot;,&quot;https:\/\/assets.tumblr.com\/images\/logo\/hover-animations\/1@2x.png?_v=496a774637302a598c851381d00009b0&quot;]]},&quot;TumblelogIframe&quot;:{&quot;unified&quot;:true,&quot;variant&quot;:null,&quot;isCompact&quot;:true,&quot;tumblelogBundleSrc&quot;:&quot;https:\/\/assets.tumblr.com\/client\/prod\/standalone\/tumblelog\/index.build.js?_v=f2d11b913d5aafc3b6cf5c225ba1e10c&quot;,&quot;tumblelogName&quot;:&quot;theunitofcaring&quot;,&quot;isLoggedIn&quot;:false,&quot;isFriend&quot;:false,&quot;formKey&quot;:&quot;&quot;,&quot;canSubscribe&quot;:false,&quot;isSubscribed&quot;:false,&quot;tumblelogTitle&quot;:&quot;The Unit of Caring&quot;,&quot;tumblelogAvatar&quot;:&quot;https:\/\/78.media.tumblr.com\/avatar_11ff7449b8f6_40.pnj&quot;,&quot;tumblelogHost&quot;:&quot;https:\/\/theunitofcaring.tumblr.com&quot;,&quot;isOptica&quot;:false,&quot;isCustomTheme&quot;:true,&quot;themeHeaderImage&quot;:&quot;https:\/\/static.tumblr.com\/5f2827a684e7217a605d407a237d4d24\/w2gv687\/Fb8nffyvk\/tumblr_static_tumblr_static_4yjjfsxu3ssgoow08w0ccc4go_focused_v3.jpg&quot;,&quot;themeBackgroundColor&quot;:&quot;#FFFFFF&quot;,&quot;themeTitleColor&quot;:&quot;#213f52&quot;,&quot;themeAccentColor&quot;:&quot;#213f52&quot;,&quot;brag&quot;:false,&quot;adsEnabled&quot;:false,&quot;canShowAd&quot;:true,&quot;isPremium&quot;:false,&quot;showLrecAds&quot;:false,&quot;showStickyLrecBackfill&quot;:false,&quot;showGeminiAds&quot;:false,&quot;geminiSectionCodeDesktop&quot;:&quot;a10bca9c-0c5d-4a02-ab13-14ab8513d81d&quot;,&quot;geminiSectionCodeMobile&quot;:&quot;ced63809-b609-4aca-96a0-abc099acba6b&quot;,&quot;currentPageType&quot;:&quot;single_post&quot;,&quot;currentPage&quot;:&quot;1&quot;,&quot;searchQuery&quot;:&quot;&quot;,&quot;tag&quot;:&quot;&quot;,&quot;query&quot;:&quot;&quot;,&quot;chrono&quot;:false,&quot;postId&quot;:&quot;178304033006&quot;,&quot;src&quot;:&quot;https:\/\/theunitofcaring.tumblr.com\/post\/178304033006\/community-politics-fallout-of-the-last-few&quot;,&quot;postUrl&quot;:&quot;&quot;,&quot;isBlocked&quot;:null,&quot;isAdmin&quot;:false,&quot;lookupButtonUrl&quot;:&quot;&quot;,&quot;showSpamButton&quot;:false,&quot;showRootPostButton&quot;:false,&quot;rootPostUrl&quot;:&quot;&quot;,&quot;showRadarPostButton&quot;:false,&quot;radarKeys&quot;:&quot;&quot;,&quot;isUniblocked&quot;:false,&quot;isNsfw&quot;:false,&quot;isAdult&quot;:false,&quot;isSpam&quot;:false,&quot;isPrimaryBlog&quot;:false,&quot;canEdit&quot;:false,&quot;canReblogSelf&quot;:false,&quot;showLikeButton&quot;:false,&quot;showReblogButton&quot;:false,&quot;reblogUrl&quot;:&quot;&quot;,&quot;showFanMailButton&quot;:false,&quot;showMessagingButton&quot;:false,&quot;loginCheckIframeSrc&quot;:&quot;https:\/\/assets.tumblr.com\/assets\/html\/iframe\/login_check.html?_v=3de94a184d600617102ddd5b48fb36e9&quot;,&quot;appInstallUrls&quot;:{&quot;android&quot;:&quot;https:\/\/play.google.com\/store\/apps\/details?id=com.tumblr\u0026referrer=utm_source%3Dtumblr%26utm_medium%3Diframe%26utm_campaign%3Dblog_network_floating_cta&quot;,&quot;ios&quot;:&quot;https:\/\/itunes.apple.com\/app\/apple-store\/id305343404?pt=9029\u0026ct=blog_network_floating_cta\u0026mt=8&quot;},&quot;appOpenReferrer&quot;:&quot;tumblr_new_iframe&quot;,&quot;isShowSearch&quot;:true,&quot;supplyLogging&quot;:[],&quot;secondsSinceLastActivity&quot;:-1}},&quot;Flags&quot;:{&quot;doods&quot;:&quot;eyJmaWx0ZXJfbnNmdyI6dHJ1ZSwic2FmZV9tb2RlIjp0cnVlLCJzYWZlX21vZGVfZW5hYmxlZCI6dHJ1ZSwia2V5Y29tbWFuZF9hdXRvX3BhZ2luYXRlIjp0cnVlLCJsb2dnZWRfb3V0X3NlYXJjaCI6dHJ1ZSwia3Jha2VuX3dlYl9sb2dnaW5nX2xpYnJhcnkiOnRydWUsInNlY3VyZV9mb3JtX2tleSI6dHJ1ZSwic2VjdXJlX2Zvcm1fa2V5X2Z1bGx5X29uIjp0cnVlLCJ0dW1ibGVsb2dfcG9wb3ZlciI6dHJ1ZSwiY2Fub25pY2FsX3VybF93cml0ZXMiOnRydWUsImVuYWJsZV9jYXB0dXJlX2pzIjp0cnVlLCJwcmltYV9wb3N0X2Zvcm1zIjp0cnVlLCJsb2NrZWRfcmVibG9nX3VpIjp0cnVlLCJ0YWJsZXRfYmFubmVyX2FjdGl2ZSI6dHJ1ZSwibW9iaWxlX2Jhbm5lcl9hY3RpdmUiOnRydWUsImxvZ19zZWFyY2hfYm94Ijp0cnVlLCJ1c2VyX21lbnRpb25zIjp0cnVlLCJodG1sNV9hdWRpb19wbGF5ZXIiOnRydWUsInBvcG92ZXJfcmVjb21tZW5kYXRpb25zIjp0cnVlLCJpbmRhc2hfcmVjb21tZW5kYXRpb25zIjp0cnVlLCJwb3B0aWNhX3R1bWJsZWxvZ19wb3BvdmVycyI6dHJ1ZSwidHVtYmxyX3R2Ijp0cnVlLCJkZXByZWNhdGVfZmVhdHVyZWRfdGFncyI6dHJ1ZSwicmVibG9nX3VpX3JlZnJlc2giOnRydWUsInRhYl9zd2l0Y2hlciI6dHJ1ZSwiZmFzdF9jb21wb3NlIjp0cnVlLCJkYXNoYm9hcmRfcmVmcmVzaCI6dHJ1ZSwibW9iaWxlX3dlYl9waG90b3NldHMiOnRydWUsIm1vYmlsZV93ZWJfZ2F0ZSI6dHJ1ZSwibW9iaWxlX3dlYl9wYWdlX3RpdGxlcyI6dHJ1ZSwibW9iaWxlX3dlYl9hYnVzZV9mb3JtIjp0cnVlLCJkb250X2Nhc3RfanNfZm9sbG93cyI6dHJ1ZSwiYWRzX25ld192ZW5kb3JfYnV0dG9ucyI6dHJ1ZSwicmVhY3RpdmF0aW9uX2Zsb3ciOnRydWUsImd1bHBqc19hZG1pbiI6dHJ1ZSwiZW5hYmxlX2pzX2VwaGVtZXJhbF9sb2ciOnRydWUsImxvZ19sYWR5Ijp0cnVlLCJjc2xvZ2dlcl9qcyI6dHJ1ZSwiZGlzY292ZXJ5X2h1Yl9hY2Nlc3MiOnRydWUsImhlYWRlcl9hY2NvdW50X21lbnUiOnRydWUsImVuYWJsZV9zaGFyZV9lbWJlZF9jb2RlIjp0cnVlLCJyZWRkaXRfc2hhcmluZyI6dHJ1ZSwicG9zdF9pdF9mb3J3YXJkIjp0cnVlLCJwZWVwcl9zZWFyY2hfYW5kX2ZpbHRlciI6dHJ1ZSwiaW50ZXJuc19wYWdlIjp0cnVlLCJmb2xsb3dlZF9zZWFyY2hlc19iaWdfd2ViIjp0cnVlLCJsaXZlcGhvdG9zX3dlYiI6dHJ1ZSwic2FmZV9tb2RlX293bl9wb3N0Ijp0cnVlLCJoaWRlX2RlZmF1bHRfaGVhZGVyc19ibG9nX2NhcmRzIjp0cnVlLCJ0eXBpbmdfaW5kaWNhdG9yX3dyaXRlIjp0cnVlLCJnZHByX2d1Y2VfaXNfcmVxdWlyZWQiOnRydWUsImFyY2hpdmUtcGx1cyI6dHJ1ZSwiZGFybGFfYWRfZmVlZGJhY2siOnRydWUsInN0YXR1c19pbmRpY2F0b3IiOnRydWUsImNvbnZlcnNhdGlvbmFsX25vdGlmaWNhdGlvbnMiOnRydWUsImRpc2FibGVfeWFob29fYl9jb29raWUiOnRydWUsImxpdmVwaG90b3MiOnRydWV9&quot;},&quot;Context&quot;:{&quot;name&quot;:&quot;default&quot;,&quot;time&quot;:1537816011000,&quot;userinfo&quot;:{&quot;primary&quot;:&quot;&quot;,&quot;name&quot;:&quot;&quot;,&quot;channels&quot;:[]},&quot;hosts&quot;:{&quot;assets_host&quot;:&quot;https:\/\/assets.tumblr.com&quot;,&quot;secure_assets_host&quot;:&quot;https:\/\/assets.tumblr.com&quot;,&quot;www_host&quot;:&quot;https:\/\/www.tumblr.com&quot;,&quot;secure_www_host&quot;:&quot;https:\/\/www.tumblr.com&quot;,&quot;embed_host&quot;:&quot;https:\/\/embed.tumblr.com&quot;,&quot;safe_host&quot;:&quot;https:\/\/safe.txmblr.com&quot;,&quot;platform_host&quot;:&quot;https:\/\/platform.tumblr.com&quot;},&quot;language&quot;:&quot;en_US&quot;,&quot;language_simple&quot;:&quot;en&quot;,&quot;assets&quot;:&quot;https:\/\/assets.tumblr.com\/client\/prod\/&quot;},&quot;Translations&quot;:{&quot;%1$sReport %2$s&#039;s post?%3$sIf it violates our community guidelines, we&#039;ll remove it.%4$s&quot;:&quot;%1$sReport %2$s&#039;s reblog?%3$sIf it violates our community guidelines, we&#039;ll remove it.%4$s&quot;,&quot;%1$sReport %2$s&#039;s reply?%3$sIf it violates our community guidelines, we&#039;ll remove it.%4$s&quot;:&quot;%1$sReport %2$s&#039;s reblog?%3$sIf it violates our community guidelines, we&#039;ll remove it.%4$s&quot;}}"></noscript><script src="https://assets.tumblr.com/client/prod/standalone/tumblelog/index.build.js?_v=f2d11b913d5aafc3b6cf5c225ba1e10c"></script></body>
+
+	
+
+	
+
+</html>
