@@ -1,0 +1,48 @@
+Name: Thai basil fried rice with veggies + tofu
+Time: 30 minutes
+Serving: 2
+Course: Side
+Cuisine: Thai
+Ingredients[Sauce]:
+  -  2.0 tbsp soy sauce
+  -  1.0 tbsp water
+  -  1.0 tbsp honey
+  -  2.0 tbsp orange juice
+  -  2.0 cloves garlic (whole, peeled)
+  -  1.0 tsp rice vinegar
+  -  1.0 tbsp vegan oyster sauce / liquid aminos
+  -  1.0 tsp molasses
+  - 12.0 oz silken tofu (sliced, 1 inch width)
+Ingredients[Rice]:
+  -  1.0 tbsp sesame oil
+  -  5.0 cloves garlic (shredded, peeled)
+  -  2.0 units hot green chilies (minced)
+  -  6.0 units shiitake mushrooms (sliced)
+  -  0.5 cups cashews (whole)
+  -  0.5 units red bell pepper (thinly sliced)
+  -  0.5 cups Thai basil leaves (chopped)
+  -  2.0 cups basmati rice
+  -  2.0 tsp salt
+  -  2.0 units green onion (chopped)
+Ingredients[Mixed Vegetables]:
+  -  0.5 units white onion (chopped roughly)
+  -  4.0 units carrots (thinly sliced)
+  -  1.0 head broccoli (broken into florets)
+Ingredients[Toppings]:
+  -  4.0 wedges lime
+  -  2.0 units green onions, chopped
+  -  1.0 tbsp sesame seeds
+  -  1.0 tbsp Sriracha 
+  -  0.5 cup crushed peanuts
+
+Instructions
+
+  1. Get a kettle. Add 3.5 cups water. Boil water. Post-condition: water will be boiling water.
+  2. Get a non-stick pot. Add pot to stove. Set stove to medium-low. Add 3.5 cups boiling water to pot. Add basmati rice. Cover non-stick pot. Wait 18 minutes. Post-condition: rice will be cooked rice.
+  3. Get a mixing bowl. Add Sauce to mixing bowl. Mix mixing bowl. Add tofu to mixing bowl. Wait for 15 minutes. Post condition: the tofu will be more flavorful.
+  4. Get an oiled pan. Wait 5 minutes. Set oven to 425 F. Wait 10 minutes. Add [3] to oiled pan, the oiled pan is tofu. Add tofu to oven. Wait 10 minutes. Remove tofu from oven. Post condition: the tofu will be firmer and drier.
+  5. Add shiitake mushrooms to mixing bowl. Wait 6 minutes. Post-condition: shiitake mushrooms will be marinated mushrooms.
+  6. Wait 18 minutes. A wok is a skillet. Get a skillet. Add sesame oil to skillet. Add skillet to stove. Set stove to high. Wait 3 minutes. Add garlic to skillet. Add hot green chilies to skillet. Wait 1 minute. Add bell pepper to skillet. Add cashews to skillet. Wait 2 minutes. Add Mixed Vegetables to skillet. Wait 1 minute. Add marinated mushrooms to skillet. Post-condition: skillet will be cooked vegetables.
+  7. Wait 25 minutes. Add mixing bowl to cooked vegetables. Wait 2 minutes. Add tofu to cooked vegetables. Add green onions (Rice). Add Thai basil leaves. Wait 1 minute. Post-condition: cooked vegetables will be PC1.
+  8. Wait 28 minutes. Add cooked rice to PC1. PC1 is rice. Add salt to rice. Cover rice. Wait 2 minutes. Post-condition: rice is PC2.
+  9. Wait 30 minutes. Add Toppings to PC2. Get a bowl. Add 0.5 PC2 to a bowl. Serve bowl. Get a bowl. Add 0.5 PC2 to a bowl. Serve bowl. Post-condition: complete.
