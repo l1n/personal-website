@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>NIH Food Truck Info Page</title>
+        <link rel="stylesheet" href="https://umbc.in/css/elegant.css">
+        <meta name=viewport content="width=device-width, initial-scale=1">
+        <link href='https://fonts.googleapis.com/css?family=Lato&subset=latin' rel='stylesheet' type='text/css'>
+        <style type="text/css">
+h2, h3, h4 {
+    margin-top: 1em;
+}
+article {
+    padding: 4em;
+    background: #f8ffff;
+    -moz-box-shadow:    4px 4px 5px 3px #ccc;
+    -webkit-box-shadow: 4px 4px 5px 3px #ccc;
+    box-shadow:         4px 4px 5px 3px #ccc;
+    margin-bottom: 1em;
+}
+main {
+    max-width: 1000px;
+    margin: auto;
+}
+img {
+    width: 100%;
+    height: auto;
+}
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1 class="logo">NIH Food Truck Info Page</h1>
+        </header>
+        <main>
+            <article>
+                <p>Next Food Trucks: <span class="food-trucks">
+                    <!--INCLUDE cron/next-food-truck.sh--><h1>Trucks for 9/3/2019</h1><ul><li><a target="_blank" href="">Greek on the Street</a></li><li><a target="_blank" href="">Firehouse Subs</a></li><li><a target="_blank" href="">Ben & Jerry's</a></li></ul><!--ENDINCLUDE--></span></p>
+                <p>
+                <strong>When:</strong> Food Trucks open by 11:00, close at 14:00.
+                </p>
+                <p>
+                <strong>Where:</strong> Building 10 South Lobby (moving to Building 10 Lawn in late March/early April); Food Trucks at Lot 10H. 
+                </p>
+                <p>
+                The NIH Community Market is currently held in the Building 10 South Lobby but will move outside to the lawn in front of Building 10 South in late March/early April (weather permitting).
+                </p>
+                <p>
+                Source: <a href="https://www.ors.od.nih.gov/News/Pages/2019-Building-10-Community-Market.aspx" class="cite">NIH Employee Services (Retrieved March 04, 2019)</a>
+                </p>
+                <h1>Campus Map</h1>
+                <figure>
+                    <img src="images/NIHCampus.jpg" alt="NIH Campus Map" />
+                    <legend>NIH Campus Map, Courtesy of ORS (Retrieved March 04, 2019)</legend>
+                </figure>
+            </article>
+        </main>
+        <footer>
+            <p>Website maintained by <a href="mailto:nova.dassarma@ncbi.nlm.nih.gov">Nova</a>.</p>
+                <p>Last updated by maintainer: <span id="last-updated">Mond Mar  4 10:56:00 EST 2019</span></p>
+                <p>Last updated by procinclude.pl: <span id="last-generated">
+                    <!--INCLUDE cron/current-timestamp.sh-->Mon 02 Sep 2019 04:15:01 PM EDT
+<!--ENDINCLUDE--></span></p>
+        </footer>
+    </body>
+</html>
+

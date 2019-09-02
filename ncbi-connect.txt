@@ -1,0 +1,7 @@
+alias RDP='rdesktop localhost:3389 -u brinkam -d NCBI_NT'
+
+which works alongside
+     ```LocalForward 3128 webproxy:3128
+     LocalForward 3389 mslogin01:3389
+     LocalForward 5222 jabber:5222
+     LocalForward 5223 jabber:5223```

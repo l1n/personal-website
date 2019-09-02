@@ -1,0 +1,2 @@
+#!/bin/bash
+(fgrep $(date -dtuesday +%-m/%-d/%Y) /pub/nova/personal/nih-food-trucks-2019.tsv || echo -e "\tNone this week! Full Schedule\tnih-food-trucks-2019.tsv") | perl -ne 'chomp;@f=split/\t/;@a=split/, /,$f[1];@b=split/, /,$f[2];for ($i=0;$i<=$#a;$i++) {print qq[<li><a target="_blank" href="$b[$i]">$a[$i]</a></li>]}' -e 'BEGIN{print"<h1>Trucks for '$(date -dtuesday +%-m/%-d/%Y)'</h1><ul>";}END{print"</ul>";}'
