@@ -24,20 +24,24 @@ foreach my $article (@articles) {
     my $mtime = stat($article)->mtime;
     my $pubDate = time2str $mtime;
     my ($title) = ($content =~ m[<h3>(.*)</h3>]);
+    warn "No title found for $article, continuing" unless $title;
     $content =~ s[<h3>.*</h3>][];
     $content = qq[<article id="$id">$content</article>];
-    $content =~ s[<nav class="tags">][<nav class="tags">\n<li><a href="https://lin.noblejury.com/blog/$id.html">Permalink</a>];
+    $content =~ s[<nav class="tags">][<nav class="tags">\n<li><a href="https://novalinium.com/blog/$id.html">Permalink</a>];
     append_file "feed.xml", <<"EOF" if $title !~ /DO NOT PUBLISH/;
 <item>
 <title>$title</title>
-<link>https://lin.noblejury.com/blog/$id.html</link>
+<link>https://novalinium.com/blog/$id.html</link>
 <description><![CDATA[$content]]></description>
 <pubDate>$pubDate</pubDate>
 </item>
 EOF
     $content = qq[<p>Word count: $wc (~$wm minutes), Last modified: $pubDate</p>$content];
     $content = qq[<h3>$title</h3>$content] if $title;
-    append_file "index.html", $content if $title !~ /DO NOT PUBLISH/;
+    my $index_truncated_content = $content;
+    $index_truncated_content =~ s/(<article.*?\/p>)(.*)(<nav class="tags">)/$1$3/ms;
+    $index_truncated_content =~ s/Permalink/Keep Reading/;
+    append_file "index.html", $index_truncated_content if $title !~ /DO NOT PUBLISH/;
     $content = $pre . $content . $post;
     if ($title) {
         $content =~ s(<title>Littera Nova</title>)(<title>$title - Littera Nova</title>);
