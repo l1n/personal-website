@@ -41,6 +41,7 @@ EOF
     $content = $pre . $content . $post;
     if ($title) {
         $content =~ s(<title>Littera Nova</title>)(<title>$title - Littera Nova</title>);
+        $content =~ s("og:title" content="Littera Nova")("og:title" content="$title");
     }
     write_file "$id.html", $content;
 

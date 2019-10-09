@@ -1,8 +1,12 @@
 <!DOCTYPE html>
-<html>
+<html prefix="og: http://ogp.me/ns# article:http://ogp.me/ns/article#">
 	<head>
 		<title>Littera Nova</title>
-        <link rel="alternate" type="application/rss+xml" href="https://lin.noblejury.com/blog/feed.xml" />
+        <meta property="og:title" content="Littera Nova" />
+        <meta property="og:site_name" content="Littera Nova" />
+        <meta property="og:description" content="I write things sometimes." />
+        <meta property="article:author" content="https://novalinium.com" />
+        <link rel="alternate" type="application/rss+xml" href="https://novalinium.com/blog/feed.xml" />
         <link rel="stylesheet" type="text/css" href="/minimal.css" />
 		<style>
 body {
@@ -10,7 +14,8 @@ body {
 	line-height:1.6;
 	font-size:18px;color:#444;background:#e4e5e5;padding:0 10px;
 }
-main {max-width:650px;margin:0px auto;}article {display: block;border: 3px double #ADD8E6;padding: 10px;}h1,h3 {line-height:1.2;margin-top:1em;}article.photo > img {width: 100%;height: auto;}footer {padding:10px; display: flex;font-size: 0.7em;}footer > div {flex: 1;}footer:first-child {float: left;}footer:last-child {float: right;}nav.tags {padding: 5px;margin: 0px auto;margin-bottom: 3px;}nav.tags > li {display: inline-block;padding: 5px;list-style: none;text-align: center;}nav.tags > li > a {color: #bbb;}
+main {max-width:700px;margin:0px auto;}article {display: block;border: 3px double #ADD8E6;padding: 2em;}h1,h3 {line-height:1.2;margin-top:1em;}article.photo > img {width: 100%;height: auto;}footer {padding:10px; display: flex;font-size: 0.7em;}footer > div {flex: 1;}footer:first-child {float: left;}footer:last-child {float: right;}nav.tags {padding: 5px;margin: 0px auto;margin-bottom: 3px;}nav.tags > li {display: inline-block;padding: 5px;list-style: none;text-align: center;}nav.tags > li > a {color: #bbb;}
+code {display: inline-block;}
 		</style>
 	</head>
 	<body>
