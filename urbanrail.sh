@@ -1,0 +1,2 @@
+#!/bin/sh
+curl -s 'http://www.urbanrail.net/news.htm' | pup 'body > center:nth-of-type(2) > table:nth-of-type(3) p[align="left"]' | grep -vE 'font|b>|i>| </a' | perl -pe 's/.*src="(.*)-.*?".*/$1/; s/.*href="(.*?)".*/http:\/\/www.urbanrail.net\/$1/; s/\s+\n/ /g' | pup 'p json{}' | fgrep text | perl -pe 's/.*"text": "//; chomp; chop; s/\s*[\\]n\s*/ /g; s/\s{2,}/ /g; s/\\u0026/&/g; s/ /\t/; s/ -- /\t/; s/htm /htm\t/; s/ -- /\t/; s/ Sept / Sep /g; $_ .="\n"' | head -n -2 | grep -vP '^h' > /pub/lin/personal/urbanrail.tsv
