@@ -29,6 +29,10 @@ while (<>) {
         location => $line[3],
         info => $line[4]
     );
+    if (scalar( @{[$line{info} =~ /(~?[0-9.]+ km)/g]}) == 1) {
+        $line{info} =~ s/\((~?[0-9.]+ km)\)//;
+        $line{length} = $1;
+    }
     $line{rss_date} = $dtr->format_datetime($stdin_date_parser->parse_datetime($line{date}));
     $line{type} =~ s/-/ /g;
     $line{type} =~ s/\b(\w)/\U$1/g;
@@ -67,7 +71,11 @@ __DATA__
 				<guid>[% line.link %]#[% line.type %]-[% line.date %]</guid>
 				<link>[% line.link %]#[% line.type %]-[% line.date %]</link>
 				<description><![CDATA[[% line.info %]
-[% line.type %] opened in [% line.location %] on [% line.date %]]]></description>
+[% line.type %] opened in [% line.location %] on [% line.date %]
+[% IF line.length %]
+[% line.length %] long
+[% END %]
+]]></description>
 				<pubDate>[% line.rss_date %]</pubDate>
                 <category>type:[% line.type %]</category>
                 <category>location:[% line.location %]</category>
